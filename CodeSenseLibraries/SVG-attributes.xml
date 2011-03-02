@@ -57,7 +57,7 @@ CodeSense Libraries simply define lists of completions, categorized by keys. The
 		<completion string="stroke-opacity"/>
 		<completion string="stroke-width"/>
 		
-		<!-- event attributes -->
+		<!-- graphical event attributes -->
 		<completion string="onactivate"/>
 		<completion string="onclick"/>
 		<completion string="onfocusin"/>

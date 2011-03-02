@@ -20,9 +20,15 @@ CodeSense Providers map contexts in a document to possible completions. The actu
 		<selector>tag.open.xml:has-child(name:capture(tag)) > attribute-name, tag.open.xml:has-child(name:capture(tag)) > punctuation.definition.end, tag.open.xml:has-child(name:capture(tag))</selector>
 		<completions>com.walkingamonggiants.svg.tag.${tag}.attributes</completions>
 		<completions>com.walkingamonggiants.svg.tag.standard-attributes</completions>
-		<!--<completions>com.walkingamonggiants.svg.tag.event-attributes</completions>-->
 		<complete-match capture="2">(\s)([a-zA-Z0-9-]*)</complete-match>
 		<require-suffix>(\s|=|>|^)</require-suffix>
+	</provider>
+	
+	<!-- SVG attribute values -->
+	<provider>
+		<selector>tag.open.xml:has-child(name:capture(tag)) > attribute-name:capture(attribute) + separator + string > punctuation.end, tag.self-closing.xml:has-child(name:capture(tag)) > attribute-name:capture(attribute) + separator + string > punctuation.end</selector>
+		<completions>com.walkingamonggiants.svg.tag.${tag}.attribute-values.${attribute}</completions>
+		<complete-match capture="2">("|'|)([a-zA-Z0-9-]*)</complete-match>
 	</provider>
 	
 </codesense>

@@ -69,6 +69,22 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		<completion string="polygon">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: points="$1"$2 />$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		<completion string="polyline">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: points="$1"$2 />$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
 		<completion string="rect">
 			<behavior>
 				<append-dynamic>
