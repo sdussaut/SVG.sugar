@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+CodeSense Providers map contexts in a document to possible completions. The actual completions are defined in the various CodeSense libraries, categorized using their key. A CodeSense Provider tells Espresso what CodeSense libraries are active in the current context. One of these XML files can contain many <provider> elements.
+
+-->
+<codesense>
+	
+	<!-- SVG tags -->
+	<provider>
+		<selector>text.xml - *, tag.open.xml, tag.self-closing.xml</selector>
+		<completions>com.walkingamonggiants.svg.tags</completions>
+		<completions>com.walkingamonggiants.svg.tags.self-closing</completions>
+		<complete-match capture="2">(&lt;)([a-zA-Z0-9-]*)</complete-match>
+		<require-suffix>(\s|>|^)</require-suffix>
+	</provider>
+	
+	<!-- SVG attributes -->
+	<provider>
+		<selector>tag.open.xml:has-child(name:capture(tag)) > attribute-name, tag.open.xml:has-child(name:capture(tag)) > punctuation.definition.end, tag.open.xml:has-child(name:capture(tag))</selector>
+		<completions>com.walkingamonggiants.svg.tag.${tag}.attributes</completions>
+		<completions>com.walkingamonggiants.svg.tag.standard-attributes</completions>
+		<!--<completions>com.walkingamonggiants.svg.tag.event-attributes</completions>-->
+		<complete-match capture="2">(\s)([a-zA-Z0-9-]*)</complete-match>
+		<require-suffix>(\s|=|>|^)</require-suffix>
+	</provider>
+	
+</codesense>

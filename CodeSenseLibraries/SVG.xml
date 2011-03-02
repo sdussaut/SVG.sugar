@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codesense version="1.0">
+
+	<set name="com.walkingamonggiants.svg.tags">
+		<!-- Default behavior -->
+		<behavior>
+			<append-dynamic>
+				<matched-suffix>(\s*:)|[^:]</matched-suffix>
+				<transform-into>(?1::>$0&lt;/${completion}>)</transform-into>
+			</append-dynamic>
+		</behavior>
+		
+		<!--<completion string="g"/>-->
+		
+		<completion string="text">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: x="$1" y="$2" font-family="$3" font-size="$4"$5>${6:Text}&lt;/text>$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+	</set>
+	
+	<set name="com.walkingamonggiants.svg.tags.self-closing">
+		<!-- A behavior defined in a set applies only to that set. -->
+		<behavior>
+			<append-static> /></append-static>
+		</behavior>
+		
+		<completion string="circle">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: cx="$1" cy="$2" r="$3"$4 />$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		<completion string="ellipse">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: cx="$1" cy="$2" rx="$3" ry="$4"$5 />$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		<completion string="image">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: x="$1" y="$2" width="$3" height="$4" xlink:href="$5"$6 />$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		<completion string="line">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: x1="$1" y1="$2" x2="$3" y2="$4"$5 />$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		<completion string="path">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: d="$1"$2 />$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		<completion string="rect">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: x="$1" y="$2" width="$3" height="$4"$5 />$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+	</set>
+	
+</codesense>

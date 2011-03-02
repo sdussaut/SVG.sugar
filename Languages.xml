@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+
+	<language id="com.walkingamonggiants.SVG">
+	
+		<!-- Define what syntax this language should use -->
+		<root-zone>com.walkingamonggiants.xml.svg</root-zone>
+		
+		<!-- The name of the language as presented to the user -->
+		<name>SVG</name>
+		
+		<!-- Ways to detect if a certain file is in this language -->
+		<detectors>
+			<extension>svg</extension>
+			<match-content lines="2"><![CDATA[<svg]]></match-content>
+			<combo>
+				<extension>xml</extension>
+				<match-content><![CDATA[<\?xml]]></match-content>
+				<match-content lines="2"><![CDATA[<svg]]></match-content>
+			</combo>
+		</detectors>
+	
+	</language>
+
+</settings> 
