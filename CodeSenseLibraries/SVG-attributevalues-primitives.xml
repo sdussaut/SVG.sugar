@@ -103,7 +103,7 @@ This file provides attributes values for tags that represent primitives:
 		<completion string="matrix(a,b,c,d,e,f)"/>
 		<completion string="translate(tx,ty)"/>
 		<completion string="scale(sx,sy)"/>
-		<completion string="rotate(angle cx,cy)"/>
+		<completion string="rotate(angle,cx,cy)"/>
 		<completion string="skewX(angle)"/>
 		<completion string="skewY(angle)"/>
 	</set>
@@ -204,7 +204,7 @@ This file provides attributes values for tags that represent primitives:
 		<completion string="matrix(a,b,c,d,e,f)"/>
 		<completion string="translate(tx,ty)"/>
 		<completion string="scale(sx,sy)"/>
-		<completion string="rotate(angle cx,cy)"/>
+		<completion string="rotate(angle,cx,cy)"/>
 		<completion string="skewX(angle)"/>
 		<completion string="skewY(angle)"/>
 	</set>
@@ -305,7 +305,7 @@ This file provides attributes values for tags that represent primitives:
 		<completion string="matrix(a,b,c,d,e,f)"/>
 		<completion string="translate(tx,ty)"/>
 		<completion string="scale(sx,sy)"/>
-		<completion string="rotate(angle cx,cy)"/>
+		<completion string="rotate(angle,cx,cy)"/>
 		<completion string="skewX(angle)"/>
 		<completion string="skewY(angle)"/>
 	</set>
@@ -406,7 +406,7 @@ This file provides attributes values for tags that represent primitives:
 		<completion string="matrix(a,b,c,d,e,f)"/>
 		<completion string="translate(tx,ty)"/>
 		<completion string="scale(sx,sy)"/>
-		<completion string="rotate(angle cx,cy)"/>
+		<completion string="rotate(angle,cx,cy)"/>
 		<completion string="skewX(angle)"/>
 		<completion string="skewY(angle)"/>
 	</set>
@@ -507,7 +507,7 @@ This file provides attributes values for tags that represent primitives:
 		<completion string="matrix(a,b,c,d,e,f)"/>
 		<completion string="translate(tx,ty)"/>
 		<completion string="scale(sx,sy)"/>
-		<completion string="rotate(angle cx,cy)"/>
+		<completion string="rotate(angle,cx,cy)"/>
 		<completion string="skewX(angle)"/>
 		<completion string="skewY(angle)"/>
 	</set>
