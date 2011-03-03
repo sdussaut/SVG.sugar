@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+This file provides general common attributes for ALL SVG tags:
+
+- class
+- id
+- style
+- xml:base
+- xml:lang
+- xml:space
+
+-->
+<codesense version="1.0">
+
+	<behavior>
+		<append-dynamic>
+			<matched-suffix>(\s*=)|[^=]</matched-suffix>
+			<transform-into>(?1::="$1"$0)</transform-into>
+		</append-dynamic>
+		
+		<!-- (optional) The partial-confirm element specifies characters that are contained 
+			within the completion. When they're pressed, the completion will confirm up to 
+			that character (including the character itself) and continue completing. This 
+			is useful for things like CSS properties or PHP functions. -->
+		<partial-confirm characters="-"/>
+		
+	</behavior>
+	
+	<set name="com.walkingamonggiants.svg.tag.standard-attributes">
+		<completion string="class"/>
+		<completion string="id"/>
+		<completion string="style"/>
+		<completion string="xml:base"/>
+		<completion string="xml:lang"/>
+		<completion string="xml:space"/>
+	</set>
+	
+</codesense>
