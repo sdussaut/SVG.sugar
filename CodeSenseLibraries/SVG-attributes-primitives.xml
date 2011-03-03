@@ -155,4 +155,48 @@ This file provides attributes for tags that represent primitives:
 	
 	</set>
 	
+	
+	<!-- RECT -->
+	<set name="com.walkingamonggiants.svg.tag.rect.attributes">
+		<!-- basic attributes -->
+		<completion string="x"/>
+		<completion string="y"/>
+		<completion string="width"/>
+		<completion string="height"/>
+		<completion string="rx"/>
+		<completion string="ry"/>
+		<completion string="transform"/>
+		<!--<completion string="externalResourcesRequired"/>-->
+		
+		
+		<!-- presentation attributes -->
+		<completion string="display"/>
+		<completion string="fill"/>
+		<completion string="fill-opacity"/>
+		<completion string="fill-rule"/>
+		<completion string="opacity"/>
+		<completion string="stroke"/>
+		<completion string="stroke-dasharray"/>
+		<completion string="stroke-dashoffset"/>
+		<completion string="stroke-linecap"/>
+		<completion string="stroke-linejoin"/>
+		<completion string="stroke-miterlimit"/>
+		<completion string="stroke-opacity"/>
+		<completion string="stroke-width"/>
+		
+		
+		<!-- graphical event attributes -->
+		<completion string="onfocusin"/>
+		<completion string="onfocusout"/>
+		<completion string="onactivate"/>
+		<completion string="onclick"/>
+		<completion string="onmousedown"/>
+		<completion string="onmouseup"/>
+		<completion string="onmouseover"/>
+		<completion string="onmousemove"/>
+		<completion string="onmouseout"/>
+		<completion string="onload"/>
+	
+	</set>
+	
 </codesense>
