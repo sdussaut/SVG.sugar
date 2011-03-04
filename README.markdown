@@ -1,7 +1,7 @@
-SVG Sugar
-=========
+SVG Sugar for Espresso text editor
+==================================
 
-SVG sugar for Espresso aims at adding support for SVG completion. Lots still have to be done. Not quite ready to use. Yet :)
+SVG sugar for Espresso aims at adding support for SVG completion. A lot still has to be done. Not quite ready to use. Yet :)
 
 Installation using Git
 ----------------------
