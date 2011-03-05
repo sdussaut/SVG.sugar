@@ -11,8 +11,11 @@
 		
 		<!-- Ways to detect if a certain file is in this language -->
 		<detectors>
-			<extension>svg</extension>
-			<match-content lines="2"><![CDATA[<svg]]></match-content>
+			<combo>
+				<extension>svg</extension>
+				<match-content><![CDATA[<\?xml]]></match-content>
+				<match-content lines="2"><![CDATA[<svg]]></match-content>
+			</combo>
 			<combo>
 				<extension>xml</extension>
 				<match-content><![CDATA[<\?xml]]></match-content>
