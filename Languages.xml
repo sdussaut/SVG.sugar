@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <settings>
-
+	<meta>
+		<name>SVG.sugar</name>
+		<description>SVG completion support (tag and attributes)</description>
+		<author>Sébastien Dussaut</author>
+		<identifier>com.walkingamonggiants.Sugar.SVG</identifier>
+		<version status="release">0.1</version>
+		<download format="git">git://github.com/sdussaut/SVG.sugar.git</download>
+	</meta>
+	
 	<language id="com.walkingamonggiants.SVG">
 	
 		<!-- Define what syntax this language should use -->
