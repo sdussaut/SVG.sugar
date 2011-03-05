@@ -30,6 +30,7 @@ This file provides attributes for tags that represent primitives:
 		
 	</behavior>
 	
+	
 	<!-- CIRCLE -->
 	<set name="com.walkingamonggiants.svg.tag.circle.attributes">
 		<!-- basic attributes -->
