@@ -15,7 +15,7 @@ This file provides attributes for tags that represent primitives:
 
 -->
 <codesense version="1.0">
-
+	
 	<behavior>
 		<append-dynamic>
 			<matched-suffix>(\s*=)|[^=]</matched-suffix>
@@ -29,7 +29,6 @@ This file provides attributes for tags that represent primitives:
 		<partial-confirm characters="-"/>
 		
 	</behavior>
-	
 	
 	<!-- CIRCLE -->
 	<set name="com.walkingamonggiants.svg.tag.circle.attributes">
@@ -81,7 +80,7 @@ This file provides attributes for tags that represent primitives:
 		<completion string="ry"/>
 		<completion string="transform"/>
 		<!--<completion string="externalResourcesRequired"/>-->
-		
+				
 		
 		<!-- presentation attributes -->
 		<completion string="display"/>
@@ -283,6 +282,95 @@ This file provides attributes for tags that represent primitives:
 	<set name="com.walkingamonggiants.svg.tag.polyline.attributes">
 		<!-- basic attributes -->
 		<completion string="points"/>
+		<completion string="transform"/>
+		<!--<completion string="externalResourcesRequired"/>-->
+		
+		
+		<!-- presentation attributes -->
+		<completion string="display"/>
+		<completion string="fill"/>
+		<completion string="fill-opacity"/>
+		<completion string="fill-rule"/>
+		<completion string="opacity"/>
+		<completion string="stroke"/>
+		<completion string="stroke-dasharray"/>
+		<completion string="stroke-dashoffset"/>
+		<completion string="stroke-linecap"/>
+		<completion string="stroke-linejoin"/>
+		<completion string="stroke-miterlimit"/>
+		<completion string="stroke-opacity"/>
+		<completion string="stroke-width"/>
+		
+		
+		<!-- graphical event attributes -->
+		<completion string="onfocusin"/>
+		<completion string="onfocusout"/>
+		<completion string="onactivate"/>
+		<completion string="onclick"/>
+		<completion string="onmousedown"/>
+		<completion string="onmouseup"/>
+		<completion string="onmouseover"/>
+		<completion string="onmousemove"/>
+		<completion string="onmouseout"/>
+		<completion string="onload"/>
+	
+	</set>
+	
+	
+	<!-- TEXT -->
+	<set name="com.walkingamonggiants.svg.tag.text.attributes">
+		<!-- basic attributes -->
+		<completion string="x"/>
+		<completion string="y"/>
+		<completion string="dx"/>
+		<completion string="dy"/>
+		<completion string="lengthAdjust"/>
+		<completion string="rotate"/>
+		<completion string="textLength"/>
+		<completion string="transform"/>
+		<!--<completion string="externalResourcesRequired"/>-->
+		
+		
+		<!-- presentation attributes -->
+		<completion string="display"/>
+		<completion string="fill"/>
+		<completion string="fill-opacity"/>
+		<completion string="fill-rule"/>
+		<completion string="opacity"/>
+		<completion string="stroke"/>
+		<completion string="stroke-dasharray"/>
+		<completion string="stroke-dashoffset"/>
+		<completion string="stroke-linecap"/>
+		<completion string="stroke-linejoin"/>
+		<completion string="stroke-miterlimit"/>
+		<completion string="stroke-opacity"/>
+		<completion string="stroke-width"/>
+		
+		
+		<!-- graphical event attributes -->
+		<completion string="onfocusin"/>
+		<completion string="onfocusout"/>
+		<completion string="onactivate"/>
+		<completion string="onclick"/>
+		<completion string="onmousedown"/>
+		<completion string="onmouseup"/>
+		<completion string="onmouseover"/>
+		<completion string="onmousemove"/>
+		<completion string="onmouseout"/>
+		<completion string="onload"/>
+	
+	</set>
+	
+	
+	<!-- IMAGE -->
+	<set name="com.walkingamonggiants.svg.tag.image.attributes">
+		<!-- basic attributes -->
+		<completion string="preserveAspectRatio"/>
+		<completion string="x"/>
+		<completion string="y"/>
+		<completion string="width"/>
+		<completion string="height"/>
+		<completion string="xlink:href"/>
 		<completion string="transform"/>
 		<!--<completion string="externalResourcesRequired"/>-->
 		
