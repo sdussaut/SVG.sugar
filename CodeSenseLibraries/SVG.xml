@@ -10,7 +10,16 @@
 			</append-dynamic>
 		</behavior>
 		
-		<!--<completion string="g"/>-->
+		
+		<!-- tags -->
+		<completion string="g">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: id="$1">${2:}&lt;/g>$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
 		
 		<completion string="text">
 			<behavior>
@@ -29,6 +38,8 @@
 			<append-static> /></append-static>
 		</behavior>
 		
+		
+		<!-- tags -->
 		<completion string="circle">
 			<behavior>
 				<append-dynamic>
@@ -37,6 +48,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		
 		<completion string="ellipse">
 			<behavior>
 				<append-dynamic>
@@ -45,6 +57,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		
 		<completion string="image">
 			<behavior>
 				<append-dynamic>
@@ -53,6 +66,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		
 		<completion string="line">
 			<behavior>
 				<append-dynamic>
@@ -61,6 +75,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		
 		<completion string="path">
 			<behavior>
 				<append-dynamic>
@@ -69,6 +84,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		
 		<completion string="polygon">
 			<behavior>
 				<append-dynamic>
@@ -77,6 +93,7 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		
 		<completion string="polyline">
 			<behavior>
 				<append-dynamic>
@@ -85,11 +102,21 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		
 		<completion string="rect">
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*:)|[^:]</matched-suffix>
 					<transform-into>(?1:: x="$1" y="$2" width="$3" height="$4"$5 />$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="use">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: x="$1" y="$2" xlink:href="#$3"$4 />$0)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
