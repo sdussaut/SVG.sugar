@@ -13,11 +13,38 @@
 		
 		<!-- tags -->
 		<!-- generic -->
+		<completion string="desc">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::>${0}&lt;/desc>)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="defs">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::>${0}&lt;/defs>)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
 		<completion string="g">
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*:)|[^:]</matched-suffix>
 					<transform-into>(?1:: id="$1">${2:}&lt;/g>$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="metadata">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::>${0}&lt;/metadata>)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -31,11 +58,29 @@
 			</behavior>
 		</completion>
 		
+		<completion string="symbol">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: id="$1"$2>${0}&lt;/symbol>)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
 		<completion string="text">
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*:)|[^:]</matched-suffix>
 					<transform-into>(?1:: x="$1" y="$2" font-family="$3" font-size="$4"$5>${6:Text}&lt;/text>$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="title">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::>${0}&lt;/title>)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
