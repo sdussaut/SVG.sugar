@@ -12,6 +12,7 @@
 		
 		
 		<!-- tags -->
+		<!-- generic -->
 		<completion string="g">
 			<behavior>
 				<append-dynamic>
@@ -39,6 +40,45 @@
 			</behavior>
 		</completion>
 		
+		
+		<!-- font & color -->
+		<completion string="font">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: id="$1"$2>$0&lt;/font>)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="font-face">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::$1>$0&lt;/font-face>)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="font-face-src">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::>$0&lt;/font-face-src>)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="font-face-uri">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: xlink:href="$1"$2>$0&lt;/font-face-uri>)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		
 	</set>
 	
 	<set name="com.walkingamonggiants.svg.tags.self-closing">
@@ -49,6 +89,7 @@
 		
 		
 		<!-- tags -->
+		<!-- primitives -->
 		<completion string="circle">
 			<behavior>
 				<append-dynamic>
@@ -121,6 +162,7 @@
 			</behavior>
 		</completion>
 		
+		<!-- generic -->
 		<completion string="use">
 			<behavior>
 				<append-dynamic>
@@ -129,6 +171,28 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		
+		
+		<!-- font & color -->
+		<completion string="font-face-format">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: string="$1"$0 />)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="font-face-name">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: name="$1"$0 />)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		
 	</set>
 	
 </codesense>

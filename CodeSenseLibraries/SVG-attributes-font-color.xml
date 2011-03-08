@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+This file provides attributes for font and color tags:
+
+- font
+- font-face
+- font-face-format
+- font-face-name
+- font-face-uri
+
+-->
+<codesense version="1.0">
+	
+	<behavior>
+		<append-dynamic>
+			<matched-suffix>(\s*=)|[^=]</matched-suffix>
+			<transform-into>(?1::="$1"$0)</transform-into>
+		</append-dynamic>
+		
+		<!-- (optional) The partial-confirm element specifies characters that are contained 
+			within the completion. When they're pressed, the completion will confirm up to 
+			that character (including the character itself) and continue completing. This 
+			is useful for things like CSS properties or PHP functions. -->
+		<partial-confirm characters="-"/>
+		
+	</behavior>
+	
+	
+	<!-- FONT -->
+	<set name="com.walkingamonggiants.svg.tag.font.attributes">
+		<!-- basic attributes -->
+		<completion string="horiz-origin-x"/>
+		<completion string="horiz-origin-y"/>
+		<completion string="horiz-adv-x"/>
+		<completion string="vert-origin-x"/>
+		<completion string="vert-origin-y"/>
+		<completion string="vert-adv-y"/>
+		<!--<completion string="externalResourcesRequired"/>-->
+		
+		
+		<!-- presentation attributes -->
+		<completion string="display"/>
+		<completion string="fill"/>
+		<completion string="fill-opacity"/>
+		<completion string="fill-rule"/>
+		<completion string="opacity"/>
+		<completion string="stroke"/>
+		<completion string="stroke-dasharray"/>
+		<completion string="stroke-dashoffset"/>
+		<completion string="stroke-linecap"/>
+		<completion string="stroke-linejoin"/>
+		<completion string="stroke-miterlimit"/>
+		<completion string="stroke-opacity"/>
+		<completion string="stroke-width"/>
+	</set>
+	
+	
+	<!-- FONT-FACE -->
+	<set name="com.walkingamonggiants.svg.tag.font-face.attributes">
+		<!-- basic attributes -->
+		<completion string="font-family"/>
+		<completion string="font-style"/>
+		<completion string="font-variant"/>
+		<completion string="font-weight"/>
+		<completion string="font-stretch"/>
+		<completion string="font-size"/>
+		<completion string="unicode-range"/>
+		<completion string="units-per-em"/>
+		<completion string="panose-1"/>
+		<completion string="stemv"/>
+		<completion string="stemh"/>
+		<completion string="slope"/>
+		<completion string="cap-height"/>
+		<completion string="x-height"/>
+		<completion string="accent-height"/>
+		<completion string="ascent"/>
+		<completion string="descent"/>
+		<completion string="widths"/>
+		<completion string="bbox"/>
+		<completion string="ideographic"/>
+		<completion string="alphabetic"/>
+		<completion string="mathematical"/>
+		<completion string="hanging"/>
+		<completion string="v-ideographic"/>
+		<completion string="v-alphabetic"/>
+		<completion string="v-mathematical"/>
+		<completion string="v-hanging"/>
+		<completion string="underline-position"/>
+		<completion string="underline-thickness"/>
+		<completion string="strikethrough-position"/>
+		<completion string="strikethrough-thickness"/>
+		<completion string="overline-position"/>
+		<completion string="overline-thickness"/>
+	</set>
+	
+	
+	<!-- FONT-FACE-FORMAT -->
+	<set name="com.walkingamonggiants.svg.tag.font-face-format.attributes">
+		<!-- basic attributes -->
+		<completion string="string"/>
+	</set>
+	
+	
+	<!-- FONT-FACE-NAME -->
+	<set name="com.walkingamonggiants.svg.tag.font-face-name.attributes">
+		<!-- basic attributes -->
+		<completion string="name"/>	
+	</set>
+	
+	
+	<!-- FONT-FACE-URI -->
+	<set name="com.walkingamonggiants.svg.tag.font-face-uri.attributes">
+		<!-- basic attributes -->
+		<completion string="xlink:href"/>
+		
+		<!-- xlink attributes -->
+		<completion string="xlink:show"/>
+		<completion string="xlink:actuate"/>
+		<completion string="xlink:type"/>
+		<completion string="xlink:role"/>
+		<completion string="xlink:arcrole"/>
+		<completion string="xlink:title"/>
+	</set>
+	
+	
+	
+	
+	
+</codesense>

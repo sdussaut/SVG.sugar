@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+This file provides attributes values for font and color-related tags:
+
+- font
+- font-face
+- font-face-format
+- font-face-name
+- font-face-uri
+
+-->
+<codesense version="1.0">
+	
+	<!-- FONT -->
+	<!-- display -->
+	<set name="com.walkingamonggiants.svg.tag.font.attribute-values.display">
+		<completion string="inline" />
+		<completion string="block" />
+		<completion string="list-item" />
+		<completion string="run-in" />
+		<completion string="compact" />
+		<completion string="marker" />
+		<completion string="table" />
+		<completion string="inline-table" />
+		<completion string="table-row-group" />
+		<completion string="table-header-group" />
+		<completion string="table-footer-group" />
+		<completion string="table-row" />
+		<completion string="table-column-group" />
+		<completion string="table-column" />
+		<completion string="table-cell" />
+		<completion string="table-caption" />
+		<completion string="none" />
+		<completion string="inherit" />
+	</set>
+	
+	
+	<!-- fill | fill-rule | fill-opacity -->
+	<set name="com.walkingamonggiants.svg.tag.font.attribute-values.fill">
+		<completion string="none"/>
+		<completion string="currentColor"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.font.attribute-values.fill-rule">
+		<completion string="nonzero"/>
+		<completion string="evenodd"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.font.attribute-values.fill-opacity">
+		<completion string="inherit"/>
+	</set>
+	
+	
+	<!-- opacity -->
+	<set name="com.walkingamonggiants.svg.tag.font.attribute-values.opacity">
+		<completion string="inherit"/>
+	</set>
+	
+	
+	<!-- stroke | stroke-dasharray | stroke-dashoffset | stroke-linecap | stroke-linejoin | stroke-miterlimit | stroke-opacity | stroke-width -->
+	<set name="com.walkingamonggiants.svg.tag.font.attribute-values.stroke">
+		<completion string="none"/>
+		<completion string="currentColor"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.font.attribute-values.stroke-dasharray">
+		<completion string="none"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.font.attribute-values.stroke-dashoffset">
+		<completion string="inherit"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.font.attribute-values.stroke-linecap">
+		<completion string="butt"/>
+		<completion string="round"/>
+		<completion string="square"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.font.attribute-values.stroke-linejoin">
+		<completion string="miter"/>
+		<completion string="round"/>
+		<completion string="bevel"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.font.attribute-values.stroke-miterlimit">
+		<completion string="inherit"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.font.attribute-values.stroke-opacity">
+		<completion string="inherit"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.font.attribute-values.stroke-width">
+		<completion string="inherit"/>
+	</set>
+	
+	
+	<!-- xml:space -->
+	<set name="com.walkingamonggiants.svg.tag.font.attribute-values.xml:space">
+		<completion string="default"/>
+		<completion string="preserve"/>
+	</set>
+	
+	
+	
+	<!-- FONT-FACE -->
+	<!-- font-style | font-variant | font-weight | font-stretch -->
+	<set name="com.walkingamonggiants.svg.tag.font-face.attribute-values.font-style">
+		<completion string="all"/>
+		<completion string="normal"/>
+		<completion string="italic"/>
+		<completion string="oblique"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.font-face.attribute-values.font-variant">
+		<completion string="normal"/>
+		<completion string="small-caps"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.font-face.attribute-values.font-weight">
+		<completion string="all"/>
+		<completion string="normal"/>
+		<completion string="bold"/>
+		<completion string="100"/>
+		<completion string="200"/>
+		<completion string="300"/>
+		<completion string="400"/>
+		<completion string="500"/>
+		<completion string="600"/>
+		<completion string="700"/>
+		<completion string="800"/>
+		<completion string="900"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.font-face.attribute-values.font-stretch">
+		<completion string="all"/>
+		<completion string="normal"/>
+		<completion string="ultra-condensed"/>
+		<completion string="extra-condensed"/>
+		<completion string="condensed"/>
+		<completion string="semi-condensed"/>
+		<completion string="semi-expanded"/>
+		<completion string="expanded"/>
+		<completion string="extra-expanded"/>
+		<completion string="ultra-expanded"/>
+	</set>
+		
+	
+	<!-- xml:space -->
+	<set name="com.walkingamonggiants.svg.tag.font.attribute-values.xml:space">
+		<completion string="default"/>
+		<completion string="preserve"/>
+	</set>
+	
+	
+	<!-- FONT-FACE-FORMAT -->
+	<!-- xml:space -->
+	<set name="com.walkingamonggiants.svg.tag.font-face-format.attribute-values.xml:space">
+		<completion string="default"/>
+		<completion string="preserve"/>
+	</set>
+	
+	
+	<!-- FONT-FACE-NAME -->
+	<!-- xml:space -->
+	<set name="com.walkingamonggiants.svg.tag.font-face-name.attribute-values.xml:space">
+		<completion string="default"/>
+		<completion string="preserve"/>
+	</set>
+	
+	
+	<!-- FONT-FACE-URI -->
+	<!-- xlink:show | xlink:actuate | xlink:type -->
+	<set name="com.walkingamonggiants.svg.tag.font-face-uri.attribute-values.xlink:show">
+		<completion string="new"/>
+		<completion string="replace"/>
+		<completion string="other"/>
+		<completion string="none"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.font-face-uri.attribute-values.xlink:actuate">
+		<completion string="onLoad"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.font-face-uri.attribute-values.xlink:type">
+		<completion string="simple"/>
+	</set>
+	
+	<!-- xml:space -->
+	<set name="com.walkingamonggiants.svg.tag.font-face-uri.attribute-values.xml:space">
+		<completion string="default"/>
+		<completion string="preserve"/>
+	</set>
+</codesense>
