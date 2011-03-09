@@ -177,6 +177,23 @@
 			</behavior>
 		</completion>
 		
+		<completion string="tref">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: xlink:href="$1"$2>${0}&lt;/tref>)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="tspan">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::$1>${0}&lt;/tspan>)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
 	</set>
 	
 	<set name="com.walkingamonggiants.svg.tags.self-closing">

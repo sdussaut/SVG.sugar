@@ -12,6 +12,8 @@ This file provides attributes for font and color tags:
 - missing-glyph
 - altGlyph
 - glyphRef
+- tref
+- tspan
 
 -->
 <codesense version="1.0">
@@ -240,7 +242,6 @@ This file provides attributes for font and color tags:
 	</set>
 	
 	
-	
 	<!-- GLYPHREF -->
 	<set name="com.walkingamonggiants.svg.tag.glyphRef.attributes">
 		<!-- basic attributes -->
@@ -277,6 +278,97 @@ This file provides attributes for font and color tags:
 		<completion string="xlink:arcrole"/>
 		<completion string="xlink:title"/>
 	</set>
+	
+	
+	<!-- TREF -->
+	<set name="com.walkingamonggiants.svg.tag.tref.attributes">
+		<!-- basic attributes -->
+		<completion string="xlink:href"/>
+		<!--<completion string="externalResourcesRequired"/>-->
+		
+		
+		<!-- presentation attributes -->
+		<completion string="display"/>
+		<completion string="fill"/>
+		<completion string="fill-opacity"/>
+		<completion string="fill-rule"/>
+		<completion string="opacity"/>
+		<completion string="stroke"/>
+		<completion string="stroke-dasharray"/>
+		<completion string="stroke-dashoffset"/>
+		<completion string="stroke-linecap"/>
+		<completion string="stroke-linejoin"/>
+		<completion string="stroke-miterlimit"/>
+		<completion string="stroke-opacity"/>
+		<completion string="stroke-width"/>
+		
+		
+		<!-- graphical event attributes -->
+		<completion string="onfocusin"/>
+		<completion string="onfocusout"/>
+		<completion string="onactivate"/>
+		<completion string="onclick"/>
+		<completion string="onmousedown"/>
+		<completion string="onmouseup"/>
+		<completion string="onmouseover"/>
+		<completion string="onmousemove"/>
+		<completion string="onmouseout"/>
+		<completion string="onload"/>
+		
+		
+		<!-- xlink attributes -->
+		<completion string="xlink:show"/>
+		<completion string="xlink:actuate"/>
+		<completion string="xlink:type"/>
+		<completion string="xlink:role"/>
+		<completion string="xlink:arcrole"/>
+		<completion string="xlink:title"/>
+	</set>
+	
+	
+	<!-- TSPAN -->
+	<set name="com.walkingamonggiants.svg.tag.tspan.attributes">
+		<!-- basic attributes -->
+		<completion string="x"/>
+		<completion string="y"/>
+		<completion string="dx"/>
+		<completion string="dy"/>
+		<completion string="rotate"/>
+		<completion string="textLength"/>
+		<completion string="lengthAdjust"/>
+		<!--<completion string="externalResourcesRequired"/>-->
+		
+		
+		<!-- presentation attributes -->
+		<completion string="display"/>
+		<completion string="fill"/>
+		<completion string="fill-opacity"/>
+		<completion string="fill-rule"/>
+		<completion string="opacity"/>
+		<completion string="stroke"/>
+		<completion string="stroke-dasharray"/>
+		<completion string="stroke-dashoffset"/>
+		<completion string="stroke-linecap"/>
+		<completion string="stroke-linejoin"/>
+		<completion string="stroke-miterlimit"/>
+		<completion string="stroke-opacity"/>
+		<completion string="stroke-width"/>
+		
+		
+		<!-- graphical event attributes -->
+		<completion string="onfocusin"/>
+		<completion string="onfocusout"/>
+		<completion string="onactivate"/>
+		<completion string="onclick"/>
+		<completion string="onmousedown"/>
+		<completion string="onmouseup"/>
+		<completion string="onmouseover"/>
+		<completion string="onmousemove"/>
+		<completion string="onmouseout"/>
+		<completion string="onload"/>
+		
+	</set>
+	
 	
 	
 </codesense>
