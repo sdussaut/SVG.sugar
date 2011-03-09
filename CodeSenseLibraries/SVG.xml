@@ -123,6 +123,23 @@
 			</behavior>
 		</completion>
 		
+		<completion string="glyph">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: glyph-name="$1" unicode="$2" d="$3" horiz-adv-x="$4"$5>${0}&lt;/glyph>)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="missing-glyph">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::$1>${0}&lt;/missing-glyph>)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
 		
 	</set>
 	
@@ -237,6 +254,23 @@
 			</behavior>
 		</completion>
 		
+		<completion string="hkern">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: k="$1" g1="$2" g2="$3"$0 />)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="vkern">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: k="$1" g1="$2" g2="$3"$0 />)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
 		
 	</set>
 	

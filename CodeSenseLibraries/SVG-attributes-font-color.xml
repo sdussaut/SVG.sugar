@@ -8,6 +8,8 @@ This file provides attributes for font and color tags:
 - font-face-format
 - font-face-name
 - font-face-uri
+- glyph
+- missing-glyph
 
 -->
 <codesense version="1.0">
@@ -124,6 +126,63 @@ This file provides attributes for font and color tags:
 	</set>
 	
 	
+	<!-- GLYPH -->
+	<set name="com.walkingamonggiants.svg.tag.glyph.attributes">
+		<!-- basic attributes -->
+		<completion string="d"/>
+		<completion string="horiz-adv-x"/>
+		<completion string="vert-origin-x"/>
+		<completion string="vert-origin-y"/>
+		<completion string="vert-adv-y"/>
+		<completion string="unicode"/>
+		<completion string="glyph-name"/>
+		<completion string="orientation"/>
+		<completion string="arabic-form"/>
+		<completion string="lang"/>
+		
+		
+		<!-- presentation attributes -->
+		<completion string="display"/>
+		<completion string="fill"/>
+		<completion string="fill-opacity"/>
+		<completion string="fill-rule"/>
+		<completion string="opacity"/>
+		<completion string="stroke"/>
+		<completion string="stroke-dasharray"/>
+		<completion string="stroke-dashoffset"/>
+		<completion string="stroke-linecap"/>
+		<completion string="stroke-linejoin"/>
+		<completion string="stroke-miterlimit"/>
+		<completion string="stroke-opacity"/>
+		<completion string="stroke-width"/>
+	</set>
+	
+	
+	<!-- MISSING-GLYPH -->
+	<set name="com.walkingamonggiants.svg.tag.missing-glyph.attributes">
+		<!-- basic attributes -->
+		<completion string="d"/>
+		<completion string="horiz-adv-x"/>
+		<completion string="vert-origin-x"/>
+		<completion string="vert-origin-y"/>
+		<completion string="vert-adv-y"/>
+		
+		
+		<!-- presentation attributes -->
+		<completion string="display"/>
+		<completion string="fill"/>
+		<completion string="fill-opacity"/>
+		<completion string="fill-rule"/>
+		<completion string="opacity"/>
+		<completion string="stroke"/>
+		<completion string="stroke-dasharray"/>
+		<completion string="stroke-dashoffset"/>
+		<completion string="stroke-linecap"/>
+		<completion string="stroke-linejoin"/>
+		<completion string="stroke-miterlimit"/>
+		<completion string="stroke-opacity"/>
+		<completion string="stroke-width"/>
+	</set>
 	
 	
 	
