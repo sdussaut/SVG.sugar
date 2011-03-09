@@ -87,6 +87,33 @@
 		
 		
 		<!-- font & color -->
+		<completion string="altGlyph">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: xlink:href="$1"$2>$0&lt;/altGlyph>)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="altGlyphDef">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::$1>$0&lt;/altGlyphDef>)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="altGlyphItem">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::$1>$0&lt;/altGlyphItem>)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
 		<completion string="font">
 			<behavior>
 				<append-dynamic>
@@ -128,6 +155,15 @@
 				<append-dynamic>
 					<matched-suffix>(\s*:)|[^:]</matched-suffix>
 					<transform-into>(?1:: glyph-name="$1" unicode="$2" d="$3" horiz-adv-x="$4"$5>${0}&lt;/glyph>)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="glyphRef">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: xlink:href="$1"$2>${0}&lt;/glyphRef>)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
