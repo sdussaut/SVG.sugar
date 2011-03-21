@@ -22,12 +22,12 @@
 			<combo>
 				<extension>svg</extension>
 				<match-content><![CDATA[<\?xml]]></match-content>
-				<match-content lines="2"><![CDATA[<svg]]></match-content>
+				<match-content lines="4"><![CDATA[<svg]]></match-content>
 			</combo>
 			<combo>
 				<extension>xml</extension>
 				<match-content><![CDATA[<\?xml]]></match-content>
-				<match-content lines="2"><![CDATA[<svg]]></match-content>
+				<match-content lines="4"><![CDATA[<svg]]></match-content>
 			</combo>
 		</detectors>
 	
