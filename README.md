@@ -20,7 +20,7 @@ For the moment the sugar proposes a basic level of SVG completion support. Are s
 - `<svg/>` element
 - `<g/>` and `<use/>` elements
 - font and text related elements (and their attributes): `<font/>`, `<font-face/>`, `<font-face-format/>`, `<font-face-name/>`, `<font-face-uri/>`, `<glyph/>`, `<hkern/>`, `<vkern/>`, `<missing-glyph/>`, `<altGlyph/>`, `<altGlyphDef/>`, `<altGlyphItem/>`, `<glyphRef/>`, `<tref/>`, `<tspan/>`
-- general purpose elements : `<desc/>`, `<metadata/>`, `<title/>`, `<defs/>`, `<symbol/>`,
+- general purpose elements : `<desc/>`, `<metadata/>`, `<title/>`, `<defs/>`, `<symbol/>`, `<switch/>`, `<script/>`, `<foreignObject/>`
 
 
 ### TODO
@@ -30,7 +30,7 @@ A lot :)
 - <del>text (font-*, text*)</del>, color (gradients), markers and animation (not SMIL) elements
 - <del>generic elements like `<metadata/>` and `<title/>`</del>
 - support for `style` attribute on elements
-- general elements like `<foreigObject/>`, `<switch/>`, `<script/>`
+- <del>general elements like `<foreigObject/>`, `<switch/>`, `<script/>`</del>
 - complete attribute support for already implemented elements
 - filters
 - support for SMIL
