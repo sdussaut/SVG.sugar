@@ -150,6 +150,15 @@
 			</behavior>
 		</completion>
 		
+		<completion string="foreignObject">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: width="$1" height="$2"$3>${0}&lt;/foreignObject>)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
 		<completion string="glyph">
 			<behavior>
 				<append-dynamic>
@@ -173,6 +182,24 @@
 				<append-dynamic>
 					<matched-suffix>(\s*:)|[^:]</matched-suffix>
 					<transform-into>(?1::$1>${0}&lt;/missing-glyph>)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="script">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: type="$1"$2>${0}&lt;/script>)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="switch">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::$1>${0}&lt;/switch>)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
