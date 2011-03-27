@@ -15,6 +15,7 @@ This file provides attributes for font and color tags:
 - tref
 - tspan
 - linearGradient
+- radialGradient
 
 -->
 <codesense version="1.0">
@@ -378,6 +379,47 @@ This file provides attributes for font and color tags:
 		<completion string="y1"/>
 		<completion string="x2"/>
 		<completion string="y2"/>
+		<completion string="gradientUnits"/>
+		<completion string="gradientTransform"/>
+		<completion string="spreadMethod"/>
+		<completion string="xlink:href"/>
+		<!--<completion string="externalResourcesRequired"/>-->
+		
+		
+		<!-- presentation attributes -->
+		<completion string="display"/>
+		<completion string="fill"/>
+		<completion string="fill-opacity"/>
+		<completion string="fill-rule"/>
+		<completion string="opacity"/>
+		<completion string="stroke"/>
+		<completion string="stroke-dasharray"/>
+		<completion string="stroke-dashoffset"/>
+		<completion string="stroke-linecap"/>
+		<completion string="stroke-linejoin"/>
+		<completion string="stroke-miterlimit"/>
+		<completion string="stroke-opacity"/>
+		<completion string="stroke-width"/>
+		
+		
+		<!-- xlink attributes -->
+		<completion string="xlink:show"/>
+		<completion string="xlink:actuate"/>
+		<completion string="xlink:type"/>
+		<completion string="xlink:role"/>
+		<completion string="xlink:arcrole"/>
+		<completion string="xlink:title"/>
+	</set>
+	
+	
+	<!-- RADIALGRADIENT -->
+	<set name="com.walkingamonggiants.svg.tag.radialGradient.attributes">
+		<!-- basic attributes -->
+		<completion string="cx"/>
+		<completion string="cy"/>
+		<completion string="fx"/>
+		<completion string="fy"/>
+		<completion string="r"/>
 		<completion string="gradientUnits"/>
 		<completion string="gradientTransform"/>
 		<completion string="spreadMethod"/>
