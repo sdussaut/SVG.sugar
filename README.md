@@ -27,12 +27,14 @@ For the moment the sugar proposes a basic level of SVG completion support. Are s
 
 A lot :)
 
-- <del>text (font-*, text*)</del>, color (gradients), markers and animation (not SMIL) elements
+- <del>text (font-*, text*)</del>, color (gradients), stops, patterns, markers and animation (not SMIL) elements
 - <del>generic elements like `<metadata/>` and `<title/>`</del>
 - support for `style` attribute on elements
 - <del>general elements like `<foreigObject/>`, `<switch/>`, `<script/>`</del>
 - complete attribute support for already implemented elements
 - filters
+- masks, clipPaths
+- cursor
 - support for SMIL
 
 
