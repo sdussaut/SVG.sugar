@@ -31,6 +31,15 @@
 			</behavior>
 		</completion>
 		
+		<completion string="foreignObject">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: width="$1" height="$2"$3>${0}&lt;/foreignObject>)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
 		<completion string="g">
 			<behavior>
 				<append-dynamic>
@@ -49,11 +58,29 @@
 			</behavior>
 		</completion>
 		
+		<completion string="script">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: type="$1"$2>${0}&lt;/script>)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
 		<completion string="svg">
 			<behavior>
 				<append-dynamic>
 					<matched-suffix>(\s*:)|[^:]</matched-suffix>
 					<transform-into>(?1:: xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full">${0}&lt;/svg>)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="switch">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::$1>${0}&lt;/switch>)</transform-into>
 				</append-dynamic>
 			</behavior>
 		</completion>
@@ -150,15 +177,6 @@
 			</behavior>
 		</completion>
 		
-		<completion string="foreignObject">
-			<behavior>
-				<append-dynamic>
-					<matched-suffix>(\s*:)|[^:]</matched-suffix>
-					<transform-into>(?1:: width="$1" height="$2"$3>${0}&lt;/foreignObject>)</transform-into>
-				</append-dynamic>
-			</behavior>
-		</completion>
-		
 		<completion string="glyph">
 			<behavior>
 				<append-dynamic>
@@ -186,24 +204,6 @@
 			</behavior>
 		</completion>
 		
-		<completion string="script">
-			<behavior>
-				<append-dynamic>
-					<matched-suffix>(\s*:)|[^:]</matched-suffix>
-					<transform-into>(?1:: type="$1"$2>${0}&lt;/script>)</transform-into>
-				</append-dynamic>
-			</behavior>
-		</completion>
-		
-		<completion string="switch">
-			<behavior>
-				<append-dynamic>
-					<matched-suffix>(\s*:)|[^:]</matched-suffix>
-					<transform-into>(?1::$1>${0}&lt;/switch>)</transform-into>
-				</append-dynamic>
-			</behavior>
-		</completion>
-		
 		<completion string="tref">
 			<behavior>
 				<append-dynamic>
@@ -221,6 +221,26 @@
 				</append-dynamic>
 			</behavior>
 		</completion>
+		
+		<!-- gradients -->
+		<completion string="linearGradient">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: id="$1"$2>${0}&lt;/linearGradient>)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="radialGradient">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: id="$1"$2>${0}&lt;/radialGradient>)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
 	</set>
 	
 	<set name="com.walkingamonggiants.svg.tags.self-closing">

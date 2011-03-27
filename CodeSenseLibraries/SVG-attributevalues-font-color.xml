@@ -18,6 +18,7 @@ This file provides attributes values for font and color-related tags:
 - glyphRef
 - tref
 - tspan
+- linearGradient
 
 -->
 <codesense version="1.0">
@@ -835,6 +836,135 @@ This file provides attributes values for font and color-related tags:
 	
 	<!-- xml:space -->
 	<set name="com.walkingamonggiants.svg.tag.tspan.attribute-values.xml:space">
+		<completion string="default"/>
+		<completion string="preserve"/>
+	</set>
+	
+	
+		
+	<!-- LINEARGRADIENT -->
+	<!-- display -->
+	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.display">
+		<completion string="inline" />
+		<completion string="block" />
+		<completion string="list-item" />
+		<completion string="run-in" />
+		<completion string="compact" />
+		<completion string="marker" />
+		<completion string="table" />
+		<completion string="inline-table" />
+		<completion string="table-row-group" />
+		<completion string="table-header-group" />
+		<completion string="table-footer-group" />
+		<completion string="table-row" />
+		<completion string="table-column-group" />
+		<completion string="table-column" />
+		<completion string="table-cell" />
+		<completion string="table-caption" />
+		<completion string="none" />
+		<completion string="inherit" />
+	</set>
+	
+	
+	<!-- fill | fill-rule | fill-opacity -->
+	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.fill">
+		<completion string="none"/>
+		<completion string="currentColor"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.fill-rule">
+		<completion string="nonzero"/>
+		<completion string="evenodd"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.fill-opacity">
+		<completion string="inherit"/>
+	</set>
+	
+	
+	<!-- gradientUnits -->
+	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.gradientUnits">
+		<completion string="userSpaceOnUse"/>
+		<completion string="objectBoundingBox"/>
+	</set>
+	
+	
+	<!-- gradientTransform -->
+	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.gradientTransform">
+		<completion string="matrix(a,b,c,d,e,f)"/>
+		<completion string="translate(tx,ty)"/>
+		<completion string="scale(sx,sy)"/>
+		<completion string="rotate(angle,cx,cy)"/>
+		<completion string="skewX(angle)"/>
+		<completion string="skewY(angle)"/>
+	</set>
+	
+	
+	<!-- opacity -->
+	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.opacity">
+		<completion string="inherit"/>
+	</set>
+	
+	
+	<!-- spreadMethod -->
+	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.spreadMethod">
+		<completion string="pad"/>
+		<completion string="reflect"/>
+		<completion string="repeat"/>
+	</set>
+	
+	
+	<!-- stroke | stroke-dasharray | stroke-dashoffset | stroke-linecap | stroke-linejoin | stroke-miterlimit | stroke-opacity | stroke-width -->
+	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.stroke">
+		<completion string="none"/>
+		<completion string="currentColor"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.stroke-dasharray">
+		<completion string="none"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.stroke-dashoffset">
+		<completion string="inherit"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.stroke-linecap">
+		<completion string="butt"/>
+		<completion string="round"/>
+		<completion string="square"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.stroke-linejoin">
+		<completion string="miter"/>
+		<completion string="round"/>
+		<completion string="bevel"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.stroke-miterlimit">
+		<completion string="inherit"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.stroke-opacity">
+		<completion string="inherit"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.stroke-width">
+		<completion string="inherit"/>
+	</set>
+	
+	<!-- xlink:show | xlink:actuate | xlink:type -->
+	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.xlink:show">
+		<completion string="new"/>
+		<completion string="replace"/>
+		<completion string="other"/>
+		<completion string="none"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.xlink:actuate">
+		<completion string="onLoad"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.xlink:type">
+		<completion string="simple"/>
+	</set>
+	
+	<!-- xml:space -->
+	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
