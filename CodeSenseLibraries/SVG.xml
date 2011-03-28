@@ -363,6 +363,15 @@
 			</behavior>
 		</completion>
 		
+		<completion string="stop">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: offset="$1" stop-color="$2"$0 />)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
 		<completion string="vkern">
 			<behavior>
 				<append-dynamic>

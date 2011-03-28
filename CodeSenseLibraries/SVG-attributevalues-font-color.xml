@@ -1099,4 +1099,104 @@ This file provides attributes values for font and color-related tags:
 		<completion string="preserve"/>
 	</set>
 	
+	
+	
+	
+	<!-- STOP -->
+	<!-- display -->
+	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.display">
+		<completion string="inline" />
+		<completion string="block" />
+		<completion string="list-item" />
+		<completion string="run-in" />
+		<completion string="compact" />
+		<completion string="marker" />
+		<completion string="table" />
+		<completion string="inline-table" />
+		<completion string="table-row-group" />
+		<completion string="table-header-group" />
+		<completion string="table-footer-group" />
+		<completion string="table-row" />
+		<completion string="table-column-group" />
+		<completion string="table-column" />
+		<completion string="table-cell" />
+		<completion string="table-caption" />
+		<completion string="none" />
+		<completion string="inherit" />
+	</set>
+	
+	
+	<!-- fill | fill-rule | fill-opacity -->
+	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.fill">
+		<completion string="none"/>
+		<completion string="currentColor"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.fill-rule">
+		<completion string="nonzero"/>
+		<completion string="evenodd"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.fill-opacity">
+		<completion string="inherit"/>
+	</set>
+	
+	
+	<!-- opacity -->
+	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.opacity">
+		<completion string="inherit"/>
+	</set>
+	
+	<!-- stop-color -->
+	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.stop-color">
+		<completion string="currentColor"/>
+		<completion string="inherit"/>
+	</set>
+	
+	<!-- stop-opacity -->
+	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.stop-opacity">
+		<completion string="inherit"/>
+	</set>	
+	
+	<!-- stroke | stroke-dasharray | stroke-dashoffset | stroke-linecap | stroke-linejoin | stroke-miterlimit | stroke-opacity | stroke-width -->
+	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.stroke">
+		<completion string="none"/>
+		<completion string="currentColor"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.stroke-dasharray">
+		<completion string="none"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.stroke-dashoffset">
+		<completion string="inherit"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.stroke-linecap">
+		<completion string="butt"/>
+		<completion string="round"/>
+		<completion string="square"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.stroke-linejoin">
+		<completion string="miter"/>
+		<completion string="round"/>
+		<completion string="bevel"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.stroke-miterlimit">
+		<completion string="inherit"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.stroke-opacity">
+		<completion string="inherit"/>
+	</set>
+	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.stroke-width">
+		<completion string="inherit"/>
+	</set>
+	
+	<!-- xml:space -->
+	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.xml:space">
+		<completion string="default"/>
+		<completion string="preserve"/>
+	</set>
+	
 </codesense>
