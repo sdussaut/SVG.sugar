@@ -19,6 +19,7 @@
 		
 		<!-- Ways to detect if a certain file is in this language -->
 		<detectors>
+			<extension>svg</extension>
 			<combo>
 				<extension>svg</extension>
 				<match-content><![CDATA[<\?xml]]></match-content>
