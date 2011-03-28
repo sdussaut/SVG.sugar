@@ -204,6 +204,15 @@
 			</behavior>
 		</completion>
 		
+		<completion string="pattern">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: id="$1"$2>${0}&lt;/pattern>)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
 		<completion string="tref">
 			<behavior>
 				<append-dynamic>
@@ -248,7 +257,7 @@
 		<behavior>
 			<append-static> /></append-static>
 		</behavior>
-		
+			
 		
 		<!-- tags -->
 		<!-- primitives -->

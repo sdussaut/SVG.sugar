@@ -17,6 +17,7 @@ This file provides attributes for font and color tags:
 - linearGradient
 - radialGradient
 - stop
+- pattern
 
 -->
 <codesense version="1.0">
@@ -477,6 +478,50 @@ This file provides attributes for font and color tags:
 		<completion string="stroke-miterlimit"/>
 		<completion string="stroke-opacity"/>
 		<completion string="stroke-width"/>
+		
+	</set>
+	
+	
+	
+	<!-- PATTERN -->
+	<set name="com.walkingamonggiants.svg.tag.pattern.attributes">
+		<!-- basic attributes -->
+		<completion string="viewBox"/>
+		<completion string="preserveAspectRatio"/>
+		<completion string="x"/>
+		<completion string="y"/>
+		<completion string="width"/>
+		<completion string="height"/>
+		<completion string="patternUnits"/>
+		<completion string="patternContentUnits"/>
+		<completion string="patternTransform"/>
+		<completion string="xlink:href"/>
+		<!--<completion string="externalResourcesRequired"/>-->
+		
+		
+		<!-- presentation attributes -->
+		<completion string="display"/>
+		<completion string="fill"/>
+		<completion string="fill-opacity"/>
+		<completion string="fill-rule"/>
+		<completion string="opacity"/>
+		<completion string="stroke"/>
+		<completion string="stroke-dasharray"/>
+		<completion string="stroke-dashoffset"/>
+		<completion string="stroke-linecap"/>
+		<completion string="stroke-linejoin"/>
+		<completion string="stroke-miterlimit"/>
+		<completion string="stroke-opacity"/>
+		<completion string="stroke-width"/>
+		
+		
+		<!-- xlink attributes -->
+		<completion string="xlink:show"/>
+		<completion string="xlink:actuate"/>
+		<completion string="xlink:type"/>
+		<completion string="xlink:role"/>
+		<completion string="xlink:arcrole"/>
+		<completion string="xlink:title"/>
 		
 	</set>
 	
