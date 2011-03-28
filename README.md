@@ -20,7 +20,9 @@ For the moment the sugar proposes a basic level of SVG completion support. Are s
 - `<svg/>` element
 - `<g/>` and `<use/>` elements
 - font and text related elements (and their attributes): `<font/>`, `<font-face/>`, `<font-face-format/>`, `<font-face-name/>`, `<font-face-uri/>`, `<glyph/>`, `<hkern/>`, `<vkern/>`, `<missing-glyph/>`, `<altGlyph/>`, `<altGlyphDef/>`, `<altGlyphItem/>`, `<glyphRef/>`, `<tref/>`, `<tspan/>`
-- general purpose elements : `<desc/>`, `<metadata/>`, `<title/>`, `<defs/>`, `<symbol/>`, `<switch/>`, `<script/>`, `<foreignObject/>`
+- general purpose elements : `<desc/>`, `<metadata/>`, `<title/>`, `<defs/>`, `<symbol/>`, `<switch/>`, `<script/>`, `<foreignObject/>`, `<pattern/>`
+- gradients and stops
+
 
 
 ### TODO
