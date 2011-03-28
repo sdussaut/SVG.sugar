@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<action-recipes>
+	
+	
+	<!-- GUI snippets -->
+	<!-- doctypes -->
+	<!-- SVG 1.1 Full -->
+	<snippet id="com.walkingamonggiants.TextActions.SVG.Doctype.full" category="tools.Snippets">
+		<title>DOCTYPE SVG 1.1 Full</title>
+		<text><![CDATA[<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">]]></text>
+		<syntax-context>svg, svg *, text.xml, text.xml *</syntax-context>
+	</snippet>
+	
+	<!-- SVG 1.0 -->
+	<snippet id="com.walkingamonggiants.TextActions.SVG.Doctype" category="tools.Snippets">
+		<title>DOCTYPE SVG 1.0</title>
+		<text><![CDATA[<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">]]></text>
+		<syntax-context>svg, svg *, text.xml, text.xml *</syntax-context>
+	</snippet>
+	
+	<!-- SVG 1.1 Basic -->
+	<snippet id="com.walkingamonggiants.TextActions.SVG.Doctype.basic" category="tools.Snippets">
+		<title>DOCTYPE SVG 1.1 Basic</title>
+		<text><![CDATA[<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Basic//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-basic.dtd">]]></text>
+		<syntax-context>svg, svg *, text.xml, text.xml *</syntax-context>
+	</snippet>
+	
+	<!-- SVG 1.1 Tiny -->
+	<snippet id="com.walkingamonggiants.TextActions.SVG.Doctype.tiny" category="tools.Snippets">
+		<title>DOCTYPE SVG 1.1 Tiny</title>
+		<text><![CDATA[<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">]]></text>
+		<syntax-context>svg, svg *, text.xml, text.xml *</syntax-context>
+	</snippet>
+	
+	<!-- CDATA snippet borrowed from Macrabbit XML snippet -->
+	<snippet id="com.walkingamonggiants.TextActions.SVG.Snippet-CDATA" category="tools.Snippets">
+		<title>CDATA</title>
+		<text>&lt;![CDATA[${0:character data}]]&gt;</text>
+		<syntax-context>svg, svg *</syntax-context>
+		<text-trigger>cdata</text-trigger>
+	</snippet>
+	
+	<!-- New svg document -->
+	<snippet id="com.walkingamonggiants.TextActions.SVG.New.Document" category="tools.Snippets">
+		<title>New SVG document</title>
+		<text><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>$1</title>
+	<metadata>$2</metadata>$0
+</svg>]]></text>
+		<syntax-context>svg, svg *, text.xml, text.xml *</syntax-context>
+	</snippet>
+	
+	
+	
+	<!-- Menu snippets -->
+	
+	<!-- Doctypes -->
+	<!-- SVG 1.1 Full -->
+	<snippet id="com.walkingamonggiants.TextActions.SVG.Doctype.full" category="actions.text.SVG/svg.tools.DTD">
+		<title>DOCTYPE SVG 1.1 Full</title>
+		<text><![CDATA[<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">]]></text>
+		<syntax-context>svg, svg *, text.xml, text.xml *</syntax-context>
+		<text-trigger>svgdoc11</text-trigger>
+	</snippet>
+	
+	<!-- SVG 1.0 -->
+	<snippet id="com.walkingamonggiants.TextActions.SVG.Doctype" category="actions.text.SVG/svg.tools.DTD">
+		<title>DOCTYPE SVG 1.0</title>
+		<text><![CDATA[<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">]]></text>
+		<syntax-context>svg, svg *, text.xml, text.xml *</syntax-context>
+		<text-trigger>svgdoc10</text-trigger>
+	</snippet>
+	
+	<!-- SVG 1.1 Basic -->
+	<snippet id="com.walkingamonggiants.TextActions.SVG.Doctype.basic" category="actions.text.SVG/svg.tools.DTD">
+		<title>DOCTYPE SVG 1.1 Basic</title>
+		<text><![CDATA[<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Basic//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-basic.dtd">]]></text>
+		<syntax-context>svg, svg *, text.xml, text.xml *</syntax-context>
+		<text-trigger>svgdocbasic</text-trigger>
+	</snippet>
+	
+	<!-- SVG 1.1 Tiny -->
+	<snippet id="com.walkingamonggiants.TextActions.SVG.Doctype.tiny" category="actions.text.SVG/svg.tools.DTD">
+		<title>DOCTYPE SVG 1.1 Tiny</title>
+		<text><![CDATA[<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">]]></text>
+		<syntax-context>svg, svg *, text.xml, text.xml *</syntax-context>
+		<text-trigger>svgdoctiny</text-trigger>
+	</snippet>
+	
+	<!-- New SVG document -->
+	<snippet id="com.walkingamonggiants.TextActions.SVG.New.Document.menu" category="actions.text.SVG/svg.tools.Document">
+			<title>New SVG document</title>
+			<text><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>$1</title>
+	<metadata>$2</metadata>$0
+</svg>]]></text>
+			<syntax-context>svg, svg *, text.xml, text.xml *</syntax-context>
+			<text-trigger>newsvgdoc</text-trigger>
+		</snippet>
+		
+</action-recipes>

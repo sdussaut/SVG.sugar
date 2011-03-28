@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+@description Defines PHP Actions menu layout
+
+-->
+<action-categories>
+	<!-- Generic categories -->
+	<category id="actions.text.SVG" show="sub">
+	    <title>SVG</title>
+	</category>
+    
+    <category id="svg.tools.Document" show="inline separated"></category>
+    <category id="svg.tools.DTD" show="inline separated"></category>
+    <category id="svg.tools.Misc" show="inline separated"></category>
+</action-categories>
