@@ -195,6 +195,15 @@
 			</behavior>
 		</completion>
 		
+		<completion string="marker">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: id="$1"$2>${0}&lt;/marker>)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
 		<completion string="missing-glyph">
 			<behavior>
 				<append-dynamic>

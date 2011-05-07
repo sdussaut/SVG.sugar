@@ -22,6 +22,7 @@ For the moment the sugar proposes a basic level of SVG completion support. Are s
 - font and text related elements (and their attributes): `<font/>`, `<font-face/>`, `<font-face-format/>`, `<font-face-name/>`, `<font-face-uri/>`, `<glyph/>`, `<hkern/>`, `<vkern/>`, `<missing-glyph/>`, `<altGlyph/>`, `<altGlyphDef/>`, `<altGlyphItem/>`, `<glyphRef/>`, `<tref/>`, `<tspan/>`
 - general purpose elements : `<desc/>`, `<metadata/>`, `<title/>`, `<defs/>`, `<symbol/>`, `<switch/>`, `<script/>`, `<foreignObject/>`, `<pattern/>`
 - gradients and stops
+- markers
 
 
 
@@ -29,7 +30,7 @@ For the moment the sugar proposes a basic level of SVG completion support. Are s
 
 A lot :)
 
-- <del>text (font-*, text*), color (gradients), stops, patterns</del>, markers and animation (not SMIL) elements
+- <del>text (font-*, text*), color (gradients), stops, patterns, markers</del> and animation (not SMIL) elements
 - <del>generic elements like `<metadata/>` and `<title/>`</del>
 - <del>snippets for `<!DOCTYPE>`s, `CDATA` section and new SVG document template</del>
 - support for `style` attribute on elements
@@ -59,7 +60,7 @@ Open Terminal.app
 
 
 ### SVG Snippets
-I wrote a few snippets to help with scary SVG stuff: `<!DOCTYPE>` declaration and `CDATA` sections. I also provide a basic SVG template to get you started.
+I wrote a few snippets to help with SVG scary stuff: `<!DOCTYPE>` declaration and `CDATA` sections. I also provide a basic SVG template to get you started.
 
 All snippets are available in the toolbar and in the Actions menu (under the SVG category). They also come with a handy text trigger (activated with the tab key). Here is the list:
 
