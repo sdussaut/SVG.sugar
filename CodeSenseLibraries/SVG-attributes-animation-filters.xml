@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+This file provides attributes for font and color tags:
+
+- font
+
+
+-->
+<codesense version="1.0">
+	
+	<behavior>
+		<append-dynamic>
+			<matched-suffix>(\s*=)|[^=]</matched-suffix>
+			<transform-into>(?1::="$1"$0)</transform-into>
+		</append-dynamic>
+		
+		<!-- (optional) The partial-confirm element specifies characters that are contained 
+			within the completion. When they're pressed, the completion will confirm up to 
+			that character (including the character itself) and continue completing. This 
+			is useful for things like CSS properties or PHP functions. -->
+		<partial-confirm characters="-"/>
+		
+	</behavior>
+	
+	
+	<!-- FONT -->
+	<set name="com.walkingamonggiants.svg.tag.font.attributes">
+		<!-- basic attributes -->
+		<completion string="horiz-origin-x"/>
+		<completion string="horiz-origin-y"/>
+		<completion string="horiz-adv-x"/>
+		<completion string="vert-origin-x"/>
+		<completion string="vert-origin-y"/>
+		<completion string="vert-adv-y"/>
+		<!--<completion string="externalResourcesRequired"/>-->
+		
+		
+		<!-- presentation attributes -->
+		<completion string="display"/>
+		<completion string="fill"/>
+		<completion string="fill-opacity"/>
+		<completion string="fill-rule"/>
+		<completion string="opacity"/>
+		<completion string="stroke"/>
+		<completion string="stroke-dasharray"/>
+		<completion string="stroke-dashoffset"/>
+		<completion string="stroke-linecap"/>
+		<completion string="stroke-linejoin"/>
+		<completion string="stroke-miterlimit"/>
+		<completion string="stroke-opacity"/>
+		<completion string="stroke-width"/>
+	</set>
+	
+	
+</codesense>
