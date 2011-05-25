@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<syntax name="com.walkingamonggiants.xml.svg">
+<syntax name="com.sdussaut.xml.svg">
 	<zones>
 	        <zone name="comment.block.svg">
 	            <starts-with>

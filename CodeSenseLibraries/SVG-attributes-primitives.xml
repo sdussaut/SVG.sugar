@@ -32,7 +32,7 @@ This file provides attributes for tags that represent primitives:
 	
 	
 	<!-- CIRCLE -->
-	<set name="com.walkingamonggiants.svg.tag.circle.attributes">
+	<set name="com.sdussaut.svg.tag.circle.attributes">
 		<!-- basic attributes -->
 		<completion string="cx"/>
 		<completion string="cy"/>
@@ -73,7 +73,7 @@ This file provides attributes for tags that represent primitives:
 	
 	
 	<!-- ELLIPSE -->
-	<set name="com.walkingamonggiants.svg.tag.ellipse.attributes">
+	<set name="com.sdussaut.svg.tag.ellipse.attributes">
 		<!-- basic attributes -->
 		<completion string="cx"/>
 		<completion string="cy"/>
@@ -115,7 +115,7 @@ This file provides attributes for tags that represent primitives:
 	
 	
 	<!-- LINE -->
-	<set name="com.walkingamonggiants.svg.tag.line.attributes">
+	<set name="com.sdussaut.svg.tag.line.attributes">
 		<!-- basic attributes -->
 		<completion string="x1"/>
 		<completion string="y1"/>
@@ -157,7 +157,7 @@ This file provides attributes for tags that represent primitives:
 	
 	
 	<!-- RECT -->
-	<set name="com.walkingamonggiants.svg.tag.rect.attributes">
+	<set name="com.sdussaut.svg.tag.rect.attributes">
 		<!-- basic attributes -->
 		<completion string="x"/>
 		<completion string="y"/>
@@ -201,7 +201,7 @@ This file provides attributes for tags that represent primitives:
 	
 	
 	<!-- PATH -->
-	<set name="com.walkingamonggiants.svg.tag.path.attributes">
+	<set name="com.sdussaut.svg.tag.path.attributes">
 		<!-- basic attributes -->
 		<completion string="d"/>
 		<completion string="transform"/>
@@ -241,7 +241,7 @@ This file provides attributes for tags that represent primitives:
 	
 	
 	<!-- POLYGON -->
-	<set name="com.walkingamonggiants.svg.tag.polygon.attributes">
+	<set name="com.sdussaut.svg.tag.polygon.attributes">
 		<!-- basic attributes -->
 		<completion string="points"/>
 		<completion string="transform"/>
@@ -280,7 +280,7 @@ This file provides attributes for tags that represent primitives:
 	
 	
 	<!-- POLYLINE -->
-	<set name="com.walkingamonggiants.svg.tag.polyline.attributes">
+	<set name="com.sdussaut.svg.tag.polyline.attributes">
 		<!-- basic attributes -->
 		<completion string="points"/>
 		<completion string="transform"/>
@@ -319,7 +319,7 @@ This file provides attributes for tags that represent primitives:
 	
 	
 	<!-- TEXT -->
-	<set name="com.walkingamonggiants.svg.tag.text.attributes">
+	<set name="com.sdussaut.svg.tag.text.attributes">
 		<!-- basic attributes -->
 		<completion string="x"/>
 		<completion string="y"/>
@@ -364,7 +364,7 @@ This file provides attributes for tags that represent primitives:
 	
 	
 	<!-- IMAGE -->
-	<set name="com.walkingamonggiants.svg.tag.image.attributes">
+	<set name="com.sdussaut.svg.tag.image.attributes">
 		<!-- basic attributes -->
 		<completion string="preserveAspectRatio"/>
 		<completion string="x"/>

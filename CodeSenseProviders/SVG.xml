@@ -9,8 +9,8 @@ CodeSense Providers map contexts in a document to possible completions. The actu
 	<!-- SVG tags -->
 	<provider>
 		<selector>text.svg - *, tag.open.svg, tag.self-closing.svg</selector>
-		<completions>com.walkingamonggiants.svg.tags</completions>
-		<completions>com.walkingamonggiants.svg.tags.self-closing</completions>
+		<completions>com.sdussaut.svg.tags</completions>
+		<completions>com.sdussaut.svg.tags.self-closing</completions>
 		<complete-match capture="2">(&lt;)([a-zA-Z0-9-]*)</complete-match>
 		<require-suffix>(\s|>|^)</require-suffix>
 	</provider>
@@ -18,8 +18,8 @@ CodeSense Providers map contexts in a document to possible completions. The actu
 	<!-- SVG attributes -->
 	<provider>
 		<selector>tag.open.svg:has-child(name:capture(tag)) > attribute-name, tag.open.svg:has-child(name:capture(tag)) > punctuation.definition.end, tag.open.svg:has-child(name:capture(tag))</selector>
-		<completions>com.walkingamonggiants.svg.tag.${tag}.attributes</completions>
-		<completions>com.walkingamonggiants.svg.tag.standard-attributes</completions>
+		<completions>com.sdussaut.svg.tag.${tag}.attributes</completions>
+		<completions>com.sdussaut.svg.tag.standard-attributes</completions>
 		<complete-match capture="2">(\s)([a-zA-Z0-9-]*)</complete-match>
 		<require-suffix>(\s|=|>|^)</require-suffix>
 	</provider>
@@ -27,7 +27,7 @@ CodeSense Providers map contexts in a document to possible completions. The actu
 	<!-- SVG attribute values -->
 	<provider>
 		<selector>tag.open.svg:has-child(name:capture(tag)) > attribute-name:capture(attribute) + separator + string > punctuation.end, tag.self-closing.svg:has-child(name:capture(tag)) > attribute-name:capture(attribute) + separator + string > punctuation.end</selector>
-		<completions>com.walkingamonggiants.svg.tag.${tag}.attribute-values.${attribute}</completions>
+		<completions>com.sdussaut.svg.tag.${tag}.attribute-values.${attribute}</completions>
 		<complete-match capture="2">("|'|)([a-zA-Z0-9-]*)</complete-match>
 	</provider>
 	

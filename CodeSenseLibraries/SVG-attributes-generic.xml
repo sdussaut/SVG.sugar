@@ -31,7 +31,7 @@ This file provides attributes for generic purpose tags:
 	
 	
 	<!-- G -->
-	<set name="com.walkingamonggiants.svg.tag.g.attributes">
+	<set name="com.sdussaut.svg.tag.g.attributes">
 		<!-- basic attributes -->
 		<completion string="transform"/>
 		<!--<completion string="externalResourcesRequired"/>-->
@@ -69,7 +69,7 @@ This file provides attributes for generic purpose tags:
 	
 	
 	<!-- USE -->
-	<set name="com.walkingamonggiants.svg.tag.use.attributes">
+	<set name="com.sdussaut.svg.tag.use.attributes">
 		<!-- basic attributes -->
 		<completion string="x"/>
 		<completion string="y"/>
@@ -112,7 +112,7 @@ This file provides attributes for generic purpose tags:
 	
 	
 	<!-- SVG -->
-	<set name="com.walkingamonggiants.svg.tag.svg.attributes">
+	<set name="com.sdussaut.svg.tag.svg.attributes">
 		<!-- basic attributes -->
 		<completion string="x"/>
 		<completion string="y"/>
@@ -168,7 +168,7 @@ This file provides attributes for generic purpose tags:
 	
 	
 	<!-- DEFS -->
-	<set name="com.walkingamonggiants.svg.tag.defs.attributes">
+	<set name="com.sdussaut.svg.tag.defs.attributes">
 		<!-- basic attributes -->
 		<completion string="transform"/>
 		<!--<completion string="externalResourcesRequired"/>-->
@@ -206,7 +206,7 @@ This file provides attributes for generic purpose tags:
 	
 	
 	<!-- SYMBOL -->
-	<set name="com.walkingamonggiants.svg.tag.symbol.attributes">
+	<set name="com.sdussaut.svg.tag.symbol.attributes">
 		<!-- basic attributes -->
 		<completion string="transform"/>
 		<completion string="preserveAspectRatio"/>
@@ -246,7 +246,7 @@ This file provides attributes for generic purpose tags:
 	
 	
 	<!-- SWITCH -->
-	<set name="com.walkingamonggiants.svg.tag.switch.attributes">
+	<set name="com.sdussaut.svg.tag.switch.attributes">
 		<!-- basic attributes -->
 		<completion string="transform"/>
 		<!--<completion string="externalResourcesRequired"/>-->
@@ -285,7 +285,7 @@ This file provides attributes for generic purpose tags:
 	
 	
 	<!-- FOREIGNOBJECT -->
-	<set name="com.walkingamonggiants.svg.tag.foreignObject.attributes">
+	<set name="com.sdussaut.svg.tag.foreignObject.attributes">
 		<!-- basic attributes -->
 		<completion string="x"/>
 		<completion string="y"/>
@@ -327,7 +327,7 @@ This file provides attributes for generic purpose tags:
 	
 	
 	<!-- SCRIPT -->
-	<set name="com.walkingamonggiants.svg.tag.script.attributes">
+	<set name="com.sdussaut.svg.tag.script.attributes">
 		<!-- basic attributes -->
 		<completion string="type"/>
 		<completion string="xlink:href"/>

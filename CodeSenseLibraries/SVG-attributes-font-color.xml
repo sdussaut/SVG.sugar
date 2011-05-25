@@ -39,7 +39,7 @@ This file provides attributes for font and color tags:
 	
 	
 	<!-- FONT -->
-	<set name="com.walkingamonggiants.svg.tag.font.attributes">
+	<set name="com.sdussaut.svg.tag.font.attributes">
 		<!-- basic attributes -->
 		<completion string="horiz-origin-x"/>
 		<completion string="horiz-origin-y"/>
@@ -68,7 +68,7 @@ This file provides attributes for font and color tags:
 	
 	
 	<!-- FONT-FACE -->
-	<set name="com.walkingamonggiants.svg.tag.font-face.attributes">
+	<set name="com.sdussaut.svg.tag.font-face.attributes">
 		<!-- basic attributes -->
 		<completion string="font-family"/>
 		<completion string="font-style"/>
@@ -107,21 +107,21 @@ This file provides attributes for font and color tags:
 	
 	
 	<!-- FONT-FACE-FORMAT -->
-	<set name="com.walkingamonggiants.svg.tag.font-face-format.attributes">
+	<set name="com.sdussaut.svg.tag.font-face-format.attributes">
 		<!-- basic attributes -->
 		<completion string="string"/>
 	</set>
 	
 	
 	<!-- FONT-FACE-NAME -->
-	<set name="com.walkingamonggiants.svg.tag.font-face-name.attributes">
+	<set name="com.sdussaut.svg.tag.font-face-name.attributes">
 		<!-- basic attributes -->
 		<completion string="name"/>	
 	</set>
 	
 	
 	<!-- FONT-FACE-URI -->
-	<set name="com.walkingamonggiants.svg.tag.font-face-uri.attributes">
+	<set name="com.sdussaut.svg.tag.font-face-uri.attributes">
 		<!-- basic attributes -->
 		<completion string="xlink:href"/>
 		
@@ -136,7 +136,7 @@ This file provides attributes for font and color tags:
 	
 	
 	<!-- GLYPH -->
-	<set name="com.walkingamonggiants.svg.tag.glyph.attributes">
+	<set name="com.sdussaut.svg.tag.glyph.attributes">
 		<!-- basic attributes -->
 		<completion string="d"/>
 		<completion string="horiz-adv-x"/>
@@ -168,7 +168,7 @@ This file provides attributes for font and color tags:
 	
 	
 	<!-- MISSING-GLYPH -->
-	<set name="com.walkingamonggiants.svg.tag.missing-glyph.attributes">
+	<set name="com.sdussaut.svg.tag.missing-glyph.attributes">
 		<!-- basic attributes -->
 		<completion string="d"/>
 		<completion string="horiz-adv-x"/>
@@ -195,7 +195,7 @@ This file provides attributes for font and color tags:
 	
 	
 	<!-- ALTGLYPH -->
-	<set name="com.walkingamonggiants.svg.tag.altGlyph.attributes">
+	<set name="com.sdussaut.svg.tag.altGlyph.attributes">
 		<!-- basic attributes -->
 		<completion string="x"/>
 		<completion string="y"/>
@@ -248,7 +248,7 @@ This file provides attributes for font and color tags:
 	
 	
 	<!-- GLYPHREF -->
-	<set name="com.walkingamonggiants.svg.tag.glyphRef.attributes">
+	<set name="com.sdussaut.svg.tag.glyphRef.attributes">
 		<!-- basic attributes -->
 		<completion string="x"/>
 		<completion string="y"/>
@@ -286,7 +286,7 @@ This file provides attributes for font and color tags:
 	
 	
 	<!-- TREF -->
-	<set name="com.walkingamonggiants.svg.tag.tref.attributes">
+	<set name="com.sdussaut.svg.tag.tref.attributes">
 		<!-- basic attributes -->
 		<completion string="xlink:href"/>
 		<!--<completion string="externalResourcesRequired"/>-->
@@ -332,7 +332,7 @@ This file provides attributes for font and color tags:
 	
 	
 	<!-- TSPAN -->
-	<set name="com.walkingamonggiants.svg.tag.tspan.attributes">
+	<set name="com.sdussaut.svg.tag.tspan.attributes">
 		<!-- basic attributes -->
 		<completion string="x"/>
 		<completion string="y"/>
@@ -376,7 +376,7 @@ This file provides attributes for font and color tags:
 	
 	
 	<!-- LINEARGRADIENT -->
-	<set name="com.walkingamonggiants.svg.tag.linearGradient.attributes">
+	<set name="com.sdussaut.svg.tag.linearGradient.attributes">
 		<!-- basic attributes -->
 		<completion string="x1"/>
 		<completion string="y1"/>
@@ -416,7 +416,7 @@ This file provides attributes for font and color tags:
 	
 	
 	<!-- RADIALGRADIENT -->
-	<set name="com.walkingamonggiants.svg.tag.radialGradient.attributes">
+	<set name="com.sdussaut.svg.tag.radialGradient.attributes">
 		<!-- basic attributes -->
 		<completion string="cx"/>
 		<completion string="cy"/>
@@ -458,7 +458,7 @@ This file provides attributes for font and color tags:
 	
 	
 	<!-- STOP -->
-	<set name="com.walkingamonggiants.svg.tag.stop.attributes">
+	<set name="com.sdussaut.svg.tag.stop.attributes">
 		<!-- basic attributes -->
 		<completion string="offset"/>
 		<completion string="stop-color"/>
@@ -485,7 +485,7 @@ This file provides attributes for font and color tags:
 	
 	
 	<!-- PATTERN -->
-	<set name="com.walkingamonggiants.svg.tag.pattern.attributes">
+	<set name="com.sdussaut.svg.tag.pattern.attributes">
 		<!-- basic attributes -->
 		<completion string="viewBox"/>
 		<completion string="preserveAspectRatio"/>
@@ -529,7 +529,7 @@ This file provides attributes for font and color tags:
 	
 	
 	<!-- MARKER -->
-	<set name="com.walkingamonggiants.svg.tag.marker.attributes">
+	<set name="com.sdussaut.svg.tag.marker.attributes">
 		<!-- basic attributes -->
 		<completion string="viewBox"/>
 		<completion string="preserveAspectRatio"/>

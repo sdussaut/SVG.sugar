@@ -18,7 +18,7 @@ This file provides attributes values for tags that represent primitives:
 	
 	<!-- CIRCLE -->
 	<!-- display -->
-	<set name="com.walkingamonggiants.svg.tag.circle.attribute-values.display">
+	<set name="com.sdussaut.svg.tag.circle.attribute-values.display">
 		<completion string="inline" />
 		<completion string="block" />
 		<completion string="list-item" />
@@ -41,65 +41,65 @@ This file provides attributes values for tags that represent primitives:
 	
 	
 	<!-- fill | fill-rule | fill-opacity -->
-	<set name="com.walkingamonggiants.svg.tag.circle.attribute-values.fill">
+	<set name="com.sdussaut.svg.tag.circle.attribute-values.fill">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.circle.attribute-values.fill-rule">
+	<set name="com.sdussaut.svg.tag.circle.attribute-values.fill-rule">
 		<completion string="nonzero"/>
 		<completion string="evenodd"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.circle.attribute-values.fill-opacity">
+	<set name="com.sdussaut.svg.tag.circle.attribute-values.fill-opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- opacity -->
-	<set name="com.walkingamonggiants.svg.tag.circle.attribute-values.opacity">
+	<set name="com.sdussaut.svg.tag.circle.attribute-values.opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- stroke | stroke-dasharray | stroke-dashoffset | stroke-linecap | stroke-linejoin | stroke-miterlimit | stroke-opacity | stroke-width -->
-	<set name="com.walkingamonggiants.svg.tag.circle.attribute-values.stroke">
+	<set name="com.sdussaut.svg.tag.circle.attribute-values.stroke">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.circle.attribute-values.stroke-dasharray">
+	<set name="com.sdussaut.svg.tag.circle.attribute-values.stroke-dasharray">
 		<completion string="none"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.circle.attribute-values.stroke-dashoffset">
+	<set name="com.sdussaut.svg.tag.circle.attribute-values.stroke-dashoffset">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.circle.attribute-values.stroke-linecap">
+	<set name="com.sdussaut.svg.tag.circle.attribute-values.stroke-linecap">
 		<completion string="butt"/>
 		<completion string="round"/>
 		<completion string="square"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.circle.attribute-values.stroke-linejoin">
+	<set name="com.sdussaut.svg.tag.circle.attribute-values.stroke-linejoin">
 		<completion string="miter"/>
 		<completion string="round"/>
 		<completion string="bevel"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.circle.attribute-values.stroke-miterlimit">
+	<set name="com.sdussaut.svg.tag.circle.attribute-values.stroke-miterlimit">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.circle.attribute-values.stroke-opacity">
+	<set name="com.sdussaut.svg.tag.circle.attribute-values.stroke-opacity">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.circle.attribute-values.stroke-width">
+	<set name="com.sdussaut.svg.tag.circle.attribute-values.stroke-width">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- transform -->	
-	<set name="com.walkingamonggiants.svg.tag.circle.attribute-values.transform">
+	<set name="com.sdussaut.svg.tag.circle.attribute-values.transform">
 		<completion string="matrix(a,b,c,d,e,f)"/>
 		<completion string="translate(tx,ty)"/>
 		<completion string="scale(sx,sy)"/>
@@ -110,7 +110,7 @@ This file provides attributes values for tags that represent primitives:
 	
 	
 	<!-- xml:space -->
-	<set name="com.walkingamonggiants.svg.tag.circle.attribute-values.xml:space">
+	<set name="com.sdussaut.svg.tag.circle.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
@@ -119,7 +119,7 @@ This file provides attributes values for tags that represent primitives:
 	
 	<!-- ELLIPSE -->
 	<!-- display -->
-	<set name="com.walkingamonggiants.svg.tag.ellipse.attribute-values.display">
+	<set name="com.sdussaut.svg.tag.ellipse.attribute-values.display">
 		<completion string="inline" />
 		<completion string="block" />
 		<completion string="list-item" />
@@ -142,65 +142,65 @@ This file provides attributes values for tags that represent primitives:
 	
 	
 	<!-- fill | fill-rule | fill-opacity -->
-	<set name="com.walkingamonggiants.svg.tag.ellipse.attribute-values.fill">
+	<set name="com.sdussaut.svg.tag.ellipse.attribute-values.fill">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.ellipse.attribute-values.fill-rule">
+	<set name="com.sdussaut.svg.tag.ellipse.attribute-values.fill-rule">
 		<completion string="nonzero"/>
 		<completion string="evenodd"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.ellipse.attribute-values.fill-opacity">
+	<set name="com.sdussaut.svg.tag.ellipse.attribute-values.fill-opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- opacity -->
-	<set name="com.walkingamonggiants.svg.tag.ellipse.attribute-values.opacity">
+	<set name="com.sdussaut.svg.tag.ellipse.attribute-values.opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- stroke | stroke-dasharray | stroke-dashoffset | stroke-linecap | stroke-linejoin | stroke-miterlimit | stroke-opacity | stroke-width -->
-	<set name="com.walkingamonggiants.svg.tag.ellipse.attribute-values.stroke">
+	<set name="com.sdussaut.svg.tag.ellipse.attribute-values.stroke">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.ellipse.attribute-values.stroke-dasharray">
+	<set name="com.sdussaut.svg.tag.ellipse.attribute-values.stroke-dasharray">
 		<completion string="none"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.ellipse.attribute-values.stroke-dashoffset">
+	<set name="com.sdussaut.svg.tag.ellipse.attribute-values.stroke-dashoffset">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.ellipse.attribute-values.stroke-linecap">
+	<set name="com.sdussaut.svg.tag.ellipse.attribute-values.stroke-linecap">
 		<completion string="butt"/>
 		<completion string="round"/>
 		<completion string="square"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.ellipse.attribute-values.stroke-linejoin">
+	<set name="com.sdussaut.svg.tag.ellipse.attribute-values.stroke-linejoin">
 		<completion string="miter"/>
 		<completion string="round"/>
 		<completion string="bevel"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.ellipse.attribute-values.stroke-miterlimit">
+	<set name="com.sdussaut.svg.tag.ellipse.attribute-values.stroke-miterlimit">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.ellipse.attribute-values.stroke-opacity">
+	<set name="com.sdussaut.svg.tag.ellipse.attribute-values.stroke-opacity">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.ellipse.attribute-values.stroke-width">
+	<set name="com.sdussaut.svg.tag.ellipse.attribute-values.stroke-width">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- transform -->
-	<set name="com.walkingamonggiants.svg.tag.ellipse.attribute-values.transform">
+	<set name="com.sdussaut.svg.tag.ellipse.attribute-values.transform">
 		<completion string="matrix(a,b,c,d,e,f)"/>
 		<completion string="translate(tx,ty)"/>
 		<completion string="scale(sx,sy)"/>
@@ -211,7 +211,7 @@ This file provides attributes values for tags that represent primitives:
 	
 	
 	<!-- xml:space -->
-	<set name="com.walkingamonggiants.svg.tag.ellipse.attribute-values.xml:space">
+	<set name="com.sdussaut.svg.tag.ellipse.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
@@ -220,7 +220,7 @@ This file provides attributes values for tags that represent primitives:
 	
 	<!-- LINE -->
 	<!-- display -->
-	<set name="com.walkingamonggiants.svg.tag.line.attribute-values.display">
+	<set name="com.sdussaut.svg.tag.line.attribute-values.display">
 		<completion string="inline" />
 		<completion string="block" />
 		<completion string="list-item" />
@@ -243,65 +243,65 @@ This file provides attributes values for tags that represent primitives:
 	
 	
 	<!-- fill | fill-rule | fill-opacity -->
-	<set name="com.walkingamonggiants.svg.tag.line.attribute-values.fill">
+	<set name="com.sdussaut.svg.tag.line.attribute-values.fill">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.line.attribute-values.fill-rule">
+	<set name="com.sdussaut.svg.tag.line.attribute-values.fill-rule">
 		<completion string="nonzero"/>
 		<completion string="evenodd"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.line.attribute-values.fill-opacity">
+	<set name="com.sdussaut.svg.tag.line.attribute-values.fill-opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- opacity -->
-	<set name="com.walkingamonggiants.svg.tag.line.attribute-values.opacity">
+	<set name="com.sdussaut.svg.tag.line.attribute-values.opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- stroke | stroke-dasharray | stroke-dashoffset | stroke-linecap | stroke-linejoin | stroke-miterlimit | stroke-opacity | stroke-width -->
-	<set name="com.walkingamonggiants.svg.tag.line.attribute-values.stroke">
+	<set name="com.sdussaut.svg.tag.line.attribute-values.stroke">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.line.attribute-values.stroke-dasharray">
+	<set name="com.sdussaut.svg.tag.line.attribute-values.stroke-dasharray">
 		<completion string="none"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.line.attribute-values.stroke-dashoffset">
+	<set name="com.sdussaut.svg.tag.line.attribute-values.stroke-dashoffset">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.line.attribute-values.stroke-linecap">
+	<set name="com.sdussaut.svg.tag.line.attribute-values.stroke-linecap">
 		<completion string="butt"/>
 		<completion string="round"/>
 		<completion string="square"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.line.attribute-values.stroke-linejoin">
+	<set name="com.sdussaut.svg.tag.line.attribute-values.stroke-linejoin">
 		<completion string="miter"/>
 		<completion string="round"/>
 		<completion string="bevel"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.line.attribute-values.stroke-miterlimit">
+	<set name="com.sdussaut.svg.tag.line.attribute-values.stroke-miterlimit">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.line.attribute-values.stroke-opacity">
+	<set name="com.sdussaut.svg.tag.line.attribute-values.stroke-opacity">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.line.attribute-values.stroke-width">
+	<set name="com.sdussaut.svg.tag.line.attribute-values.stroke-width">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- transform -->
-	<set name="com.walkingamonggiants.svg.tag.line.attribute-values.transform">
+	<set name="com.sdussaut.svg.tag.line.attribute-values.transform">
 		<completion string="matrix(a,b,c,d,e,f)"/>
 		<completion string="translate(tx,ty)"/>
 		<completion string="scale(sx,sy)"/>
@@ -312,7 +312,7 @@ This file provides attributes values for tags that represent primitives:
 	
 	
 	<!-- xml:space -->
-	<set name="com.walkingamonggiants.svg.tag.line.attribute-values.xml:space">
+	<set name="com.sdussaut.svg.tag.line.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
@@ -321,7 +321,7 @@ This file provides attributes values for tags that represent primitives:
 	
 	<!-- RECT -->
 	<!-- display -->
-	<set name="com.walkingamonggiants.svg.tag.rect.attribute-values.display">
+	<set name="com.sdussaut.svg.tag.rect.attribute-values.display">
 		<completion string="inline" />
 		<completion string="block" />
 		<completion string="list-item" />
@@ -344,65 +344,65 @@ This file provides attributes values for tags that represent primitives:
 	
 	
 	<!-- fill | fill-rule | fill-opacity -->
-	<set name="com.walkingamonggiants.svg.tag.rect.attribute-values.fill">
+	<set name="com.sdussaut.svg.tag.rect.attribute-values.fill">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.rect.attribute-values.fill-rule">
+	<set name="com.sdussaut.svg.tag.rect.attribute-values.fill-rule">
 		<completion string="nonzero"/>
 		<completion string="evenodd"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.rect.attribute-values.fill-opacity">
+	<set name="com.sdussaut.svg.tag.rect.attribute-values.fill-opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- opacity -->
-	<set name="com.walkingamonggiants.svg.tag.rect.attribute-values.opacity">
+	<set name="com.sdussaut.svg.tag.rect.attribute-values.opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- stroke | stroke-dasharray | stroke-dashoffset | stroke-linecap | stroke-linejoin | stroke-miterlimit | stroke-opacity | stroke-width -->
-	<set name="com.walkingamonggiants.svg.tag.rect.attribute-values.stroke">
+	<set name="com.sdussaut.svg.tag.rect.attribute-values.stroke">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.rect.attribute-values.stroke-dasharray">
+	<set name="com.sdussaut.svg.tag.rect.attribute-values.stroke-dasharray">
 		<completion string="none"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.rect.attribute-values.stroke-dashoffset">
+	<set name="com.sdussaut.svg.tag.rect.attribute-values.stroke-dashoffset">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.rect.attribute-values.stroke-linecap">
+	<set name="com.sdussaut.svg.tag.rect.attribute-values.stroke-linecap">
 		<completion string="butt"/>
 		<completion string="round"/>
 		<completion string="square"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.rect.attribute-values.stroke-linejoin">
+	<set name="com.sdussaut.svg.tag.rect.attribute-values.stroke-linejoin">
 		<completion string="miter"/>
 		<completion string="round"/>
 		<completion string="bevel"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.rect.attribute-values.stroke-miterlimit">
+	<set name="com.sdussaut.svg.tag.rect.attribute-values.stroke-miterlimit">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.rect.attribute-values.stroke-opacity">
+	<set name="com.sdussaut.svg.tag.rect.attribute-values.stroke-opacity">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.rect.attribute-values.stroke-width">
+	<set name="com.sdussaut.svg.tag.rect.attribute-values.stroke-width">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- transform -->
-	<set name="com.walkingamonggiants.svg.tag.rect.attribute-values.transform">
+	<set name="com.sdussaut.svg.tag.rect.attribute-values.transform">
 		<completion string="matrix(a,b,c,d,e,f)"/>
 		<completion string="translate(tx,ty)"/>
 		<completion string="scale(sx,sy)"/>
@@ -413,7 +413,7 @@ This file provides attributes values for tags that represent primitives:
 	
 	
 	<!-- xml:space -->
-	<set name="com.walkingamonggiants.svg.tag.rect.attribute-values.xml:space">
+	<set name="com.sdussaut.svg.tag.rect.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
@@ -422,7 +422,7 @@ This file provides attributes values for tags that represent primitives:
 	
 	<!-- PATH -->
 	<!-- display -->
-	<set name="com.walkingamonggiants.svg.tag.path.attribute-values.display">
+	<set name="com.sdussaut.svg.tag.path.attribute-values.display">
 		<completion string="inline" />
 		<completion string="block" />
 		<completion string="list-item" />
@@ -445,65 +445,65 @@ This file provides attributes values for tags that represent primitives:
 	
 	
 	<!-- fill | fill-rule | fill-opacity -->
-	<set name="com.walkingamonggiants.svg.tag.path.attribute-values.fill">
+	<set name="com.sdussaut.svg.tag.path.attribute-values.fill">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.path.attribute-values.fill-rule">
+	<set name="com.sdussaut.svg.tag.path.attribute-values.fill-rule">
 		<completion string="nonzero"/>
 		<completion string="evenodd"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.path.attribute-values.fill-opacity">
+	<set name="com.sdussaut.svg.tag.path.attribute-values.fill-opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- opacity -->
-	<set name="com.walkingamonggiants.svg.tag.path.attribute-values.opacity">
+	<set name="com.sdussaut.svg.tag.path.attribute-values.opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- stroke | stroke-dasharray | stroke-dashoffset | stroke-linecap | stroke-linejoin | stroke-miterlimit | stroke-opacity | stroke-width -->
-	<set name="com.walkingamonggiants.svg.tag.path.attribute-values.stroke">
+	<set name="com.sdussaut.svg.tag.path.attribute-values.stroke">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.path.attribute-values.stroke-dasharray">
+	<set name="com.sdussaut.svg.tag.path.attribute-values.stroke-dasharray">
 		<completion string="none"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.path.attribute-values.stroke-dashoffset">
+	<set name="com.sdussaut.svg.tag.path.attribute-values.stroke-dashoffset">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.path.attribute-values.stroke-linecap">
+	<set name="com.sdussaut.svg.tag.path.attribute-values.stroke-linecap">
 		<completion string="butt"/>
 		<completion string="round"/>
 		<completion string="square"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.path.attribute-values.stroke-linejoin">
+	<set name="com.sdussaut.svg.tag.path.attribute-values.stroke-linejoin">
 		<completion string="miter"/>
 		<completion string="round"/>
 		<completion string="bevel"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.path.attribute-values.stroke-miterlimit">
+	<set name="com.sdussaut.svg.tag.path.attribute-values.stroke-miterlimit">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.path.attribute-values.stroke-opacity">
+	<set name="com.sdussaut.svg.tag.path.attribute-values.stroke-opacity">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.path.attribute-values.stroke-width">
+	<set name="com.sdussaut.svg.tag.path.attribute-values.stroke-width">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- transform -->
-	<set name="com.walkingamonggiants.svg.tag.path.attribute-values.transform">
+	<set name="com.sdussaut.svg.tag.path.attribute-values.transform">
 		<completion string="matrix(a,b,c,d,e,f)"/>
 		<completion string="translate(tx,ty)"/>
 		<completion string="scale(sx,sy)"/>
@@ -514,7 +514,7 @@ This file provides attributes values for tags that represent primitives:
 	
 	
 	<!-- xml:space -->
-	<set name="com.walkingamonggiants.svg.tag.path.attribute-values.xml:space">
+	<set name="com.sdussaut.svg.tag.path.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
@@ -523,7 +523,7 @@ This file provides attributes values for tags that represent primitives:
 	
 	<!-- POLYGON -->
 	<!-- display -->
-	<set name="com.walkingamonggiants.svg.tag.polygon.attribute-values.display">
+	<set name="com.sdussaut.svg.tag.polygon.attribute-values.display">
 		<completion string="inline" />
 		<completion string="block" />
 		<completion string="list-item" />
@@ -546,65 +546,65 @@ This file provides attributes values for tags that represent primitives:
 	
 	
 	<!-- fill | fill-rule | fill-opacity -->
-	<set name="com.walkingamonggiants.svg.tag.polygon.attribute-values.fill">
+	<set name="com.sdussaut.svg.tag.polygon.attribute-values.fill">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.polygon.attribute-values.fill-rule">
+	<set name="com.sdussaut.svg.tag.polygon.attribute-values.fill-rule">
 		<completion string="nonzero"/>
 		<completion string="evenodd"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.polygon.attribute-values.fill-opacity">
+	<set name="com.sdussaut.svg.tag.polygon.attribute-values.fill-opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- opacity -->
-	<set name="com.walkingamonggiants.svg.tag.polygon.attribute-values.opacity">
+	<set name="com.sdussaut.svg.tag.polygon.attribute-values.opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- stroke | stroke-dasharray | stroke-dashoffset | stroke-linecap | stroke-linejoin | stroke-miterlimit | stroke-opacity | stroke-width -->
-	<set name="com.walkingamonggiants.svg.tag.polygon.attribute-values.stroke">
+	<set name="com.sdussaut.svg.tag.polygon.attribute-values.stroke">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.polygon.attribute-values.stroke-dasharray">
+	<set name="com.sdussaut.svg.tag.polygon.attribute-values.stroke-dasharray">
 		<completion string="none"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.polygon.attribute-values.stroke-dashoffset">
+	<set name="com.sdussaut.svg.tag.polygon.attribute-values.stroke-dashoffset">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.polygon.attribute-values.stroke-linecap">
+	<set name="com.sdussaut.svg.tag.polygon.attribute-values.stroke-linecap">
 		<completion string="butt"/>
 		<completion string="round"/>
 		<completion string="square"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.polygon.attribute-values.stroke-linejoin">
+	<set name="com.sdussaut.svg.tag.polygon.attribute-values.stroke-linejoin">
 		<completion string="miter"/>
 		<completion string="round"/>
 		<completion string="bevel"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.polygon.attribute-values.stroke-miterlimit">
+	<set name="com.sdussaut.svg.tag.polygon.attribute-values.stroke-miterlimit">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.polygon.attribute-values.stroke-opacity">
+	<set name="com.sdussaut.svg.tag.polygon.attribute-values.stroke-opacity">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.polygon.attribute-values.stroke-width">
+	<set name="com.sdussaut.svg.tag.polygon.attribute-values.stroke-width">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- transform -->
-	<set name="com.walkingamonggiants.svg.tag.polygon.attribute-values.transform">
+	<set name="com.sdussaut.svg.tag.polygon.attribute-values.transform">
 		<completion string="matrix(a,b,c,d,e,f)"/>
 		<completion string="translate(tx,ty)"/>
 		<completion string="scale(sx,sy)"/>
@@ -615,7 +615,7 @@ This file provides attributes values for tags that represent primitives:
 	
 	
 	<!-- xml:space -->
-	<set name="com.walkingamonggiants.svg.tag.polygon.attribute-values.xml:space">
+	<set name="com.sdussaut.svg.tag.polygon.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
@@ -624,7 +624,7 @@ This file provides attributes values for tags that represent primitives:
 	
 	<!-- POLYLINE -->
 	<!-- display -->
-	<set name="com.walkingamonggiants.svg.tag.polyline.attribute-values.display">
+	<set name="com.sdussaut.svg.tag.polyline.attribute-values.display">
 		<completion string="inline" />
 		<completion string="block" />
 		<completion string="list-item" />
@@ -647,65 +647,65 @@ This file provides attributes values for tags that represent primitives:
 	
 	
 	<!-- fill | fill-rule | fill-opacity -->
-	<set name="com.walkingamonggiants.svg.tag.polyline.attribute-values.fill">
+	<set name="com.sdussaut.svg.tag.polyline.attribute-values.fill">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.polyline.attribute-values.fill-rule">
+	<set name="com.sdussaut.svg.tag.polyline.attribute-values.fill-rule">
 		<completion string="nonzero"/>
 		<completion string="evenodd"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.polyline.attribute-values.fill-opacity">
+	<set name="com.sdussaut.svg.tag.polyline.attribute-values.fill-opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- opacity -->
-	<set name="com.walkingamonggiants.svg.tag.polyline.attribute-values.opacity">
+	<set name="com.sdussaut.svg.tag.polyline.attribute-values.opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- stroke | stroke-dasharray | stroke-dashoffset | stroke-linecap | stroke-linejoin | stroke-miterlimit | stroke-opacity | stroke-width -->
-	<set name="com.walkingamonggiants.svg.tag.polyline.attribute-values.stroke">
+	<set name="com.sdussaut.svg.tag.polyline.attribute-values.stroke">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.polyline.attribute-values.stroke-dasharray">
+	<set name="com.sdussaut.svg.tag.polyline.attribute-values.stroke-dasharray">
 		<completion string="none"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.polyline.attribute-values.stroke-dashoffset">
+	<set name="com.sdussaut.svg.tag.polyline.attribute-values.stroke-dashoffset">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.polyline.attribute-values.stroke-linecap">
+	<set name="com.sdussaut.svg.tag.polyline.attribute-values.stroke-linecap">
 		<completion string="butt"/>
 		<completion string="round"/>
 		<completion string="square"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.polyline.attribute-values.stroke-linejoin">
+	<set name="com.sdussaut.svg.tag.polyline.attribute-values.stroke-linejoin">
 		<completion string="miter"/>
 		<completion string="round"/>
 		<completion string="bevel"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.polyline.attribute-values.stroke-miterlimit">
+	<set name="com.sdussaut.svg.tag.polyline.attribute-values.stroke-miterlimit">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.polyline.attribute-values.stroke-opacity">
+	<set name="com.sdussaut.svg.tag.polyline.attribute-values.stroke-opacity">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.polyline.attribute-values.stroke-width">
+	<set name="com.sdussaut.svg.tag.polyline.attribute-values.stroke-width">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- transform -->
-	<set name="com.walkingamonggiants.svg.tag.polyline.attribute-values.transform">
+	<set name="com.sdussaut.svg.tag.polyline.attribute-values.transform">
 		<completion string="matrix(a,b,c,d,e,f)"/>
 		<completion string="translate(tx,ty)"/>
 		<completion string="scale(sx,sy)"/>
@@ -716,7 +716,7 @@ This file provides attributes values for tags that represent primitives:
 	
 	
 	<!-- xml:space -->
-	<set name="com.walkingamonggiants.svg.tag.polyline.attribute-values.xml:space">
+	<set name="com.sdussaut.svg.tag.polyline.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
@@ -725,7 +725,7 @@ This file provides attributes values for tags that represent primitives:
 	
 	<!-- TEXT -->
 	<!-- display -->
-	<set name="com.walkingamonggiants.svg.tag.text.attribute-values.display">
+	<set name="com.sdussaut.svg.tag.text.attribute-values.display">
 		<completion string="inline" />
 		<completion string="block" />
 		<completion string="list-item" />
@@ -748,72 +748,72 @@ This file provides attributes values for tags that represent primitives:
 	
 	
 	<!-- fill | fill-rule | fill-opacity -->
-	<set name="com.walkingamonggiants.svg.tag.text.attribute-values.fill">
+	<set name="com.sdussaut.svg.tag.text.attribute-values.fill">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.text.attribute-values.fill-rule">
+	<set name="com.sdussaut.svg.tag.text.attribute-values.fill-rule">
 		<completion string="nonzero"/>
 		<completion string="evenodd"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.text.attribute-values.fill-opacity">
+	<set name="com.sdussaut.svg.tag.text.attribute-values.fill-opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- lengthAdjust -->
-	<set name="com.walkingamonggiants.svg.tag.text.attribute-values.lengthAdjust">
+	<set name="com.sdussaut.svg.tag.text.attribute-values.lengthAdjust">
 		<completion string="spacing"/>
 		<completion string="spacingAndGlyphs"/>
 	</set>
 	
 	
 	<!-- opacity -->
-	<set name="com.walkingamonggiants.svg.tag.text.attribute-values.opacity">
+	<set name="com.sdussaut.svg.tag.text.attribute-values.opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- stroke | stroke-dasharray | stroke-dashoffset | stroke-linecap | stroke-linejoin | stroke-miterlimit | stroke-opacity | stroke-width -->
-	<set name="com.walkingamonggiants.svg.tag.text.attribute-values.stroke">
+	<set name="com.sdussaut.svg.tag.text.attribute-values.stroke">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.text.attribute-values.stroke-dasharray">
+	<set name="com.sdussaut.svg.tag.text.attribute-values.stroke-dasharray">
 		<completion string="none"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.text.attribute-values.stroke-dashoffset">
+	<set name="com.sdussaut.svg.tag.text.attribute-values.stroke-dashoffset">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.text.attribute-values.stroke-linecap">
+	<set name="com.sdussaut.svg.tag.text.attribute-values.stroke-linecap">
 		<completion string="butt"/>
 		<completion string="round"/>
 		<completion string="square"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.text.attribute-values.stroke-linejoin">
+	<set name="com.sdussaut.svg.tag.text.attribute-values.stroke-linejoin">
 		<completion string="miter"/>
 		<completion string="round"/>
 		<completion string="bevel"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.text.attribute-values.stroke-miterlimit">
+	<set name="com.sdussaut.svg.tag.text.attribute-values.stroke-miterlimit">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.text.attribute-values.stroke-opacity">
+	<set name="com.sdussaut.svg.tag.text.attribute-values.stroke-opacity">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.text.attribute-values.stroke-width">
+	<set name="com.sdussaut.svg.tag.text.attribute-values.stroke-width">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- transform -->
-	<set name="com.walkingamonggiants.svg.tag.text.attribute-values.transform">
+	<set name="com.sdussaut.svg.tag.text.attribute-values.transform">
 		<completion string="matrix(a,b,c,d,e,f)"/>
 		<completion string="translate(tx,ty)"/>
 		<completion string="scale(sx,sy)"/>
@@ -824,7 +824,7 @@ This file provides attributes values for tags that represent primitives:
 	
 	
 	<!-- xml:space -->
-	<set name="com.walkingamonggiants.svg.tag.text.attribute-values.xml:space">
+	<set name="com.sdussaut.svg.tag.text.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
@@ -833,7 +833,7 @@ This file provides attributes values for tags that represent primitives:
 	
 	<!-- IMAGE -->
 	<!-- display -->
-	<set name="com.walkingamonggiants.svg.tag.image.attribute-values.display">
+	<set name="com.sdussaut.svg.tag.image.attribute-values.display">
 		<completion string="inline" />
 		<completion string="block" />
 		<completion string="list-item" />
@@ -856,36 +856,36 @@ This file provides attributes values for tags that represent primitives:
 	
 	
 	<!-- fill | fill-rule | fill-opacity -->
-	<set name="com.walkingamonggiants.svg.tag.image.attribute-values.fill">
+	<set name="com.sdussaut.svg.tag.image.attribute-values.fill">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.image.attribute-values.fill-rule">
+	<set name="com.sdussaut.svg.tag.image.attribute-values.fill-rule">
 		<completion string="nonzero"/>
 		<completion string="evenodd"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.image.attribute-values.fill-opacity">
+	<set name="com.sdussaut.svg.tag.image.attribute-values.fill-opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- lengthAdjust -->
-	<set name="com.walkingamonggiants.svg.tag.image.attribute-values.lengthAdjust">
+	<set name="com.sdussaut.svg.tag.image.attribute-values.lengthAdjust">
 		<completion string="spacing"/>
 		<completion string="spacingAndGlyphs"/>
 	</set>
 	
 	
 	<!-- opacity -->
-	<set name="com.walkingamonggiants.svg.tag.image.attribute-values.opacity">
+	<set name="com.sdussaut.svg.tag.image.attribute-values.opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- preserveAspectRatio -->
-	<set name="com.walkingamonggiants.svg.tag.image.attribute-values.preserveAspectRatio">
+	<set name="com.sdussaut.svg.tag.image.attribute-values.preserveAspectRatio">
 		<completion string="defer"/>
 		<completion string="none"/>
 		<completion string="xMinYMin"/>
@@ -903,43 +903,43 @@ This file provides attributes values for tags that represent primitives:
 	
 	
 	<!-- stroke | stroke-dasharray | stroke-dashoffset | stroke-linecap | stroke-linejoin | stroke-miterlimit | stroke-opacity | stroke-width -->
-	<set name="com.walkingamonggiants.svg.tag.image.attribute-values.stroke">
+	<set name="com.sdussaut.svg.tag.image.attribute-values.stroke">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.image.attribute-values.stroke-dasharray">
+	<set name="com.sdussaut.svg.tag.image.attribute-values.stroke-dasharray">
 		<completion string="none"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.image.attribute-values.stroke-dashoffset">
+	<set name="com.sdussaut.svg.tag.image.attribute-values.stroke-dashoffset">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.image.attribute-values.stroke-linecap">
+	<set name="com.sdussaut.svg.tag.image.attribute-values.stroke-linecap">
 		<completion string="butt"/>
 		<completion string="round"/>
 		<completion string="square"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.image.attribute-values.stroke-linejoin">
+	<set name="com.sdussaut.svg.tag.image.attribute-values.stroke-linejoin">
 		<completion string="miter"/>
 		<completion string="round"/>
 		<completion string="bevel"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.image.attribute-values.stroke-miterlimit">
+	<set name="com.sdussaut.svg.tag.image.attribute-values.stroke-miterlimit">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.image.attribute-values.stroke-opacity">
+	<set name="com.sdussaut.svg.tag.image.attribute-values.stroke-opacity">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.image.attribute-values.stroke-width">
+	<set name="com.sdussaut.svg.tag.image.attribute-values.stroke-width">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- transform -->
-	<set name="com.walkingamonggiants.svg.tag.image.attribute-values.transform">
+	<set name="com.sdussaut.svg.tag.image.attribute-values.transform">
 		<completion string="matrix(a,b,c,d,e,f)"/>
 		<completion string="translate(tx,ty)"/>
 		<completion string="scale(sx,sy)"/>
@@ -950,7 +950,7 @@ This file provides attributes values for tags that represent primitives:
 	
 	
 	<!-- xml:space -->
-	<set name="com.walkingamonggiants.svg.tag.image.attribute-values.xml:space">
+	<set name="com.sdussaut.svg.tag.image.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>

@@ -23,6 +23,7 @@ For the moment the sugar proposes a basic level of SVG completion support. Are s
 - general purpose elements : `<desc/>`, `<metadata/>`, `<title/>`, `<defs/>`, `<symbol/>`, `<switch/>`, `<script/>`, `<foreignObject/>`, `<pattern/>`
 - gradients and stops
 - markers
+- basic animation elements (not SMIL): `<animate/>`, `<animateColor/>`, `<animateMotion/>`, `<animateTransform/>`, `<mpath/>` and `<set/>`
 
 
 
@@ -30,7 +31,7 @@ For the moment the sugar proposes a basic level of SVG completion support. Are s
 
 A lot :)
 
-- <del>text (font-*, text*), color (gradients), stops, patterns, markers</del> and animation (not SMIL) elements
+- <del>text (font-*, text*), color (gradients), stops, patterns, markers and animation (not SMIL) elements</del>
 - <del>generic elements like `<metadata/>` and `<title/>`</del>
 - <del>snippets for `<!DOCTYPE>`s, `CDATA` section and new SVG document template</del>
 - support for `style` attribute on elements

@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 
-This file provides attributes for font and color tags:
+This file provides attributes for animate (non-SMIL) et filters tags:
 
-- font
+- animate
+- animateColor
+- animateMotion
+- animateTransform
+- mpath
+- set
 
 
 -->
@@ -24,18 +29,13 @@ This file provides attributes for font and color tags:
 	</behavior>
 	
 	
-	<!-- FONT -->
-	<set name="com.walkingamonggiants.svg.tag.font.attributes">
+	<!-- ANIMATE -->
+	<set name="com.sdussaut.svg.tag.animate.attributes">
 		<!-- basic attributes -->
-		<completion string="horiz-origin-x"/>
-		<completion string="horiz-origin-y"/>
-		<completion string="horiz-adv-x"/>
-		<completion string="vert-origin-x"/>
-		<completion string="vert-origin-y"/>
-		<completion string="vert-adv-y"/>
+		<completion string="xlink:href"/>
 		<!--<completion string="externalResourcesRequired"/>-->
 		
-		
+	
 		<!-- presentation attributes -->
 		<completion string="display"/>
 		<completion string="fill"/>
@@ -50,7 +50,310 @@ This file provides attributes for font and color tags:
 		<completion string="stroke-miterlimit"/>
 		<completion string="stroke-opacity"/>
 		<completion string="stroke-width"/>
+		
+		
+		<!-- animation event attributes -->
+		<completion string="onbegin"/>
+		<completion string="onend"/>
+		<completion string="onrepeat"/>
+		<completion string="onload"/>
+
+		
+		<!-- animation attribute target attributes -->
+		<completion string="attributeType"/>
+		<completion string="attributeName"/>
+		
+		
+		<!-- animation timing attributes -->
+		<completion string="begin"/>
+		<completion string="dur"/>
+		<completion string="end"/>
+		<completion string="min"/>
+		<completion string="max"/>
+		<completion string="restart"/>
+		<completion string="repeatCount"/>
+		<completion string="repeatDur"/>
+		<!--<completion string="fill"/>-->
+		
+		
+		<!-- animation value attributes -->
+		<completion string="calcMode"/>
+		<completion string="values"/>
+		<completion string="keyTimes"/>
+		<completion string="keySplines"/>
+		<completion string="from"/>
+		<completion string="to"/>
+		<completion string="by"/>
+		
+		
+		<!-- animation addition attributes -->
+		<completion string="additive"/>
+		<completion string="accumulate"/>
+		
+		
+		
+		<!-- xlink attributes -->
+		<completion string="xlink:show"/>
+		<completion string="xlink:actuate"/>
+		<completion string="xlink:type"/>
+		<completion string="xlink:role"/>
+		<completion string="xlink:arcrole"/>
+		<completion string="xlink:title"/>
+		
 	</set>
 	
+	
+	<!-- ANIMATECOLOR --> <!-- deprecated -->
+	<set name="com.sdussaut.svg.tag.animateColor.attributes">
+		<!-- basic attributes -->
+		<completion string="xlink:href"/>
+		<!--<completion string="externalResourcesRequired"/>-->
+		
+	
+		<!-- presentation attributes -->
+		<completion string="display"/>
+		<completion string="fill"/>
+		<completion string="fill-opacity"/>
+		<completion string="fill-rule"/>
+		<completion string="opacity"/>
+		<completion string="stroke"/>
+		<completion string="stroke-dasharray"/>
+		<completion string="stroke-dashoffset"/>
+		<completion string="stroke-linecap"/>
+		<completion string="stroke-linejoin"/>
+		<completion string="stroke-miterlimit"/>
+		<completion string="stroke-opacity"/>
+		<completion string="stroke-width"/>
+		
+		
+		<!-- animation event attributes -->
+		<completion string="onbegin"/>
+		<completion string="onend"/>
+		<completion string="onrepeat"/>
+		<completion string="onload"/>
+
+		
+		<!-- animation attribute target attributes -->
+		<completion string="attributeType"/>
+		<completion string="attributeName"/>
+		
+		
+		<!-- animation timing attributes -->
+		<completion string="begin"/>
+		<completion string="dur"/>
+		<completion string="end"/>
+		<completion string="min"/>
+		<completion string="max"/>
+		<completion string="restart"/>
+		<completion string="repeatCount"/>
+		<completion string="repeatDur"/>
+		<!--<completion string="fill"/>-->
+		
+		
+		<!-- animation value attributes -->
+		<completion string="calcMode"/>
+		<completion string="values"/>
+		<completion string="keyTimes"/>
+		<completion string="keySplines"/>
+		<completion string="from"/>
+		<completion string="to"/>
+		<completion string="by"/>
+		
+		
+		<!-- animation addition attributes -->
+		<completion string="additive"/>
+		<completion string="accumulate"/>
+		
+		
+		
+		<!-- xlink attributes -->
+		<completion string="xlink:show"/>
+		<completion string="xlink:actuate"/>
+		<completion string="xlink:type"/>
+		<completion string="xlink:role"/>
+		<completion string="xlink:arcrole"/>
+		<completion string="xlink:title"/>
+		
+	</set>
+	
+	
+	
+	<!-- ANIMATEMOTION -->
+	<set name="com.sdussaut.svg.tag.animateMotion.attributes">
+		<!-- basic attributes -->
+		<completion string="path"/>
+		<completion string="keyPoints"/>
+		<completion string="rotate"/>
+		<completion string="origin"/>
+		<completion string="xlink:href"/>
+		<!--<completion string="externalResourcesRequired"/>-->
+		
+		
+		<!-- animation event attributes -->
+		<completion string="onbegin"/>
+		<completion string="onend"/>
+		<completion string="onrepeat"/>
+		<completion string="onload"/>
+
+		
+		<!-- animation timing attributes -->
+		<completion string="begin"/>
+		<completion string="dur"/>
+		<completion string="end"/>
+		<completion string="min"/>
+		<completion string="max"/>
+		<completion string="restart"/>
+		<completion string="repeatCount"/>
+		<completion string="repeatDur"/>
+		<completion string="fill"/>
+		
+		
+		<!-- animation value attributes -->
+		<completion string="calcMode"/>
+		<completion string="values"/>
+		<completion string="keyTimes"/>
+		<completion string="keySplines"/>
+		<completion string="from"/>
+		<completion string="to"/>
+		<completion string="by"/>
+		
+		
+		<!-- animation addition attributes -->
+		<completion string="additive"/>
+		<completion string="accumulate"/>
+		
+		
+		
+		<!-- xlink attributes -->
+		<completion string="xlink:show"/>
+		<completion string="xlink:actuate"/>
+		<completion string="xlink:type"/>
+		<completion string="xlink:role"/>
+		<completion string="xlink:arcrole"/>
+		<completion string="xlink:title"/>
+		
+	</set>
+	
+	
+	
+	<!-- ANIMATETRANSFORM -->
+	<set name="com.sdussaut.svg.tag.animateTransform.attributes">
+		<!-- basic attributes -->
+		<completion string="type"/>
+		<completion string="xlink:href"/>
+		<!--<completion string="externalResourcesRequired"/>-->
+		
+		
+		<!-- animation event attributes -->
+		<completion string="onbegin"/>
+		<completion string="onend"/>
+		<completion string="onrepeat"/>
+		<completion string="onload"/>
+		
+		
+		<!-- animation attribute target attributes -->
+		<completion string="attributeType"/>
+		<completion string="attributeName"/>
+
+		
+		<!-- animation timing attributes -->
+		<completion string="begin"/>
+		<completion string="dur"/>
+		<completion string="end"/>
+		<completion string="min"/>
+		<completion string="max"/>
+		<completion string="restart"/>
+		<completion string="repeatCount"/>
+		<completion string="repeatDur"/>
+		<completion string="fill"/>
+		
+		
+		<!-- animation value attributes -->
+		<completion string="calcMode"/>
+		<completion string="values"/>
+		<completion string="keyTimes"/>
+		<completion string="keySplines"/>
+		<completion string="from"/>
+		<completion string="to"/>
+		<completion string="by"/>
+		
+		
+		<!-- animation addition attributes -->
+		<completion string="additive"/>
+		<completion string="accumulate"/>
+		
+		
+		
+		<!-- xlink attributes -->
+		<completion string="xlink:show"/>
+		<completion string="xlink:actuate"/>
+		<completion string="xlink:type"/>
+		<completion string="xlink:role"/>
+		<completion string="xlink:arcrole"/>
+		<completion string="xlink:title"/>
+		
+	</set>
+	
+	
+	
+	<!-- MPATH -->
+	<set name="com.sdussaut.svg.tag.mpath.attributes">
+		<!-- basic attributes -->
+		<completion string="xlink:href"/>
+		<!--<completion string="externalResourcesRequired"/>-->
+				
+		<!-- xlink attributes -->
+		<completion string="xlink:show"/>
+		<completion string="xlink:actuate"/>
+		<completion string="xlink:type"/>
+		<completion string="xlink:role"/>
+		<completion string="xlink:arcrole"/>
+		<completion string="xlink:title"/>
+		
+	</set>
+	
+	
+	
+	<!-- SET -->
+	<set name="com.sdussaut.svg.tag.set.attributes">
+		<!-- basic attributes -->
+		<completion string="to"/>
+		<completion string="xlink:href"/>
+		<!--<completion string="externalResourcesRequired"/>-->
+		
+		
+		<!-- animation event attributes -->
+		<completion string="onbegin"/>
+		<completion string="onend"/>
+		<completion string="onrepeat"/>
+		<completion string="onload"/>
+		
+		
+		<!-- animation attribute target attributes -->
+		<completion string="attributeType"/>
+		<completion string="attributeName"/>
+
+		
+		<!-- animation timing attributes -->
+		<completion string="begin"/>
+		<completion string="dur"/>
+		<completion string="end"/>
+		<completion string="min"/>
+		<completion string="max"/>
+		<completion string="restart"/>
+		<completion string="repeatCount"/>
+		<completion string="repeatDur"/>
+		<completion string="fill"/>
+		
+		
+		<!-- xlink attributes -->
+		<completion string="xlink:show"/>
+		<completion string="xlink:actuate"/>
+		<completion string="xlink:type"/>
+		<completion string="xlink:role"/>
+		<completion string="xlink:arcrole"/>
+		<completion string="xlink:title"/>
+		
+	</set>
 	
 </codesense>

@@ -27,7 +27,7 @@ This file provides general common attributes for ALL SVG tags:
 		
 	</behavior>
 	
-	<set name="com.walkingamonggiants.svg.tag.standard-attributes">
+	<set name="com.sdussaut.svg.tag.standard-attributes">
 		<completion string="class"/>
 		<completion string="id"/>
 		<completion string="style"/>

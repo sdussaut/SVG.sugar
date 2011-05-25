@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <codesense version="1.0">
 
-	<set name="com.walkingamonggiants.svg.tags">
+	<set name="com.sdussaut.svg.tags">
 		<!-- Default behavior -->
 		<behavior>
 			<append-dynamic>
@@ -259,9 +259,64 @@
 			</behavior>
 		</completion>
 		
+		<!-- animation & filters -->
+		<completion string="animate">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: attributeName="$1"$2>${0}&lt;/animate>)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="animateColor">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: attributeName="$1"$2>${0}&lt;/animateColor>)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="animateMotion">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::$1>${0}&lt;/animateMotion>)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="animateTransform">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: attributeName="${1:transform}" type="$2"$3>${0}&lt;/animateTransform>)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="mpath">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: xlink:href="#${1:path-id}"$2>${0}&lt;/mpath>)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="set">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: attributeName="${1:attribute name}" to="$2"$3>${0}&lt;/set>)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
 	</set>
 	
-	<set name="com.walkingamonggiants.svg.tags.self-closing">
+	<set name="com.sdussaut.svg.tags.self-closing">
 		<!-- A behavior defined in a set applies only to that set. -->
 		<behavior>
 			<append-static> /></append-static>

@@ -28,7 +28,7 @@ This file provides attributes values for font and color-related tags:
 	
 	<!-- FONT -->
 	<!-- display -->
-	<set name="com.walkingamonggiants.svg.tag.font.attribute-values.display">
+	<set name="com.sdussaut.svg.tag.font.attribute-values.display">
 		<completion string="inline" />
 		<completion string="block" />
 		<completion string="list-item" />
@@ -51,65 +51,65 @@ This file provides attributes values for font and color-related tags:
 	
 	
 	<!-- fill | fill-rule | fill-opacity -->
-	<set name="com.walkingamonggiants.svg.tag.font.attribute-values.fill">
+	<set name="com.sdussaut.svg.tag.font.attribute-values.fill">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.font.attribute-values.fill-rule">
+	<set name="com.sdussaut.svg.tag.font.attribute-values.fill-rule">
 		<completion string="nonzero"/>
 		<completion string="evenodd"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.font.attribute-values.fill-opacity">
+	<set name="com.sdussaut.svg.tag.font.attribute-values.fill-opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- opacity -->
-	<set name="com.walkingamonggiants.svg.tag.font.attribute-values.opacity">
+	<set name="com.sdussaut.svg.tag.font.attribute-values.opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- stroke | stroke-dasharray | stroke-dashoffset | stroke-linecap | stroke-linejoin | stroke-miterlimit | stroke-opacity | stroke-width -->
-	<set name="com.walkingamonggiants.svg.tag.font.attribute-values.stroke">
+	<set name="com.sdussaut.svg.tag.font.attribute-values.stroke">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.font.attribute-values.stroke-dasharray">
+	<set name="com.sdussaut.svg.tag.font.attribute-values.stroke-dasharray">
 		<completion string="none"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.font.attribute-values.stroke-dashoffset">
+	<set name="com.sdussaut.svg.tag.font.attribute-values.stroke-dashoffset">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.font.attribute-values.stroke-linecap">
+	<set name="com.sdussaut.svg.tag.font.attribute-values.stroke-linecap">
 		<completion string="butt"/>
 		<completion string="round"/>
 		<completion string="square"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.font.attribute-values.stroke-linejoin">
+	<set name="com.sdussaut.svg.tag.font.attribute-values.stroke-linejoin">
 		<completion string="miter"/>
 		<completion string="round"/>
 		<completion string="bevel"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.font.attribute-values.stroke-miterlimit">
+	<set name="com.sdussaut.svg.tag.font.attribute-values.stroke-miterlimit">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.font.attribute-values.stroke-opacity">
+	<set name="com.sdussaut.svg.tag.font.attribute-values.stroke-opacity">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.font.attribute-values.stroke-width">
+	<set name="com.sdussaut.svg.tag.font.attribute-values.stroke-width">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- xml:space -->
-	<set name="com.walkingamonggiants.svg.tag.font.attribute-values.xml:space">
+	<set name="com.sdussaut.svg.tag.font.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
@@ -118,17 +118,17 @@ This file provides attributes values for font and color-related tags:
 	
 	<!-- FONT-FACE -->
 	<!-- font-style | font-variant | font-weight | font-stretch -->
-	<set name="com.walkingamonggiants.svg.tag.font-face.attribute-values.font-style">
+	<set name="com.sdussaut.svg.tag.font-face.attribute-values.font-style">
 		<completion string="all"/>
 		<completion string="normal"/>
 		<completion string="italic"/>
 		<completion string="oblique"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.font-face.attribute-values.font-variant">
+	<set name="com.sdussaut.svg.tag.font-face.attribute-values.font-variant">
 		<completion string="normal"/>
 		<completion string="small-caps"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.font-face.attribute-values.font-weight">
+	<set name="com.sdussaut.svg.tag.font-face.attribute-values.font-weight">
 		<completion string="all"/>
 		<completion string="normal"/>
 		<completion string="bold"/>
@@ -142,7 +142,7 @@ This file provides attributes values for font and color-related tags:
 		<completion string="800"/>
 		<completion string="900"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.font-face.attribute-values.font-stretch">
+	<set name="com.sdussaut.svg.tag.font-face.attribute-values.font-stretch">
 		<completion string="all"/>
 		<completion string="normal"/>
 		<completion string="ultra-condensed"/>
@@ -157,7 +157,7 @@ This file provides attributes values for font and color-related tags:
 		
 	
 	<!-- xml:space -->
-	<set name="com.walkingamonggiants.svg.tag.font.attribute-values.xml:space">
+	<set name="com.sdussaut.svg.tag.font.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
@@ -165,7 +165,7 @@ This file provides attributes values for font and color-related tags:
 	
 	<!-- FONT-FACE-FORMAT -->
 	<!-- xml:space -->
-	<set name="com.walkingamonggiants.svg.tag.font-face-format.attribute-values.xml:space">
+	<set name="com.sdussaut.svg.tag.font-face-format.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
@@ -173,7 +173,7 @@ This file provides attributes values for font and color-related tags:
 	
 	<!-- FONT-FACE-NAME -->
 	<!-- xml:space -->
-	<set name="com.walkingamonggiants.svg.tag.font-face-name.attribute-values.xml:space">
+	<set name="com.sdussaut.svg.tag.font-face-name.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
@@ -181,21 +181,21 @@ This file provides attributes values for font and color-related tags:
 	
 	<!-- FONT-FACE-URI -->
 	<!-- xlink:show | xlink:actuate | xlink:type -->
-	<set name="com.walkingamonggiants.svg.tag.font-face-uri.attribute-values.xlink:show">
+	<set name="com.sdussaut.svg.tag.font-face-uri.attribute-values.xlink:show">
 		<completion string="new"/>
 		<completion string="replace"/>
 		<completion string="other"/>
 		<completion string="none"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.font-face-uri.attribute-values.xlink:actuate">
+	<set name="com.sdussaut.svg.tag.font-face-uri.attribute-values.xlink:actuate">
 		<completion string="onLoad"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.font-face-uri.attribute-values.xlink:type">
+	<set name="com.sdussaut.svg.tag.font-face-uri.attribute-values.xlink:type">
 		<completion string="simple"/>
 	</set>
 	
 	<!-- xml:space -->
-	<set name="com.walkingamonggiants.svg.tag.font-face-uri.attribute-values.xml:space">
+	<set name="com.sdussaut.svg.tag.font-face-uri.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
@@ -204,7 +204,7 @@ This file provides attributes values for font and color-related tags:
 	
 	<!-- GLYPH -->
 	<!-- arabic-form -->
-	<set name="com.walkingamonggiants.svg.tag.glyph.attribute-values.arabic-form">
+	<set name="com.sdussaut.svg.tag.glyph.attribute-values.arabic-form">
 		<completion string="initial"/>
 		<completion string="medial"/>
 		<completion string="terminal"/>
@@ -212,7 +212,7 @@ This file provides attributes values for font and color-related tags:
 	</set>
 	
 	<!-- display -->
-	<set name="com.walkingamonggiants.svg.tag.glyph.attribute-values.display">
+	<set name="com.sdussaut.svg.tag.glyph.attribute-values.display">
 		<completion string="inline" />
 		<completion string="block" />
 		<completion string="list-item" />
@@ -235,72 +235,72 @@ This file provides attributes values for font and color-related tags:
 	
 	
 	<!-- fill | fill-rule | fill-opacity -->
-	<set name="com.walkingamonggiants.svg.tag.glyph.attribute-values.fill">
+	<set name="com.sdussaut.svg.tag.glyph.attribute-values.fill">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.glyph.attribute-values.fill-rule">
+	<set name="com.sdussaut.svg.tag.glyph.attribute-values.fill-rule">
 		<completion string="nonzero"/>
 		<completion string="evenodd"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.glyph.attribute-values.fill-opacity">
+	<set name="com.sdussaut.svg.tag.glyph.attribute-values.fill-opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- opacity -->
-	<set name="com.walkingamonggiants.svg.tag.glyph.attribute-values.opacity">
+	<set name="com.sdussaut.svg.tag.glyph.attribute-values.opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- orientation -->
-	<set name="com.walkingamonggiants.svg.tag.glyph.attribute-values.orientation">
+	<set name="com.sdussaut.svg.tag.glyph.attribute-values.orientation">
 		<completion string="h"/>
 		<completion string="v"/>
 	</set>
 	
 	
 	<!-- stroke | stroke-dasharray | stroke-dashoffset | stroke-linecap | stroke-linejoin | stroke-miterlimit | stroke-opacity | stroke-width -->
-	<set name="com.walkingamonggiants.svg.tag.glyph.attribute-values.stroke">
+	<set name="com.sdussaut.svg.tag.glyph.attribute-values.stroke">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.glyph.attribute-values.stroke-dasharray">
+	<set name="com.sdussaut.svg.tag.glyph.attribute-values.stroke-dasharray">
 		<completion string="none"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.glyph.attribute-values.stroke-dashoffset">
+	<set name="com.sdussaut.svg.tag.glyph.attribute-values.stroke-dashoffset">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.glyph.attribute-values.stroke-linecap">
+	<set name="com.sdussaut.svg.tag.glyph.attribute-values.stroke-linecap">
 		<completion string="butt"/>
 		<completion string="round"/>
 		<completion string="square"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.glyph.attribute-values.stroke-linejoin">
+	<set name="com.sdussaut.svg.tag.glyph.attribute-values.stroke-linejoin">
 		<completion string="miter"/>
 		<completion string="round"/>
 		<completion string="bevel"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.glyph.attribute-values.stroke-miterlimit">
+	<set name="com.sdussaut.svg.tag.glyph.attribute-values.stroke-miterlimit">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.glyph.attribute-values.stroke-opacity">
+	<set name="com.sdussaut.svg.tag.glyph.attribute-values.stroke-opacity">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.glyph.attribute-values.stroke-width">
+	<set name="com.sdussaut.svg.tag.glyph.attribute-values.stroke-width">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- xml:space -->
-	<set name="com.walkingamonggiants.svg.tag.glyph.attribute-values.xml:space">
+	<set name="com.sdussaut.svg.tag.glyph.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
@@ -309,7 +309,7 @@ This file provides attributes values for font and color-related tags:
 	
 	<!-- HKERN -->
 	<!-- xml:space -->
-	<set name="com.walkingamonggiants.svg.tag.hkern.attribute-values.xml:space">
+	<set name="com.sdussaut.svg.tag.hkern.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
@@ -318,7 +318,7 @@ This file provides attributes values for font and color-related tags:
 	
 	<!-- VKERN -->
 	<!-- xml:space -->
-	<set name="com.walkingamonggiants.svg.tag.vkern.attribute-values.xml:space">
+	<set name="com.sdussaut.svg.tag.vkern.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
@@ -327,7 +327,7 @@ This file provides attributes values for font and color-related tags:
 	
 	<!-- MISSING-GLYPH -->	
 	<!-- display -->
-	<set name="com.walkingamonggiants.svg.tag.missing-glyph.attribute-values.display">
+	<set name="com.sdussaut.svg.tag.missing-glyph.attribute-values.display">
 		<completion string="inline" />
 		<completion string="block" />
 		<completion string="list-item" />
@@ -350,65 +350,65 @@ This file provides attributes values for font and color-related tags:
 	
 	
 	<!-- fill | fill-rule | fill-opacity -->
-	<set name="com.walkingamonggiants.svg.tag.missing-glyph.attribute-values.fill">
+	<set name="com.sdussaut.svg.tag.missing-glyph.attribute-values.fill">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.missing-glyph.attribute-values.fill-rule">
+	<set name="com.sdussaut.svg.tag.missing-glyph.attribute-values.fill-rule">
 		<completion string="nonzero"/>
 		<completion string="evenodd"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.missing-glyph.attribute-values.fill-opacity">
+	<set name="com.sdussaut.svg.tag.missing-glyph.attribute-values.fill-opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- opacity -->
-	<set name="com.walkingamonggiants.svg.tag.missing-glyph.attribute-values.opacity">
+	<set name="com.sdussaut.svg.tag.missing-glyph.attribute-values.opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- stroke | stroke-dasharray | stroke-dashoffset | stroke-linecap | stroke-linejoin | stroke-miterlimit | stroke-opacity | stroke-width -->
-	<set name="com.walkingamonggiants.svg.tag.missing-glyph.attribute-values.stroke">
+	<set name="com.sdussaut.svg.tag.missing-glyph.attribute-values.stroke">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.missing-glyph.attribute-values.stroke-dasharray">
+	<set name="com.sdussaut.svg.tag.missing-glyph.attribute-values.stroke-dasharray">
 		<completion string="none"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.missing-glyph.attribute-values.stroke-dashoffset">
+	<set name="com.sdussaut.svg.tag.missing-glyph.attribute-values.stroke-dashoffset">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.missing-glyph.attribute-values.stroke-linecap">
+	<set name="com.sdussaut.svg.tag.missing-glyph.attribute-values.stroke-linecap">
 		<completion string="butt"/>
 		<completion string="round"/>
 		<completion string="square"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.missing-glyph.attribute-values.stroke-linejoin">
+	<set name="com.sdussaut.svg.tag.missing-glyph.attribute-values.stroke-linejoin">
 		<completion string="miter"/>
 		<completion string="round"/>
 		<completion string="bevel"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.missing-glyph.attribute-values.stroke-miterlimit">
+	<set name="com.sdussaut.svg.tag.missing-glyph.attribute-values.stroke-miterlimit">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.missing-glyph.attribute-values.stroke-opacity">
+	<set name="com.sdussaut.svg.tag.missing-glyph.attribute-values.stroke-opacity">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.missing-glyph.attribute-values.stroke-width">
+	<set name="com.sdussaut.svg.tag.missing-glyph.attribute-values.stroke-width">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- xml:space -->
-	<set name="com.walkingamonggiants.svg.tag.missing-glyph.attribute-values.xml:space">
+	<set name="com.sdussaut.svg.tag.missing-glyph.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
@@ -417,7 +417,7 @@ This file provides attributes values for font and color-related tags:
 	
 	<!-- ALTGLYPH -->	
 	<!-- display -->
-	<set name="com.walkingamonggiants.svg.tag.altGlyph.attribute-values.display">
+	<set name="com.sdussaut.svg.tag.altGlyph.attribute-values.display">
 		<completion string="inline" />
 		<completion string="block" />
 		<completion string="list-item" />
@@ -440,80 +440,80 @@ This file provides attributes values for font and color-related tags:
 	
 	
 	<!-- fill | fill-rule | fill-opacity -->
-	<set name="com.walkingamonggiants.svg.tag.altGlyph.attribute-values.fill">
+	<set name="com.sdussaut.svg.tag.altGlyph.attribute-values.fill">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.altGlyph.attribute-values.fill-rule">
+	<set name="com.sdussaut.svg.tag.altGlyph.attribute-values.fill-rule">
 		<completion string="nonzero"/>
 		<completion string="evenodd"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.altGlyph.attribute-values.fill-opacity">
+	<set name="com.sdussaut.svg.tag.altGlyph.attribute-values.fill-opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- opacity -->
-	<set name="com.walkingamonggiants.svg.tag.altGlyph.attribute-values.opacity">
+	<set name="com.sdussaut.svg.tag.altGlyph.attribute-values.opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- stroke | stroke-dasharray | stroke-dashoffset | stroke-linecap | stroke-linejoin | stroke-miterlimit | stroke-opacity | stroke-width -->
-	<set name="com.walkingamonggiants.svg.tag.altGlyph.attribute-values.stroke">
+	<set name="com.sdussaut.svg.tag.altGlyph.attribute-values.stroke">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.altGlyph.attribute-values.stroke-dasharray">
+	<set name="com.sdussaut.svg.tag.altGlyph.attribute-values.stroke-dasharray">
 		<completion string="none"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.altGlyph.attribute-values.stroke-dashoffset">
+	<set name="com.sdussaut.svg.tag.altGlyph.attribute-values.stroke-dashoffset">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.altGlyph.attribute-values.stroke-linecap">
+	<set name="com.sdussaut.svg.tag.altGlyph.attribute-values.stroke-linecap">
 		<completion string="butt"/>
 		<completion string="round"/>
 		<completion string="square"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.altGlyph.attribute-values.stroke-linejoin">
+	<set name="com.sdussaut.svg.tag.altGlyph.attribute-values.stroke-linejoin">
 		<completion string="miter"/>
 		<completion string="round"/>
 		<completion string="bevel"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.altGlyph.attribute-values.stroke-miterlimit">
+	<set name="com.sdussaut.svg.tag.altGlyph.attribute-values.stroke-miterlimit">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.altGlyph.attribute-values.stroke-opacity">
+	<set name="com.sdussaut.svg.tag.altGlyph.attribute-values.stroke-opacity">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.altGlyph.attribute-values.stroke-width">
+	<set name="com.sdussaut.svg.tag.altGlyph.attribute-values.stroke-width">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- xlink:show | xlink:actuate | xlink:type -->
-	<set name="com.walkingamonggiants.svg.tag.altGlyph.attribute-values.xlink:show">
+	<set name="com.sdussaut.svg.tag.altGlyph.attribute-values.xlink:show">
 		<completion string="new"/>
 		<completion string="replace"/>
 		<completion string="other"/>
 		<completion string="none"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.altGlyph.attribute-values.xlink:actuate">
+	<set name="com.sdussaut.svg.tag.altGlyph.attribute-values.xlink:actuate">
 		<completion string="onLoad"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.altGlyph.attribute-values.xlink:type">
+	<set name="com.sdussaut.svg.tag.altGlyph.attribute-values.xlink:type">
 		<completion string="simple"/>
 	</set>
 	
 	
 	<!-- xml:space -->
-	<set name="com.walkingamonggiants.svg.tag.altGlyph.attribute-values.xml:space">
+	<set name="com.sdussaut.svg.tag.altGlyph.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
@@ -522,7 +522,7 @@ This file provides attributes values for font and color-related tags:
 	
 	<!-- ALTGLYPHDEF -->
 	<!-- xml:space -->
-	<set name="com.walkingamonggiants.svg.tag.altGlyphDef.attribute-values.xml:space">
+	<set name="com.sdussaut.svg.tag.altGlyphDef.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
@@ -531,7 +531,7 @@ This file provides attributes values for font and color-related tags:
 	
 	<!-- ALTGLYPHITEM -->
 	<!-- xml:space -->
-	<set name="com.walkingamonggiants.svg.tag.altGlyphItem.attribute-values.xml:space">
+	<set name="com.sdussaut.svg.tag.altGlyphItem.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
@@ -540,7 +540,7 @@ This file provides attributes values for font and color-related tags:
 	
 	<!-- GLYPHREF -->	
 	<!-- display -->
-	<set name="com.walkingamonggiants.svg.tag.glyphRef.attribute-values.display">
+	<set name="com.sdussaut.svg.tag.glyphRef.attribute-values.display">
 		<completion string="inline" />
 		<completion string="block" />
 		<completion string="list-item" />
@@ -563,80 +563,80 @@ This file provides attributes values for font and color-related tags:
 	
 	
 	<!-- fill | fill-rule | fill-opacity -->
-	<set name="com.walkingamonggiants.svg.tag.glyphRef.attribute-values.fill">
+	<set name="com.sdussaut.svg.tag.glyphRef.attribute-values.fill">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.glyphRef.attribute-values.fill-rule">
+	<set name="com.sdussaut.svg.tag.glyphRef.attribute-values.fill-rule">
 		<completion string="nonzero"/>
 		<completion string="evenodd"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.glyphRef.attribute-values.fill-opacity">
+	<set name="com.sdussaut.svg.tag.glyphRef.attribute-values.fill-opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- opacity -->
-	<set name="com.walkingamonggiants.svg.tag.glyphRef.attribute-values.opacity">
+	<set name="com.sdussaut.svg.tag.glyphRef.attribute-values.opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- stroke | stroke-dasharray | stroke-dashoffset | stroke-linecap | stroke-linejoin | stroke-miterlimit | stroke-opacity | stroke-width -->
-	<set name="com.walkingamonggiants.svg.tag.glyphRef.attribute-values.stroke">
+	<set name="com.sdussaut.svg.tag.glyphRef.attribute-values.stroke">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.glyphRef.attribute-values.stroke-dasharray">
+	<set name="com.sdussaut.svg.tag.glyphRef.attribute-values.stroke-dasharray">
 		<completion string="none"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.glyphRef.attribute-values.stroke-dashoffset">
+	<set name="com.sdussaut.svg.tag.glyphRef.attribute-values.stroke-dashoffset">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.glyphRef.attribute-values.stroke-linecap">
+	<set name="com.sdussaut.svg.tag.glyphRef.attribute-values.stroke-linecap">
 		<completion string="butt"/>
 		<completion string="round"/>
 		<completion string="square"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.glyphRef.attribute-values.stroke-linejoin">
+	<set name="com.sdussaut.svg.tag.glyphRef.attribute-values.stroke-linejoin">
 		<completion string="miter"/>
 		<completion string="round"/>
 		<completion string="bevel"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.glyphRef.attribute-values.stroke-miterlimit">
+	<set name="com.sdussaut.svg.tag.glyphRef.attribute-values.stroke-miterlimit">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.glyphRef.attribute-values.stroke-opacity">
+	<set name="com.sdussaut.svg.tag.glyphRef.attribute-values.stroke-opacity">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.glyphRef.attribute-values.stroke-width">
+	<set name="com.sdussaut.svg.tag.glyphRef.attribute-values.stroke-width">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- xlink:show | xlink:actuate | xlink:type -->
-	<set name="com.walkingamonggiants.svg.tag.glyphRef.attribute-values.xlink:show">
+	<set name="com.sdussaut.svg.tag.glyphRef.attribute-values.xlink:show">
 		<completion string="new"/>
 		<completion string="replace"/>
 		<completion string="other"/>
 		<completion string="none"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.glyphRef.attribute-values.xlink:actuate">
+	<set name="com.sdussaut.svg.tag.glyphRef.attribute-values.xlink:actuate">
 		<completion string="onLoad"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.glyphRef.attribute-values.xlink:type">
+	<set name="com.sdussaut.svg.tag.glyphRef.attribute-values.xlink:type">
 		<completion string="simple"/>
 	</set>
 	
 	
 	<!-- xml:space -->
-	<set name="com.walkingamonggiants.svg.tag.glyphRef.attribute-values.xml:space">
+	<set name="com.sdussaut.svg.tag.glyphRef.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
@@ -645,7 +645,7 @@ This file provides attributes values for font and color-related tags:
 	
 	<!-- TREF -->	
 	<!-- display -->
-	<set name="com.walkingamonggiants.svg.tag.tref.attribute-values.display">
+	<set name="com.sdussaut.svg.tag.tref.attribute-values.display">
 		<completion string="inline" />
 		<completion string="block" />
 		<completion string="list-item" />
@@ -668,80 +668,80 @@ This file provides attributes values for font and color-related tags:
 	
 	
 	<!-- fill | fill-rule | fill-opacity -->
-	<set name="com.walkingamonggiants.svg.tag.tref.attribute-values.fill">
+	<set name="com.sdussaut.svg.tag.tref.attribute-values.fill">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.tref.attribute-values.fill-rule">
+	<set name="com.sdussaut.svg.tag.tref.attribute-values.fill-rule">
 		<completion string="nonzero"/>
 		<completion string="evenodd"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.tref.attribute-values.fill-opacity">
+	<set name="com.sdussaut.svg.tag.tref.attribute-values.fill-opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- opacity -->
-	<set name="com.walkingamonggiants.svg.tag.tref.attribute-values.opacity">
+	<set name="com.sdussaut.svg.tag.tref.attribute-values.opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- stroke | stroke-dasharray | stroke-dashoffset | stroke-linecap | stroke-linejoin | stroke-miterlimit | stroke-opacity | stroke-width -->
-	<set name="com.walkingamonggiants.svg.tag.tref.attribute-values.stroke">
+	<set name="com.sdussaut.svg.tag.tref.attribute-values.stroke">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.tref.attribute-values.stroke-dasharray">
+	<set name="com.sdussaut.svg.tag.tref.attribute-values.stroke-dasharray">
 		<completion string="none"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.tref.attribute-values.stroke-dashoffset">
+	<set name="com.sdussaut.svg.tag.tref.attribute-values.stroke-dashoffset">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.tref.attribute-values.stroke-linecap">
+	<set name="com.sdussaut.svg.tag.tref.attribute-values.stroke-linecap">
 		<completion string="butt"/>
 		<completion string="round"/>
 		<completion string="square"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.tref.attribute-values.stroke-linejoin">
+	<set name="com.sdussaut.svg.tag.tref.attribute-values.stroke-linejoin">
 		<completion string="miter"/>
 		<completion string="round"/>
 		<completion string="bevel"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.tref.attribute-values.stroke-miterlimit">
+	<set name="com.sdussaut.svg.tag.tref.attribute-values.stroke-miterlimit">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.tref.attribute-values.stroke-opacity">
+	<set name="com.sdussaut.svg.tag.tref.attribute-values.stroke-opacity">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.tref.attribute-values.stroke-width">
+	<set name="com.sdussaut.svg.tag.tref.attribute-values.stroke-width">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- xlink:show | xlink:actuate | xlink:type -->
-	<set name="com.walkingamonggiants.svg.tag.tref.attribute-values.xlink:show">
+	<set name="com.sdussaut.svg.tag.tref.attribute-values.xlink:show">
 		<completion string="new"/>
 		<completion string="replace"/>
 		<completion string="other"/>
 		<completion string="none"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.tref.attribute-values.xlink:actuate">
+	<set name="com.sdussaut.svg.tag.tref.attribute-values.xlink:actuate">
 		<completion string="onLoad"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.tref.attribute-values.xlink:type">
+	<set name="com.sdussaut.svg.tag.tref.attribute-values.xlink:type">
 		<completion string="simple"/>
 	</set>
 	
 	
 	<!-- xml:space -->
-	<set name="com.walkingamonggiants.svg.tag.tref.attribute-values.xml:space">
+	<set name="com.sdussaut.svg.tag.tref.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
@@ -750,7 +750,7 @@ This file provides attributes values for font and color-related tags:
 	
 	<!-- TSPAN -->	
 	<!-- display -->
-	<set name="com.walkingamonggiants.svg.tag.tspan.attribute-values.display">
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.display">
 		<completion string="inline" />
 		<completion string="block" />
 		<completion string="list-item" />
@@ -773,72 +773,72 @@ This file provides attributes values for font and color-related tags:
 	
 	
 	<!-- fill | fill-rule | fill-opacity -->
-	<set name="com.walkingamonggiants.svg.tag.tspan.attribute-values.fill">
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.fill">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.tspan.attribute-values.fill-rule">
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.fill-rule">
 		<completion string="nonzero"/>
 		<completion string="evenodd"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.tspan.attribute-values.fill-opacity">
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.fill-opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- lengthAdjust -->
-	<set name="com.walkingamonggiants.svg.tag.tspan.attribute-values.lengthAdjust">
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.lengthAdjust">
 		<completion string="spacing"/>
 		<completion string="spacingAndGlyphs"/>
 	</set>
 	
 	
 	<!-- opacity -->
-	<set name="com.walkingamonggiants.svg.tag.tspan.attribute-values.opacity">
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- stroke | stroke-dasharray | stroke-dashoffset | stroke-linecap | stroke-linejoin | stroke-miterlimit | stroke-opacity | stroke-width -->
-	<set name="com.walkingamonggiants.svg.tag.tspan.attribute-values.stroke">
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.stroke">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.tspan.attribute-values.stroke-dasharray">
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.stroke-dasharray">
 		<completion string="none"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.tspan.attribute-values.stroke-dashoffset">
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.stroke-dashoffset">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.tspan.attribute-values.stroke-linecap">
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.stroke-linecap">
 		<completion string="butt"/>
 		<completion string="round"/>
 		<completion string="square"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.tspan.attribute-values.stroke-linejoin">
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.stroke-linejoin">
 		<completion string="miter"/>
 		<completion string="round"/>
 		<completion string="bevel"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.tspan.attribute-values.stroke-miterlimit">
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.stroke-miterlimit">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.tspan.attribute-values.stroke-opacity">
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.stroke-opacity">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.tspan.attribute-values.stroke-width">
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.stroke-width">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- xml:space -->
-	<set name="com.walkingamonggiants.svg.tag.tspan.attribute-values.xml:space">
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
@@ -847,7 +847,7 @@ This file provides attributes values for font and color-related tags:
 		
 	<!-- LINEARGRADIENT -->
 	<!-- display -->
-	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.display">
+	<set name="com.sdussaut.svg.tag.linearGradient.attribute-values.display">
 		<completion string="inline" />
 		<completion string="block" />
 		<completion string="list-item" />
@@ -870,30 +870,30 @@ This file provides attributes values for font and color-related tags:
 	
 	
 	<!-- fill | fill-rule | fill-opacity -->
-	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.fill">
+	<set name="com.sdussaut.svg.tag.linearGradient.attribute-values.fill">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.fill-rule">
+	<set name="com.sdussaut.svg.tag.linearGradient.attribute-values.fill-rule">
 		<completion string="nonzero"/>
 		<completion string="evenodd"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.fill-opacity">
+	<set name="com.sdussaut.svg.tag.linearGradient.attribute-values.fill-opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- gradientUnits -->
-	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.gradientUnits">
+	<set name="com.sdussaut.svg.tag.linearGradient.attribute-values.gradientUnits">
 		<completion string="userSpaceOnUse"/>
 		<completion string="objectBoundingBox"/>
 	</set>
 	
 	
 	<!-- gradientTransform -->
-	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.gradientTransform">
+	<set name="com.sdussaut.svg.tag.linearGradient.attribute-values.gradientTransform">
 		<completion string="matrix(a,b,c,d,e,f)"/>
 		<completion string="translate(tx,ty)"/>
 		<completion string="scale(sx,sy)"/>
@@ -904,13 +904,13 @@ This file provides attributes values for font and color-related tags:
 	
 	
 	<!-- opacity -->
-	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.opacity">
+	<set name="com.sdussaut.svg.tag.linearGradient.attribute-values.opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- spreadMethod -->
-	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.spreadMethod">
+	<set name="com.sdussaut.svg.tag.linearGradient.attribute-values.spreadMethod">
 		<completion string="pad"/>
 		<completion string="reflect"/>
 		<completion string="repeat"/>
@@ -918,56 +918,56 @@ This file provides attributes values for font and color-related tags:
 	
 	
 	<!-- stroke | stroke-dasharray | stroke-dashoffset | stroke-linecap | stroke-linejoin | stroke-miterlimit | stroke-opacity | stroke-width -->
-	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.stroke">
+	<set name="com.sdussaut.svg.tag.linearGradient.attribute-values.stroke">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.stroke-dasharray">
+	<set name="com.sdussaut.svg.tag.linearGradient.attribute-values.stroke-dasharray">
 		<completion string="none"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.stroke-dashoffset">
+	<set name="com.sdussaut.svg.tag.linearGradient.attribute-values.stroke-dashoffset">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.stroke-linecap">
+	<set name="com.sdussaut.svg.tag.linearGradient.attribute-values.stroke-linecap">
 		<completion string="butt"/>
 		<completion string="round"/>
 		<completion string="square"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.stroke-linejoin">
+	<set name="com.sdussaut.svg.tag.linearGradient.attribute-values.stroke-linejoin">
 		<completion string="miter"/>
 		<completion string="round"/>
 		<completion string="bevel"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.stroke-miterlimit">
+	<set name="com.sdussaut.svg.tag.linearGradient.attribute-values.stroke-miterlimit">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.stroke-opacity">
+	<set name="com.sdussaut.svg.tag.linearGradient.attribute-values.stroke-opacity">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.stroke-width">
+	<set name="com.sdussaut.svg.tag.linearGradient.attribute-values.stroke-width">
 		<completion string="inherit"/>
 	</set>
 	
 	<!-- xlink:show | xlink:actuate | xlink:type -->
-	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.xlink:show">
+	<set name="com.sdussaut.svg.tag.linearGradient.attribute-values.xlink:show">
 		<completion string="new"/>
 		<completion string="replace"/>
 		<completion string="other"/>
 		<completion string="none"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.xlink:actuate">
+	<set name="com.sdussaut.svg.tag.linearGradient.attribute-values.xlink:actuate">
 		<completion string="onLoad"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.xlink:type">
+	<set name="com.sdussaut.svg.tag.linearGradient.attribute-values.xlink:type">
 		<completion string="simple"/>
 	</set>
 	
 	<!-- xml:space -->
-	<set name="com.walkingamonggiants.svg.tag.linearGradient.attribute-values.xml:space">
+	<set name="com.sdussaut.svg.tag.linearGradient.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
@@ -976,7 +976,7 @@ This file provides attributes values for font and color-related tags:
 	
 	<!-- RADIALGRADIENT -->
 	<!-- display -->
-	<set name="com.walkingamonggiants.svg.tag.radialGradient.attribute-values.display">
+	<set name="com.sdussaut.svg.tag.radialGradient.attribute-values.display">
 		<completion string="inline" />
 		<completion string="block" />
 		<completion string="list-item" />
@@ -999,30 +999,30 @@ This file provides attributes values for font and color-related tags:
 	
 	
 	<!-- fill | fill-rule | fill-opacity -->
-	<set name="com.walkingamonggiants.svg.tag.radialGradient.attribute-values.fill">
+	<set name="com.sdussaut.svg.tag.radialGradient.attribute-values.fill">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.radialGradient.attribute-values.fill-rule">
+	<set name="com.sdussaut.svg.tag.radialGradient.attribute-values.fill-rule">
 		<completion string="nonzero"/>
 		<completion string="evenodd"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.radialGradient.attribute-values.fill-opacity">
+	<set name="com.sdussaut.svg.tag.radialGradient.attribute-values.fill-opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- gradientUnits -->
-	<set name="com.walkingamonggiants.svg.tag.radialGradient.attribute-values.gradientUnits">
+	<set name="com.sdussaut.svg.tag.radialGradient.attribute-values.gradientUnits">
 		<completion string="userSpaceOnUse"/>
 		<completion string="objectBoundingBox"/>
 	</set>
 	
 	
 	<!-- gradientTransform -->
-	<set name="com.walkingamonggiants.svg.tag.radialGradient.attribute-values.gradientTransform">
+	<set name="com.sdussaut.svg.tag.radialGradient.attribute-values.gradientTransform">
 		<completion string="matrix(a,b,c,d,e,f)"/>
 		<completion string="translate(tx,ty)"/>
 		<completion string="scale(sx,sy)"/>
@@ -1033,13 +1033,13 @@ This file provides attributes values for font and color-related tags:
 	
 	
 	<!-- opacity -->
-	<set name="com.walkingamonggiants.svg.tag.radialGradient.attribute-values.opacity">
+	<set name="com.sdussaut.svg.tag.radialGradient.attribute-values.opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- spreadMethod -->
-	<set name="com.walkingamonggiants.svg.tag.radialGradient.attribute-values.spreadMethod">
+	<set name="com.sdussaut.svg.tag.radialGradient.attribute-values.spreadMethod">
 		<completion string="pad"/>
 		<completion string="reflect"/>
 		<completion string="repeat"/>
@@ -1047,56 +1047,56 @@ This file provides attributes values for font and color-related tags:
 	
 	
 	<!-- stroke | stroke-dasharray | stroke-dashoffset | stroke-linecap | stroke-linejoin | stroke-miterlimit | stroke-opacity | stroke-width -->
-	<set name="com.walkingamonggiants.svg.tag.radialGradient.attribute-values.stroke">
+	<set name="com.sdussaut.svg.tag.radialGradient.attribute-values.stroke">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.radialGradient.attribute-values.stroke-dasharray">
+	<set name="com.sdussaut.svg.tag.radialGradient.attribute-values.stroke-dasharray">
 		<completion string="none"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.radialGradient.attribute-values.stroke-dashoffset">
+	<set name="com.sdussaut.svg.tag.radialGradient.attribute-values.stroke-dashoffset">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.radialGradient.attribute-values.stroke-linecap">
+	<set name="com.sdussaut.svg.tag.radialGradient.attribute-values.stroke-linecap">
 		<completion string="butt"/>
 		<completion string="round"/>
 		<completion string="square"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.radialGradient.attribute-values.stroke-linejoin">
+	<set name="com.sdussaut.svg.tag.radialGradient.attribute-values.stroke-linejoin">
 		<completion string="miter"/>
 		<completion string="round"/>
 		<completion string="bevel"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.radialGradient.attribute-values.stroke-miterlimit">
+	<set name="com.sdussaut.svg.tag.radialGradient.attribute-values.stroke-miterlimit">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.radialGradient.attribute-values.stroke-opacity">
+	<set name="com.sdussaut.svg.tag.radialGradient.attribute-values.stroke-opacity">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.radialGradient.attribute-values.stroke-width">
+	<set name="com.sdussaut.svg.tag.radialGradient.attribute-values.stroke-width">
 		<completion string="inherit"/>
 	</set>
 	
 	<!-- xlink:show | xlink:actuate | xlink:type -->
-	<set name="com.walkingamonggiants.svg.tag.radialGradient.attribute-values.xlink:show">
+	<set name="com.sdussaut.svg.tag.radialGradient.attribute-values.xlink:show">
 		<completion string="new"/>
 		<completion string="replace"/>
 		<completion string="other"/>
 		<completion string="none"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.radialGradient.attribute-values.xlink:actuate">
+	<set name="com.sdussaut.svg.tag.radialGradient.attribute-values.xlink:actuate">
 		<completion string="onLoad"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.radialGradient.attribute-values.xlink:type">
+	<set name="com.sdussaut.svg.tag.radialGradient.attribute-values.xlink:type">
 		<completion string="simple"/>
 	</set>
 	
 	<!-- xml:space -->
-	<set name="com.walkingamonggiants.svg.tag.radialGradient.attribute-values.xml:space">
+	<set name="com.sdussaut.svg.tag.radialGradient.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
@@ -1105,7 +1105,7 @@ This file provides attributes values for font and color-related tags:
 		
 	<!-- STOP -->
 	<!-- display -->
-	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.display">
+	<set name="com.sdussaut.svg.tag.stop.attribute-values.display">
 		<completion string="inline" />
 		<completion string="block" />
 		<completion string="list-item" />
@@ -1128,74 +1128,74 @@ This file provides attributes values for font and color-related tags:
 	
 	
 	<!-- fill | fill-rule | fill-opacity -->
-	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.fill">
+	<set name="com.sdussaut.svg.tag.stop.attribute-values.fill">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.fill-rule">
+	<set name="com.sdussaut.svg.tag.stop.attribute-values.fill-rule">
 		<completion string="nonzero"/>
 		<completion string="evenodd"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.fill-opacity">
+	<set name="com.sdussaut.svg.tag.stop.attribute-values.fill-opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- opacity -->
-	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.opacity">
+	<set name="com.sdussaut.svg.tag.stop.attribute-values.opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	<!-- stop-color -->
-	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.stop-color">
+	<set name="com.sdussaut.svg.tag.stop.attribute-values.stop-color">
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
 	
 	<!-- stop-opacity -->
-	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.stop-opacity">
+	<set name="com.sdussaut.svg.tag.stop.attribute-values.stop-opacity">
 		<completion string="inherit"/>
 	</set>	
 	
 	<!-- stroke | stroke-dasharray | stroke-dashoffset | stroke-linecap | stroke-linejoin | stroke-miterlimit | stroke-opacity | stroke-width -->
-	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.stroke">
+	<set name="com.sdussaut.svg.tag.stop.attribute-values.stroke">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.stroke-dasharray">
+	<set name="com.sdussaut.svg.tag.stop.attribute-values.stroke-dasharray">
 		<completion string="none"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.stroke-dashoffset">
+	<set name="com.sdussaut.svg.tag.stop.attribute-values.stroke-dashoffset">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.stroke-linecap">
+	<set name="com.sdussaut.svg.tag.stop.attribute-values.stroke-linecap">
 		<completion string="butt"/>
 		<completion string="round"/>
 		<completion string="square"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.stroke-linejoin">
+	<set name="com.sdussaut.svg.tag.stop.attribute-values.stroke-linejoin">
 		<completion string="miter"/>
 		<completion string="round"/>
 		<completion string="bevel"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.stroke-miterlimit">
+	<set name="com.sdussaut.svg.tag.stop.attribute-values.stroke-miterlimit">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.stroke-opacity">
+	<set name="com.sdussaut.svg.tag.stop.attribute-values.stroke-opacity">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.stroke-width">
+	<set name="com.sdussaut.svg.tag.stop.attribute-values.stroke-width">
 		<completion string="inherit"/>
 	</set>
 	
 	<!-- xml:space -->
-	<set name="com.walkingamonggiants.svg.tag.stop.attribute-values.xml:space">
+	<set name="com.sdussaut.svg.tag.stop.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
@@ -1204,7 +1204,7 @@ This file provides attributes values for font and color-related tags:
 	
 	<!-- PATTERN -->
 	<!-- display -->
-	<set name="com.walkingamonggiants.svg.tag.pattern.attribute-values.display">
+	<set name="com.sdussaut.svg.tag.pattern.attribute-values.display">
 		<completion string="inline" />
 		<completion string="block" />
 		<completion string="list-item" />
@@ -1227,41 +1227,41 @@ This file provides attributes values for font and color-related tags:
 	
 	
 	<!-- fill | fill-rule | fill-opacity -->
-	<set name="com.walkingamonggiants.svg.tag.pattern.attribute-values.fill">
+	<set name="com.sdussaut.svg.tag.pattern.attribute-values.fill">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.pattern.attribute-values.fill-rule">
+	<set name="com.sdussaut.svg.tag.pattern.attribute-values.fill-rule">
 		<completion string="nonzero"/>
 		<completion string="evenodd"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.pattern.attribute-values.fill-opacity">
+	<set name="com.sdussaut.svg.tag.pattern.attribute-values.fill-opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- opacity -->
-	<set name="com.walkingamonggiants.svg.tag.pattern.attribute-values.opacity">
+	<set name="com.sdussaut.svg.tag.pattern.attribute-values.opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	<!-- patternUnits -->
-	<set name="com.walkingamonggiants.svg.tag.pattern.attribute-values.patternUnits">
+	<set name="com.sdussaut.svg.tag.pattern.attribute-values.patternUnits">
 		<completion string="userSpaceOnUse"/>
 		<completion string="objectBoundingBox"/>
 	</set>
 	
 	<!-- patternContentUnits -->
-	<set name="com.walkingamonggiants.svg.tag.pattern.attribute-values.patternContentUnits">
+	<set name="com.sdussaut.svg.tag.pattern.attribute-values.patternContentUnits">
 		<completion string="userSpaceOnUse"/>
 		<completion string="objectBoundingBox"/>
 	</set>
 	
 	
 	<!-- patternTransform -->
-	<set name="com.walkingamonggiants.svg.tag.pattern.attribute-values.patternTransform">
+	<set name="com.sdussaut.svg.tag.pattern.attribute-values.patternTransform">
 		<completion string="matrix(a,b,c,d,e,f)"/>
 		<completion string="translate(tx,ty)"/>
 		<completion string="scale(sx,sy)"/>
@@ -1271,7 +1271,7 @@ This file provides attributes values for font and color-related tags:
 	</set>
 	
 	<!-- preserveAspectRatio -->
-	<set name="com.walkingamonggiants.svg.tag.pattern.attribute-values.preserveAspectRatio">
+	<set name="com.sdussaut.svg.tag.pattern.attribute-values.preserveAspectRatio">
 		<completion string="defer"/>
 		<completion string="none"/>
 		<completion string="xMinYMin"/>
@@ -1288,56 +1288,56 @@ This file provides attributes values for font and color-related tags:
 	</set>
 	
 	<!-- stroke | stroke-dasharray | stroke-dashoffset | stroke-linecap | stroke-linejoin | stroke-miterlimit | stroke-opacity | stroke-width -->
-	<set name="com.walkingamonggiants.svg.tag.pattern.attribute-values.stroke">
+	<set name="com.sdussaut.svg.tag.pattern.attribute-values.stroke">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.pattern.attribute-values.stroke-dasharray">
+	<set name="com.sdussaut.svg.tag.pattern.attribute-values.stroke-dasharray">
 		<completion string="none"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.pattern.attribute-values.stroke-dashoffset">
+	<set name="com.sdussaut.svg.tag.pattern.attribute-values.stroke-dashoffset">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.pattern.attribute-values.stroke-linecap">
+	<set name="com.sdussaut.svg.tag.pattern.attribute-values.stroke-linecap">
 		<completion string="butt"/>
 		<completion string="round"/>
 		<completion string="square"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.pattern.attribute-values.stroke-linejoin">
+	<set name="com.sdussaut.svg.tag.pattern.attribute-values.stroke-linejoin">
 		<completion string="miter"/>
 		<completion string="round"/>
 		<completion string="bevel"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.pattern.attribute-values.stroke-miterlimit">
+	<set name="com.sdussaut.svg.tag.pattern.attribute-values.stroke-miterlimit">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.pattern.attribute-values.stroke-opacity">
+	<set name="com.sdussaut.svg.tag.pattern.attribute-values.stroke-opacity">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.pattern.attribute-values.stroke-width">
+	<set name="com.sdussaut.svg.tag.pattern.attribute-values.stroke-width">
 		<completion string="inherit"/>
 	</set>
 	
 	<!-- xlink:show | xlink:actuate | xlink:type -->
-	<set name="com.walkingamonggiants.svg.tag.pattern.attribute-values.xlink:show">
+	<set name="com.sdussaut.svg.tag.pattern.attribute-values.xlink:show">
 		<completion string="new"/>
 		<completion string="replace"/>
 		<completion string="other"/>
 		<completion string="none"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.pattern.attribute-values.xlink:actuate">
+	<set name="com.sdussaut.svg.tag.pattern.attribute-values.xlink:actuate">
 		<completion string="onLoad"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.pattern.attribute-values.xlink:type">
+	<set name="com.sdussaut.svg.tag.pattern.attribute-values.xlink:type">
 		<completion string="simple"/>
 	</set>
 	
 	<!-- xml:space -->
-	<set name="com.walkingamonggiants.svg.tag.pattern.attribute-values.xml:space">
+	<set name="com.sdussaut.svg.tag.pattern.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
@@ -1346,7 +1346,7 @@ This file provides attributes values for font and color-related tags:
 	
 	<!-- MARKER -->
 	<!-- display -->
-	<set name="com.walkingamonggiants.svg.tag.marker.attribute-values.display">
+	<set name="com.sdussaut.svg.tag.marker.attribute-values.display">
 		<completion string="inline" />
 		<completion string="block" />
 		<completion string="list-item" />
@@ -1369,42 +1369,42 @@ This file provides attributes values for font and color-related tags:
 	
 	
 	<!-- fill | fill-rule | fill-opacity -->
-	<set name="com.walkingamonggiants.svg.tag.marker.attribute-values.fill">
+	<set name="com.sdussaut.svg.tag.marker.attribute-values.fill">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.marker.attribute-values.fill-rule">
+	<set name="com.sdussaut.svg.tag.marker.attribute-values.fill-rule">
 		<completion string="nonzero"/>
 		<completion string="evenodd"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.marker.attribute-values.fill-opacity">
+	<set name="com.sdussaut.svg.tag.marker.attribute-values.fill-opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- markerUnits -->
-	<set name="com.walkingamonggiants.svg.tag.marker.attribute-values.markerUnits">
+	<set name="com.sdussaut.svg.tag.marker.attribute-values.markerUnits">
 		<completion string="strokeWidth"/>
 		<completion string="userSpaceOnUse"/>
 	</set>
 	
 	
 	<!-- opacity -->
-	<set name="com.walkingamonggiants.svg.tag.marker.attribute-values.opacity">
+	<set name="com.sdussaut.svg.tag.marker.attribute-values.opacity">
 		<completion string="inherit"/>
 	</set>
 	
 	
 	<!-- orient -->
-	<set name="com.walkingamonggiants.svg.tag.marker.attribute-values.orient">
+	<set name="com.sdussaut.svg.tag.marker.attribute-values.orient">
 		<completion string="auto"/>
 	</set>
 	
 	
 	<!-- preserveAspectRatio -->
-	<set name="com.walkingamonggiants.svg.tag.marker.attribute-values.preserveAspectRatio">
+	<set name="com.sdussaut.svg.tag.marker.attribute-values.preserveAspectRatio">
 		<completion string="defer"/>
 		<completion string="none"/>
 		<completion string="xMinYMin"/>
@@ -1421,42 +1421,42 @@ This file provides attributes values for font and color-related tags:
 	</set>
 	
 	<!-- stroke | stroke-dasharray | stroke-dashoffset | stroke-linecap | stroke-linejoin | stroke-miterlimit | stroke-opacity | stroke-width -->
-	<set name="com.walkingamonggiants.svg.tag.marker.attribute-values.stroke">
+	<set name="com.sdussaut.svg.tag.marker.attribute-values.stroke">
 		<completion string="none"/>
 		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.marker.attribute-values.stroke-dasharray">
+	<set name="com.sdussaut.svg.tag.marker.attribute-values.stroke-dasharray">
 		<completion string="none"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.marker.attribute-values.stroke-dashoffset">
+	<set name="com.sdussaut.svg.tag.marker.attribute-values.stroke-dashoffset">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.marker.attribute-values.stroke-linecap">
+	<set name="com.sdussaut.svg.tag.marker.attribute-values.stroke-linecap">
 		<completion string="butt"/>
 		<completion string="round"/>
 		<completion string="square"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.marker.attribute-values.stroke-linejoin">
+	<set name="com.sdussaut.svg.tag.marker.attribute-values.stroke-linejoin">
 		<completion string="miter"/>
 		<completion string="round"/>
 		<completion string="bevel"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.marker.attribute-values.stroke-miterlimit">
+	<set name="com.sdussaut.svg.tag.marker.attribute-values.stroke-miterlimit">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.marker.attribute-values.stroke-opacity">
+	<set name="com.sdussaut.svg.tag.marker.attribute-values.stroke-opacity">
 		<completion string="inherit"/>
 	</set>
-	<set name="com.walkingamonggiants.svg.tag.marker.attribute-values.stroke-width">
+	<set name="com.sdussaut.svg.tag.marker.attribute-values.stroke-width">
 		<completion string="inherit"/>
 	</set>
 	
 	<!-- xml:space -->
-	<set name="com.walkingamonggiants.svg.tag.marker.attribute-values.xml:space">
+	<set name="com.sdussaut.svg.tag.marker.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
