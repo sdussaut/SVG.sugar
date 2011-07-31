@@ -217,6 +217,13 @@ This file provides attributes values for font and color-related tags:
 	</set>
 	
 	
+	<!-- other attributes -->
+	<!-- externalResourcesRequired -->
+	<set name="com.sdussaut.svg.tag.animateColor.attribute-values.externalResourcesRequired">
+		<completion string="false"/>
+		<completion string="true"/>
+	</set>
+	
 	
 	<!-- ANIMATEMOTION -->
 	<!-- rotate -->
@@ -301,6 +308,14 @@ This file provides attributes values for font and color-related tags:
 	<set name="com.sdussaut.svg.tag.animateMotion.attribute-values.accumulate">
 		<completion string="sum"/>
 		<completion string="replace"/>
+	</set>
+	
+	
+	<!-- other attributes -->
+	<!-- externalResourcesRequired -->
+	<set name="com.sdussaut.svg.tag.animateMotion.attribute-values.externalResourcesRequired">
+		<completion string="false"/>
+		<completion string="true"/>
 	</set>
 	
 	
@@ -398,6 +413,14 @@ This file provides attributes values for font and color-related tags:
 	</set>
 	
 	
+	<!-- other attributes -->
+	<!-- externalResourcesRequired -->
+	<set name="com.sdussaut.svg.tag.animateTransform.attribute-values.externalResourcesRequired">
+		<completion string="false"/>
+		<completion string="true"/>
+	</set>
+	
+	
 	
 	<!-- MPATH -->	
 	<!-- xlink:show | xlink:actuate | xlink:type -->
@@ -421,6 +444,13 @@ This file provides attributes values for font and color-related tags:
 		<completion string="preserve"/>
 	</set>
 	
+	
+	<!-- other attributes -->
+	<!-- externalResourcesRequired -->
+	<set name="com.sdussaut.svg.tag.mpath.attribute-values.externalResourcesRequired">
+		<completion string="false"/>
+		<completion string="true"/>
+	</set>
 	
 	
 	
@@ -482,6 +512,14 @@ This file provides attributes values for font and color-related tags:
 	<set name="com.sdussaut.svg.tag.set.attribute-values.fill">
 		<completion string="freeze"/>
 		<completion string="remove"/>
+	</set>
+	
+	
+	<!-- other attributes -->
+	<!-- externalResourcesRequired -->
+	<set name="com.sdussaut.svg.tag.set.attribute-values.externalResourcesRequired">
+		<completion string="false"/>
+		<completion string="true"/>
 	</set>
 		
 </codesense>
