@@ -14,86 +14,17 @@ This file provides attributes values for font and color-related tags:
 <codesense version="1.0">
 	
 	<!-- ANIMATE -->
-	<!-- display -->
-	<set name="com.sdussaut.svg.tag.animate.attribute-values.display">
-		<completion string="inline" />
-		<completion string="block" />
-		<completion string="list-item" />
-		<completion string="run-in" />
-		<completion string="compact" />
-		<completion string="marker" />
-		<completion string="table" />
-		<completion string="inline-table" />
-		<completion string="table-row-group" />
-		<completion string="table-header-group" />
-		<completion string="table-footer-group" />
-		<completion string="table-row" />
-		<completion string="table-column-group" />
-		<completion string="table-column" />
-		<completion string="table-cell" />
-		<completion string="table-caption" />
-		<completion string="none" />
-		<completion string="inherit" />
-	</set>
-	
-	
-	<!-- fill | fill-rule | fill-opacity -->
-	<set name="com.sdussaut.svg.tag.animate.attribute-values.fill">
-		<completion string="none"/>
-		<completion string="currentColor"/>
-		<completion string="inherit"/>
-		<!-- this is for animation -->
-		<completion string="freeze"/>
-		<completion string="remove"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.animate.attribute-values.fill-rule">
-		<completion string="nonzero"/>
-		<completion string="evenodd"/>
+	<!--  color-interpolation | color-rendering-->
+	<set name="com.sdussaut.svg.tag.animate.attribute-values.color-interpolation">
+		<completion string="auto"/>
+		<completion string="sRGB"/>
+		<completion string="linearRGB"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.sdussaut.svg.tag.animate.attribute-values.fill-opacity">
-		<completion string="inherit"/>
-	</set>
-	
-	
-	<!-- opacity -->
-	<set name="com.sdussaut.svg.tag.animate.attribute-values.opacity">
-		<completion string="inherit"/>
-	</set>
-	
-	
-	<!-- stroke | stroke-dasharray | stroke-dashoffset | stroke-linecap | stroke-linejoin | stroke-miterlimit | stroke-opacity | stroke-width -->
-	<set name="com.sdussaut.svg.tag.animate.attribute-values.stroke">
-		<completion string="none"/>
-		<completion string="currentColor"/>
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.animate.attribute-values.stroke-dasharray">
-		<completion string="none"/>
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.animate.attribute-values.stroke-dashoffset">
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.animate.attribute-values.stroke-linecap">
-		<completion string="butt"/>
-		<completion string="round"/>
-		<completion string="square"/>
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.animate.attribute-values.stroke-linejoin">
-		<completion string="miter"/>
-		<completion string="round"/>
-		<completion string="bevel"/>
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.animate.attribute-values.stroke-miterlimit">
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.animate.attribute-values.stroke-opacity">
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.animate.attribute-values.stroke-width">
+	<set name="com.sdussaut.svg.tag.animate.attribute-values.color-rendering">
+		<completion string="auto"/>
+		<completion string="optimizeSpeed"/>
+		<completion string="optimizeQuality"/>
 		<completion string="inherit"/>
 	</set>
 	
@@ -130,41 +61,32 @@ This file provides attributes values for font and color-related tags:
 	
 	
 	<!-- animation timing attributes -->
-	<!-- dur -->
+	<!-- dur | min | max | restart | repeatCount | repeatDur | fill -->
 	<set name="com.sdussaut.svg.tag.animate.attribute-values.dur">
 		<completion string="media"/>
 		<completion string="indefinite"/>
 	</set>
-	
-	<!-- min -->
 	<set name="com.sdussaut.svg.tag.animate.attribute-values.min">
 		<completion string="media"/>
 	</set>
-	
-	<!-- max -->
 	<set name="com.sdussaut.svg.tag.animate.attribute-values.max">
 		<completion string="media"/>
 	</set>
-	
-	<!-- restart -->
 	<set name="com.sdussaut.svg.tag.animate.attribute-values.restart">
 		<completion string="always"/>
 		<completion string="whenNotActive"/>
 		<completion string="never"/>
 	</set>
-	
-	<!-- repeatCount -->
 	<set name="com.sdussaut.svg.tag.animate.attribute-values.repeatCount">
 		<completion string="indefinite"/>
 	</set>
-	
-	<!-- repeatDur -->
 	<set name="com.sdussaut.svg.tag.animate.attribute-values.repeatDur">
 		<completion string="indefinite"/>
 	</set>
-	
-	<!-- fill -->
-	<!-- see presentation attribute -->
+	<set name="com.sdussaut.svg.tag.animate.attribute-values.fill">
+		<completion string="freeze"/>
+		<completion string="remove"/>
+	</set>
 	
 	
 	<!-- animation value attributes -->
@@ -178,101 +100,37 @@ This file provides attributes values for font and color-related tags:
 	
 	
 	<!-- animation addition attributes -->
-	<!-- additive -->
+	<!-- additive | accumulate -->
 	<set name="com.sdussaut.svg.tag.animate.attribute-values.additive">
 		<completion string="sum"/>
 		<completion string="replace"/>
 	</set>
-	
-	<!-- accumulate -->
 	<set name="com.sdussaut.svg.tag.animate.attribute-values.accumulate">
 		<completion string="sum"/>
 		<completion string="replace"/>
 	</set>
 	
 	
+	<!-- other attributes -->
+	<!-- externalResourcesRequired -->
+	<set name="com.sdussaut.svg.tag.animate.attribute-values.externalResourcesRequired">
+		<completion string="false"/>
+		<completion string="true"/>
+	</set>
+	
 	
 	<!-- ANIMATECOLOR --> <!-- deprecated -->
-	<!-- display -->
-	<set name="com.sdussaut.svg.tag.animateColor.attribute-values.display">
-		<completion string="inline" />
-		<completion string="block" />
-		<completion string="list-item" />
-		<completion string="run-in" />
-		<completion string="compact" />
-		<completion string="marker" />
-		<completion string="table" />
-		<completion string="inline-table" />
-		<completion string="table-row-group" />
-		<completion string="table-header-group" />
-		<completion string="table-footer-group" />
-		<completion string="table-row" />
-		<completion string="table-column-group" />
-		<completion string="table-column" />
-		<completion string="table-cell" />
-		<completion string="table-caption" />
-		<completion string="none" />
-		<completion string="inherit" />
-	</set>
-	
-	
-	<!-- fill | fill-rule | fill-opacity -->
-	<set name="com.sdussaut.svg.tag.animateColor.attribute-values.fill">
-		<completion string="none"/>
-		<completion string="currentColor"/>
-		<completion string="inherit"/>
-		<!-- this is for animation -->
-		<completion string="freeze"/>
-		<completion string="remove"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.animateColor.attribute-values.fill-rule">
-		<completion string="nonzero"/>
-		<completion string="evenodd"/>
+	<!--  color-interpolation | color-rendering-->
+	<set name="com.sdussaut.svg.tag.animateColor.attribute-values.color-interpolation">
+		<completion string="auto"/>
+		<completion string="sRGB"/>
+		<completion string="linearRGB"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.sdussaut.svg.tag.animateColor.attribute-values.fill-opacity">
-		<completion string="inherit"/>
-	</set>
-	
-	
-	<!-- opacity -->
-	<set name="com.sdussaut.svg.tag.animateColor.attribute-values.opacity">
-		<completion string="inherit"/>
-	</set>
-	
-	
-	<!-- stroke | stroke-dasharray | stroke-dashoffset | stroke-linecap | stroke-linejoin | stroke-miterlimit | stroke-opacity | stroke-width -->
-	<set name="com.sdussaut.svg.tag.animateColor.attribute-values.stroke">
-		<completion string="none"/>
-		<completion string="currentColor"/>
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.animateColor.attribute-values.stroke-dasharray">
-		<completion string="none"/>
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.animateColor.attribute-values.stroke-dashoffset">
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.animateColor.attribute-values.stroke-linecap">
-		<completion string="butt"/>
-		<completion string="round"/>
-		<completion string="square"/>
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.animateColor.attribute-values.stroke-linejoin">
-		<completion string="miter"/>
-		<completion string="round"/>
-		<completion string="bevel"/>
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.animateColor.attribute-values.stroke-miterlimit">
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.animateColor.attribute-values.stroke-opacity">
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.animateColor.attribute-values.stroke-width">
+	<set name="com.sdussaut.svg.tag.animateColor.attribute-values.color-rendering">
+		<completion string="auto"/>
+		<completion string="optimizeSpeed"/>
+		<completion string="optimizeQuality"/>
 		<completion string="inherit"/>
 	</set>
 	
@@ -309,41 +167,32 @@ This file provides attributes values for font and color-related tags:
 	
 	
 	<!-- animation timing attributes -->
-	<!-- dur -->
+	<!-- dur | min | max | restart | repeatCount | repeatDur | fill -->
 	<set name="com.sdussaut.svg.tag.animateColor.attribute-values.dur">
 		<completion string="media"/>
 		<completion string="indefinite"/>
 	</set>
-	
-	<!-- min -->
 	<set name="com.sdussaut.svg.tag.animateColor.attribute-values.min">
 		<completion string="media"/>
 	</set>
-	
-	<!-- max -->
 	<set name="com.sdussaut.svg.tag.animateColor.attribute-values.max">
 		<completion string="media"/>
 	</set>
-	
-	<!-- restart -->
 	<set name="com.sdussaut.svg.tag.animateColor.attribute-values.restart">
 		<completion string="always"/>
 		<completion string="whenNotActive"/>
 		<completion string="never"/>
 	</set>
-	
-	<!-- repeatCount -->
 	<set name="com.sdussaut.svg.tag.animateColor.attribute-values.repeatCount">
 		<completion string="indefinite"/>
 	</set>
-	
-	<!-- repeatDur -->
 	<set name="com.sdussaut.svg.tag.animateColor.attribute-values.repeatDur">
 		<completion string="indefinite"/>
 	</set>
-	
-	<!-- fill -->
-	<!-- see presentation attribute -->
+	<set name="com.sdussaut.svg.tag.animateColor.attribute-values.fill">
+		<completion string="freeze"/>
+		<completion string="remove"/>
+	</set>
 	
 	
 	<!-- animation value attributes -->
@@ -357,13 +206,11 @@ This file provides attributes values for font and color-related tags:
 	
 	
 	<!-- animation addition attributes -->
-	<!-- additive -->
+	<!-- additive | accumulate -->
 	<set name="com.sdussaut.svg.tag.animateColor.attribute-values.additive">
 		<completion string="sum"/>
 		<completion string="replace"/>
 	</set>
-	
-	<!-- accumulate -->
 	<set name="com.sdussaut.svg.tag.animateColor.attribute-values.accumulate">
 		<completion string="sum"/>
 		<completion string="replace"/>
@@ -407,40 +254,28 @@ This file provides attributes values for font and color-related tags:
 	
 	
 	<!-- animation timing attributes -->
-	<!-- dur -->
+	<!-- dur | min | max | restart | repeatCount | repeatDur | fill -->
 	<set name="com.sdussaut.svg.tag.animateMotion.attribute-values.dur">
 		<completion string="media"/>
 		<completion string="indefinite"/>
 	</set>
-	
-	<!-- min -->
 	<set name="com.sdussaut.svg.tag.animateMotion.attribute-values.min">
 		<completion string="media"/>
 	</set>
-	
-	<!-- max -->
 	<set name="com.sdussaut.svg.tag.animateMotion.attribute-values.max">
 		<completion string="media"/>
 	</set>
-	
-	<!-- restart -->
 	<set name="com.sdussaut.svg.tag.animateMotion.attribute-values.restart">
 		<completion string="always"/>
 		<completion string="whenNotActive"/>
 		<completion string="never"/>
 	</set>
-	
-	<!-- repeatCount -->
 	<set name="com.sdussaut.svg.tag.animateMotion.attribute-values.repeatCount">
 		<completion string="indefinite"/>
 	</set>
-	
-	<!-- repeatDur -->
 	<set name="com.sdussaut.svg.tag.animateMotion.attribute-values.repeatDur">
 		<completion string="indefinite"/>
 	</set>
-	
-	<!-- fill -->
 	<set name="com.sdussaut.svg.tag.animateMotion.attribute-values.fill">
 		<completion string="freeze"/>
 		<completion string="remove"/>
@@ -458,13 +293,11 @@ This file provides attributes values for font and color-related tags:
 	
 	
 	<!-- animation addition attributes -->
-	<!-- additive -->
+	<!-- additive | accumulate -->
 	<set name="com.sdussaut.svg.tag.animateMotion.attribute-values.additive">
 		<completion string="sum"/>
 		<completion string="replace"/>
 	</set>
-	
-	<!-- accumulate -->
 	<set name="com.sdussaut.svg.tag.animateMotion.attribute-values.accumulate">
 		<completion string="sum"/>
 		<completion string="replace"/>
@@ -515,40 +348,28 @@ This file provides attributes values for font and color-related tags:
 	
 	
 	<!-- animation timing attributes -->
-	<!-- dur -->
+	<!-- dur | min | max | restart | repeatCount | repeatDur | fill -->
 	<set name="com.sdussaut.svg.tag.animateTransform.attribute-values.dur">
 		<completion string="media"/>
 		<completion string="indefinite"/>
 	</set>
-	
-	<!-- min -->
 	<set name="com.sdussaut.svg.tag.animateTransform.attribute-values.min">
 		<completion string="media"/>
 	</set>
-	
-	<!-- max -->
 	<set name="com.sdussaut.svg.tag.animateTransform.attribute-values.max">
 		<completion string="media"/>
 	</set>
-	
-	<!-- restart -->
 	<set name="com.sdussaut.svg.tag.animateTransform.attribute-values.restart">
 		<completion string="always"/>
 		<completion string="whenNotActive"/>
 		<completion string="never"/>
 	</set>
-	
-	<!-- repeatCount -->
 	<set name="com.sdussaut.svg.tag.animateTransform.attribute-values.repeatCount">
 		<completion string="indefinite"/>
 	</set>
-	
-	<!-- repeatDur -->
 	<set name="com.sdussaut.svg.tag.animateTransform.attribute-values.repeatDur">
 		<completion string="indefinite"/>
 	</set>
-	
-	<!-- fill -->
 	<set name="com.sdussaut.svg.tag.animateTransform.attribute-values.fill">
 		<completion string="freeze"/>
 		<completion string="remove"/>
@@ -566,13 +387,11 @@ This file provides attributes values for font and color-related tags:
 	
 	
 	<!-- animation addition attributes -->
-	<!-- additive -->
+	<!-- additive | accumulate -->
 	<set name="com.sdussaut.svg.tag.animateTransform.attribute-values.additive">
 		<completion string="sum"/>
 		<completion string="replace"/>
 	</set>
-	
-	<!-- accumulate -->
 	<set name="com.sdussaut.svg.tag.animateTransform.attribute-values.accumulate">
 		<completion string="sum"/>
 		<completion string="replace"/>
@@ -638,40 +457,28 @@ This file provides attributes values for font and color-related tags:
 	
 	
 	<!-- animation timing attributes -->
-	<!-- dur -->
+	<!-- dur | min | max | restart | repeatCount | repeatDur | fill -->
 	<set name="com.sdussaut.svg.tag.set.attribute-values.dur">
 		<completion string="media"/>
 		<completion string="indefinite"/>
 	</set>
-	
-	<!-- min -->
 	<set name="com.sdussaut.svg.tag.set.attribute-values.min">
 		<completion string="media"/>
 	</set>
-	
-	<!-- max -->
 	<set name="com.sdussaut.svg.tag.set.attribute-values.max">
 		<completion string="media"/>
 	</set>
-	
-	<!-- restart -->
 	<set name="com.sdussaut.svg.tag.set.attribute-values.restart">
 		<completion string="always"/>
 		<completion string="whenNotActive"/>
 		<completion string="never"/>
 	</set>
-	
-	<!-- repeatCount -->
 	<set name="com.sdussaut.svg.tag.set.attribute-values.repeatCount">
 		<completion string="indefinite"/>
 	</set>
-	
-	<!-- repeatDur -->
 	<set name="com.sdussaut.svg.tag.set.attribute-values.repeatDur">
 		<completion string="indefinite"/>
 	</set>
-	
-	<!-- fill -->
 	<set name="com.sdussaut.svg.tag.set.attribute-values.fill">
 		<completion string="freeze"/>
 		<completion string="remove"/>
