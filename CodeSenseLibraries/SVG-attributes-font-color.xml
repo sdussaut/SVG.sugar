@@ -40,36 +40,22 @@ This file provides attributes for font and color tags:
 	
 	<!-- FONT -->
 	<set name="com.sdussaut.svg.tag.font.attributes">
-		<!-- basic attributes -->
+		
+		<!-- other attributes -->
+		<completion string="externalResourcesRequired"/>
 		<completion string="horiz-origin-x"/>
 		<completion string="horiz-origin-y"/>
 		<completion string="horiz-adv-x"/>
 		<completion string="vert-origin-x"/>
 		<completion string="vert-origin-y"/>
 		<completion string="vert-adv-y"/>
-		<!--<completion string="externalResourcesRequired"/>-->
 		
-		
-		<!-- presentation attributes -->
-		<completion string="display"/>
-		<completion string="fill"/>
-		<completion string="fill-opacity"/>
-		<completion string="fill-rule"/>
-		<completion string="opacity"/>
-		<completion string="stroke"/>
-		<completion string="stroke-dasharray"/>
-		<completion string="stroke-dashoffset"/>
-		<completion string="stroke-linecap"/>
-		<completion string="stroke-linejoin"/>
-		<completion string="stroke-miterlimit"/>
-		<completion string="stroke-opacity"/>
-		<completion string="stroke-width"/>
 	</set>
 	
 	
 	<!-- FONT-FACE -->
 	<set name="com.sdussaut.svg.tag.font-face.attributes">
-		<!-- basic attributes -->
+		<!-- other attributes -->
 		<completion string="font-family"/>
 		<completion string="font-style"/>
 		<completion string="font-variant"/>
@@ -108,21 +94,21 @@ This file provides attributes for font and color tags:
 	
 	<!-- FONT-FACE-FORMAT -->
 	<set name="com.sdussaut.svg.tag.font-face-format.attributes">
-		<!-- basic attributes -->
+		<!-- other attributes -->
 		<completion string="string"/>
 	</set>
 	
 	
 	<!-- FONT-FACE-NAME -->
 	<set name="com.sdussaut.svg.tag.font-face-name.attributes">
-		<!-- basic attributes -->
+		<!-- other attributes -->
 		<completion string="name"/>	
 	</set>
 	
 	
 	<!-- FONT-FACE-URI -->
 	<set name="com.sdussaut.svg.tag.font-face-uri.attributes">
-		<!-- basic attributes -->
+		<!-- other attributes -->
 		<completion string="xlink:href"/>
 		
 		<!-- xlink attributes -->
@@ -137,7 +123,7 @@ This file provides attributes for font and color tags:
 	
 	<!-- GLYPH -->
 	<set name="com.sdussaut.svg.tag.glyph.attributes">
-		<!-- basic attributes -->
+		<!-- other attributes -->
 		<completion string="d"/>
 		<completion string="horiz-adv-x"/>
 		<completion string="vert-origin-x"/>
@@ -151,19 +137,14 @@ This file provides attributes for font and color tags:
 		
 		
 		<!-- presentation attributes -->
-		<completion string="display"/>
-		<completion string="fill"/>
-		<completion string="fill-opacity"/>
-		<completion string="fill-rule"/>
+		<completion string="clip-path"/>
+		<completion string="color-interpolation"/>
+		<completion string="color-rendering"/>
+		<completion string="cursor"/>
+		<completion string="enable-background"/>
+		<completion string="filter"/>
+		<completion string="mask"/>
 		<completion string="opacity"/>
-		<completion string="stroke"/>
-		<completion string="stroke-dasharray"/>
-		<completion string="stroke-dashoffset"/>
-		<completion string="stroke-linecap"/>
-		<completion string="stroke-linejoin"/>
-		<completion string="stroke-miterlimit"/>
-		<completion string="stroke-opacity"/>
-		<completion string="stroke-width"/>
 	</set>
 	
 	

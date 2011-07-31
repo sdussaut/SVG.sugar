@@ -27,93 +27,18 @@ This file provides attributes values for font and color-related tags:
 <codesense version="1.0">
 	
 	<!-- FONT -->
-	<!-- display -->
-	<set name="com.sdussaut.svg.tag.font.attribute-values.display">
-		<completion string="inline" />
-		<completion string="block" />
-		<completion string="list-item" />
-		<completion string="run-in" />
-		<completion string="compact" />
-		<completion string="marker" />
-		<completion string="table" />
-		<completion string="inline-table" />
-		<completion string="table-row-group" />
-		<completion string="table-header-group" />
-		<completion string="table-footer-group" />
-		<completion string="table-row" />
-		<completion string="table-column-group" />
-		<completion string="table-column" />
-		<completion string="table-cell" />
-		<completion string="table-caption" />
-		<completion string="none" />
-		<completion string="inherit" />
-	</set>
-	
-	
-	<!-- fill | fill-rule | fill-opacity -->
-	<set name="com.sdussaut.svg.tag.font.attribute-values.fill">
-		<completion string="none"/>
-		<completion string="currentColor"/>
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.font.attribute-values.fill-rule">
-		<completion string="nonzero"/>
-		<completion string="evenodd"/>
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.font.attribute-values.fill-opacity">
-		<completion string="inherit"/>
-	</set>
-	
-	
-	<!-- opacity -->
-	<set name="com.sdussaut.svg.tag.font.attribute-values.opacity">
-		<completion string="inherit"/>
-	</set>
-	
-	
-	<!-- stroke | stroke-dasharray | stroke-dashoffset | stroke-linecap | stroke-linejoin | stroke-miterlimit | stroke-opacity | stroke-width -->
-	<set name="com.sdussaut.svg.tag.font.attribute-values.stroke">
-		<completion string="none"/>
-		<completion string="currentColor"/>
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.font.attribute-values.stroke-dasharray">
-		<completion string="none"/>
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.font.attribute-values.stroke-dashoffset">
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.font.attribute-values.stroke-linecap">
-		<completion string="butt"/>
-		<completion string="round"/>
-		<completion string="square"/>
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.font.attribute-values.stroke-linejoin">
-		<completion string="miter"/>
-		<completion string="round"/>
-		<completion string="bevel"/>
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.font.attribute-values.stroke-miterlimit">
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.font.attribute-values.stroke-opacity">
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.font.attribute-values.stroke-width">
-		<completion string="inherit"/>
-	</set>
-	
-	
 	<!-- xml:space -->
 	<set name="com.sdussaut.svg.tag.font.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
 	
+	<!-- other attributes -->
+	<!-- externalResourcesRequired -->
+	<set name="com.sdussaut.svg.tag.font.attribute-values.externalResourcesRequired">
+		<completion string="false"/>
+		<completion string="true"/>
+	</set>
 	
 	
 	<!-- FONT-FACE -->
@@ -211,91 +136,10 @@ This file provides attributes values for font and color-related tags:
 		<completion string="isolated"/>
 	</set>
 	
-	<!-- display -->
-	<set name="com.sdussaut.svg.tag.glyph.attribute-values.display">
-		<completion string="inline" />
-		<completion string="block" />
-		<completion string="list-item" />
-		<completion string="run-in" />
-		<completion string="compact" />
-		<completion string="marker" />
-		<completion string="table" />
-		<completion string="inline-table" />
-		<completion string="table-row-group" />
-		<completion string="table-header-group" />
-		<completion string="table-footer-group" />
-		<completion string="table-row" />
-		<completion string="table-column-group" />
-		<completion string="table-column" />
-		<completion string="table-cell" />
-		<completion string="table-caption" />
-		<completion string="none" />
-		<completion string="inherit" />
-	</set>
-	
-	
-	<!-- fill | fill-rule | fill-opacity -->
-	<set name="com.sdussaut.svg.tag.glyph.attribute-values.fill">
-		<completion string="none"/>
-		<completion string="currentColor"/>
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.glyph.attribute-values.fill-rule">
-		<completion string="nonzero"/>
-		<completion string="evenodd"/>
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.glyph.attribute-values.fill-opacity">
-		<completion string="inherit"/>
-	</set>
-	
-	
-	<!-- opacity -->
-	<set name="com.sdussaut.svg.tag.glyph.attribute-values.opacity">
-		<completion string="inherit"/>
-	</set>
-	
-	
 	<!-- orientation -->
 	<set name="com.sdussaut.svg.tag.glyph.attribute-values.orientation">
 		<completion string="h"/>
 		<completion string="v"/>
-	</set>
-	
-	
-	<!-- stroke | stroke-dasharray | stroke-dashoffset | stroke-linecap | stroke-linejoin | stroke-miterlimit | stroke-opacity | stroke-width -->
-	<set name="com.sdussaut.svg.tag.glyph.attribute-values.stroke">
-		<completion string="none"/>
-		<completion string="currentColor"/>
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.glyph.attribute-values.stroke-dasharray">
-		<completion string="none"/>
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.glyph.attribute-values.stroke-dashoffset">
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.glyph.attribute-values.stroke-linecap">
-		<completion string="butt"/>
-		<completion string="round"/>
-		<completion string="square"/>
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.glyph.attribute-values.stroke-linejoin">
-		<completion string="miter"/>
-		<completion string="round"/>
-		<completion string="bevel"/>
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.glyph.attribute-values.stroke-miterlimit">
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.glyph.attribute-values.stroke-opacity">
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.glyph.attribute-values.stroke-width">
-		<completion string="inherit"/>
 	</set>
 	
 	
@@ -304,6 +148,63 @@ This file provides attributes values for font and color-related tags:
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
+	
+	
+	<!-- clip-path | color-interpolation | color-rendering | cursor | enable-background | filter | mask | opacity -->
+	<set name="com.sdussaut.svg.tag.glyph.attribute-values.clip-path">
+		<completion string="none"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.glyph.attribute-values.color-interpolation">
+		<completion string="auto"/>
+		<completion string="sRGB"/>
+		<completion string="linearRGB"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.glyph.attribute-values.color-rendering">
+		<completion string="auto"/>
+		<completion string="optimizeSpeed"/>
+		<completion string="optimizeQuality"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.glyph.attribute-values.cursor">
+		<completion string="auto"/>
+		<completion string="crosshair"/>
+		<completion string="default"/>
+		<completion string="pointer"/>
+		<completion string="move"/>
+		<completion string="e-resize"/>
+		<completion string="ne-resize"/>
+		<completion string="nw-resize"/>
+		<completion string="n-resize"/>
+		<completion string="se-resize"/>
+		<completion string="sw-resize"/>
+		<completion string="s-resize"/>
+		<completion string="w-resize"/>
+		<completion string="text"/>
+		<completion string="wait"/>
+		<completion string="help"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.glyph.attribute-values.enable-background">
+		<completion string="accumulate"/>
+		<completion string="new"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.glyph.attribute-values.filter">
+		<completion string="none"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.glyph.attribute-values.mask">
+		<completion string="none"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.glyph.attribute-values.opacity">
+		<completion string="inherit"/>
+	</set>
+	
+	
+	
 	
 	
 	
