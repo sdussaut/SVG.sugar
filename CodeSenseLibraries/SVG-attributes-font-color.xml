@@ -180,9 +180,7 @@ This file provides attributes for font and color tags:
 		<completion string="dy"/>
 		<completion string="glyphRef"/>
 		<completion string="format"/>
-		<completion string="rotate"/>
-		<completion string="xlink:href"/>
-		
+		<completion string="rotate"/>		
 		
 		
 		<!-- presentation attributes -->
@@ -221,7 +219,6 @@ This file provides attributes for font and color tags:
 		<completion string="word-spacing"/>
 		
 		
-		
 		<!-- graphical event attributes -->
 		<completion string="onfocusin"/>
 		<completion string="onfocusout"/>
@@ -236,6 +233,7 @@ This file provides attributes for font and color tags:
 		
 		
 		<!-- xlink attributes -->
+		<completion string="xlink:href"/>
 		<completion string="xlink:show"/>
 		<completion string="xlink:actuate"/>
 		<completion string="xlink:type"/>
@@ -253,27 +251,10 @@ This file provides attributes for font and color tags:
 		<completion string="dx"/>
 		<completion string="dy"/>
 		<completion string="glyphRef"/>
-		<completion string="format"/>
-		<completion string="xlink:href"/>
-		
-		
-		<!-- presentation attributes -->
-		<completion string="display"/>
-		<completion string="fill"/>
-		<completion string="fill-opacity"/>
-		<completion string="fill-rule"/>
-		<completion string="opacity"/>
-		<completion string="stroke"/>
-		<completion string="stroke-dasharray"/>
-		<completion string="stroke-dashoffset"/>
-		<completion string="stroke-linecap"/>
-		<completion string="stroke-linejoin"/>
-		<completion string="stroke-miterlimit"/>
-		<completion string="stroke-opacity"/>
-		<completion string="stroke-width"/>
-		
+		<completion string="format"/>		
 		
 		<!-- xlink attributes -->
+		<completion string="xlink:href"/>
 		<completion string="xlink:show"/>
 		<completion string="xlink:actuate"/>
 		<completion string="xlink:type"/>
