@@ -205,9 +205,6 @@ This file provides attributes values for font and color-related tags:
 	
 	
 	
-	
-	
-	
 	<!-- HKERN -->
 	<!-- xml:space -->
 	<set name="com.sdussaut.svg.tag.hkern.attribute-values.xml:space">
@@ -530,6 +527,11 @@ This file provides attributes values for font and color-related tags:
 		<completion string="preserve"/>
 	</set>
 	
+	<!-- externalResourcesRequired -->
+	<set name="com.sdussaut.svg.tag.altGlyph.attribute-values.externalResourcesRequired">
+		<completion string="false"/>
+		<completion string="true"/>
+	</set>
 	
 	
 	<!-- ALTGLYPHDEF -->
@@ -564,7 +566,6 @@ This file provides attributes values for font and color-related tags:
 	<set name="com.sdussaut.svg.tag.glyphRef.attribute-values.xlink:type">
 		<completion string="simple"/>
 	</set>
-	
 	
 	<!-- xml:space -->
 	<set name="com.sdussaut.svg.tag.glyphRef.attribute-values.xml:space">
@@ -794,7 +795,6 @@ This file provides attributes values for font and color-related tags:
 		<completion string="inherit"/>
 	</set>
 	
-	
 	<!-- xlink:show | xlink:actuate | xlink:type -->
 	<set name="com.sdussaut.svg.tag.tref.attribute-values.xlink:show">
 		<completion string="new"/>
@@ -809,13 +809,17 @@ This file provides attributes values for font and color-related tags:
 		<completion string="simple"/>
 	</set>
 	
-	
 	<!-- xml:space -->
 	<set name="com.sdussaut.svg.tag.tref.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
 	
+	<!-- externalResourcesRequired -->
+	<set name="com.sdussaut.svg.tag.tref.attribute-values.externalResourcesRequired">
+		<completion string="false"/>
+		<completion string="true"/>
+	</set>
 	
 	
 	<!-- TSPAN -->	
@@ -1056,15 +1060,20 @@ This file provides attributes values for font and color-related tags:
 		<completion string="simple"/>
 	</set>
 	
-	
 	<!-- xml:space -->
 	<set name="com.sdussaut.svg.tag.tspan.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
 	</set>
 	
+	<!-- externalResourcesRequired -->
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.externalResourcesRequired">
+		<completion string="false"/>
+		<completion string="true"/>
+	</set>
 	
 		
+
 	<!-- LINEARGRADIENT -->
 	<!-- gradientUnits -->
 	<set name="com.sdussaut.svg.tag.linearGradient.attribute-values.gradientUnits">
@@ -1109,6 +1118,11 @@ This file provides attributes values for font and color-related tags:
 		<completion string="preserve"/>
 	</set>
 	
+	<!-- externalResourcesRequired -->
+	<set name="com.sdussaut.svg.tag.linearGradient.attribute-values.externalResourcesRequired">
+		<completion string="false"/>
+		<completion string="true"/>
+	</set>
 	
 	
 	<!-- RADIALGRADIENT -->
@@ -1153,6 +1167,12 @@ This file provides attributes values for font and color-related tags:
 	<set name="com.sdussaut.svg.tag.radialGradient.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
+	</set>
+	
+	<!-- externalResourcesRequired -->
+	<set name="com.sdussaut.svg.tag.radialGradient.attribute-values.externalResourcesRequired">
+		<completion string="false"/>
+		<completion string="true"/>
 	</set>
 	
 	
