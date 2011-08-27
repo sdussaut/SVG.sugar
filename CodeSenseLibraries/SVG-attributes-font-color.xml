@@ -266,17 +266,37 @@ This file provides attributes for font and color tags:
 	
 	<!-- TREF -->
 	<set name="com.sdussaut.svg.tag.tref.attributes">
-		<!-- basic attributes -->
-		<completion string="xlink:href"/>
-		<!--<completion string="externalResourcesRequired"/>-->
+		<!-- other attributes -->
+		<completion string="externalResourcesRequired"/>
+		<completion string="x"/>
+		<completion string="y"/>
+		<completion string="dx"/>
+		<completion string="dy"/>
+		<completion string="glyphRef"/>
+		<completion string="format"/>	
 		
 		
 		<!-- presentation attributes -->
+		<completion string="alignment-baseline"/>
+		<completion string="baseline-shift"/>
+		<completion string="color"/>
+		<completion string="direction"/>
 		<completion string="display"/>
+		<completion string="dominant-baseline"/>
 		<completion string="fill"/>
 		<completion string="fill-opacity"/>
 		<completion string="fill-rule"/>
-		<completion string="opacity"/>
+		<completion string="font-family"/>
+		<completion string="font-size"/>
+		<completion string="font-size-adjust"/>
+		<completion string="font-stretch"/>
+		<completion string="font-style"/>
+		<completion string="font-variant"/>
+		<completion string="font-weight"/>
+		<completion string="glyph-orientation-horizontal"/>
+		<completion string="glyph-orientation-vertical"/>
+		<completion string="kerning"/>
+		<completion string="letter-spacing"/>
 		<completion string="stroke"/>
 		<completion string="stroke-dasharray"/>
 		<completion string="stroke-dashoffset"/>
@@ -285,6 +305,11 @@ This file provides attributes for font and color tags:
 		<completion string="stroke-miterlimit"/>
 		<completion string="stroke-opacity"/>
 		<completion string="stroke-width"/>
+		<completion string="text-anchor"/>
+		<completion string="text-decoration"/>
+		<completion string="unicode-bidi"/>
+		<completion string="visibility"/>
+		<completion string="word-spacing"/>
 		
 		
 		<!-- graphical event attributes -->
@@ -301,6 +326,7 @@ This file provides attributes for font and color tags:
 		
 		
 		<!-- xlink attributes -->
+		<completion string="xlink:href"/>
 		<completion string="xlink:show"/>
 		<completion string="xlink:actuate"/>
 		<completion string="xlink:type"/>
