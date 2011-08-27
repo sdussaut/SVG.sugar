@@ -819,28 +819,70 @@ This file provides attributes values for font and color-related tags:
 	
 	
 	<!-- TSPAN -->	
-	<!-- display -->
-	<set name="com.sdussaut.svg.tag.tspan.attribute-values.display">
-		<completion string="inline" />
-		<completion string="block" />
-		<completion string="list-item" />
-		<completion string="run-in" />
-		<completion string="compact" />
-		<completion string="marker" />
-		<completion string="table" />
-		<completion string="inline-table" />
-		<completion string="table-row-group" />
-		<completion string="table-header-group" />
-		<completion string="table-footer-group" />
-		<completion string="table-row" />
-		<completion string="table-column-group" />
-		<completion string="table-column" />
-		<completion string="table-cell" />
-		<completion string="table-caption" />
-		<completion string="none" />
-		<completion string="inherit" />
+	<!-- alignment-baseline | baseline-shift | color | direction | display | dominant-baseline -->
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.alignment-baseline">
+		<completion string="auto"/>
+		<completion string="baseline"/>
+		<completion string="before-edge"/>
+		<completion string="text-before-edge"/>
+		<completion string="middle"/>
+		<completion string="central"/>
+		<completion string="after-edge"/>
+		<completion string="text-after-edge"/>
+		<completion string="ideographic"/>
+		<completion string="alphabetic"/>
+		<completion string="hanging"/>
+		<completion string="mathematical"/>
+		<completion string="inherit"/>
 	</set>
-	
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.baseline-shift">
+		<completion string="baseline"/>
+		<completion string="sub"/>
+		<completion string="super"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.color">
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.direction">
+		<completion string="ltr"/>
+		<completion string="rtl"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.display">
+		<completion string="inline"/>
+		<completion string="block"/>
+		<completion string="list-item"/>
+		<completion string="run-in"/>
+		<completion string="compact"/>
+		<completion string="marker"/>
+		<completion string="table"/>
+		<completion string="inline-table"/>
+		<completion string="table-row-group"/>
+		<completion string="table-header-group"/>
+		<completion string="table-footer-group"/>
+		<completion string="table-row"/>
+		<completion string="table-column-group"/>
+		<completion string="table-column"/>
+		<completion string="table-cell"/>
+		<completion string="table-caption"/>
+		<completion string="none"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.dominant-baseline">
+		<completion string="auto"/>
+		<completion string="use-script"/>
+		<completion string="no-change"/>
+		<completion string="reset-size"/>
+		<completion string="ideographic"/>
+		<completion string="alphabetic"/>
+		<completion string="hanging"/>
+		<completion string="mathematical"/>
+		<completion string="central"/>
+		<completion string="middle"/>
+		<completion string="text-after-edge"/>
+		<completion string="text-before-edge"/>
+		<completion string="inherit"/>
+	</set>
 	
 	<!-- fill | fill-rule | fill-opacity -->
 	<set name="com.sdussaut.svg.tag.tspan.attribute-values.fill">
@@ -857,19 +899,75 @@ This file provides attributes values for font and color-related tags:
 		<completion string="inherit"/>
 	</set>
 	
-	
-	<!-- lengthAdjust -->
-	<set name="com.sdussaut.svg.tag.tspan.attribute-values.lengthAdjust">
-		<completion string="spacing"/>
-		<completion string="spacingAndGlyphs"/>
+	<!-- font-family | font-size | font-size-adjust | font-stretch | font-style | font-variant | font-weight -->
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.font-family">
+		<completion string="inherit"/>
 	</set>
-	
-	
-	<!-- opacity -->
-	<set name="com.sdussaut.svg.tag.tspan.attribute-values.opacity">
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.font-size">
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.font-size-adjust">
+		<completion string="none"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.font-stretch">
+		<completion string="normal"/>
+		<completion string="wider"/>
+		<completion string="narrower"/>
+		<completion string="ultra-condensed"/>
+		<completion string="extra-condensed"/>
+		<completion string="condensed"/>
+		<completion string="semi-condensed"/>
+		<completion string="semi-expanded"/>
+		<completion string="expanded"/>
+		<completion string="extra-expanded"/>
+		<completion string="ultra-expanded"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.font-style">
+		<completion string="normal"/>
+		<completion string="italic"/>
+		<completion string="oblique"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.font-variant">
+		<completion string="normal"/>
+		<completion string="small-caps"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.font-weight">
+		<completion string="normal"/>
+		<completion string="bold"/>
+		<completion string="bolder"/>
+		<completion string="lighter"/>
+		<completion string="100"/>
+		<completion string="200"/>
+		<completion string="300"/>
+		<completion string="400"/>
+		<completion string="500"/>
+		<completion string="600"/>
+		<completion string="700"/>
+		<completion string="800"/>
+		<completion string="900"/>
 		<completion string="inherit"/>
 	</set>
 	
+	<!-- glyph-orientation-horizontal | glyph-orientation-vertical | kerning | letter-spacing -->
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.glyph-orientation-horizontal">
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.glyph-orientation-vertical">
+		<completion string="auto"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.kerning">
+		<completion string="auto"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.letter-spacing">
+		<completion string="normal"/>
+		<completion string="inherit"/>
+	</set>
 	
 	<!-- stroke | stroke-dasharray | stroke-dashoffset | stroke-linecap | stroke-linejoin | stroke-miterlimit | stroke-opacity | stroke-width -->
 	<set name="com.sdussaut.svg.tag.tspan.attribute-values.stroke">
@@ -904,6 +1002,58 @@ This file provides attributes values for font and color-related tags:
 	</set>
 	<set name="com.sdussaut.svg.tag.tspan.attribute-values.stroke-width">
 		<completion string="inherit"/>
+	</set>
+	
+	<!-- text-anchor | text-decoration | unicode-bidi | visibility | word-spacing -->
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.text-anchor">
+		<completion string="start"/>
+		<completion string="middle"/>
+		<completion string="end"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.text-decoration">
+		<completion string="none"/>
+		<completion string="underline"/>
+		<completion string="overline"/>
+		<completion string="line-through"/>
+		<completion string="blink"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.unicode-bidi">
+		<completion string="normal"/>
+		<completion string="embed"/>
+		<completion string="bidi-override"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.visibility">
+		<completion string="visible"/>
+		<completion string="hidden"/>
+		<completion string="collapse"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.word-spacing">
+		<completion string="normal"/>
+		<completion string="inherit"/>
+	</set>
+	
+	<!-- lengthAdjust -->
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.lengthAdjust">
+		<completion string="spacing"/>
+		<completion string="spacingAndGlyphs"/>
+	</set>	
+	
+	<!-- xlink:show | xlink:actuate | xlink:type -->
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.xlink:show">
+		<completion string="new"/>
+		<completion string="replace"/>
+		<completion string="other"/>
+		<completion string="none"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.xlink:actuate">
+		<completion string="onLoad"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.tspan.attribute-values.xlink:type">
+		<completion string="simple"/>
 	</set>
 	
 	
