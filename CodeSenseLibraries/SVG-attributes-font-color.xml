@@ -414,7 +414,8 @@ This file provides attributes for font and color tags:
 	
 	<!-- LINEARGRADIENT -->
 	<set name="com.sdussaut.svg.tag.linearGradient.attributes">
-		<!-- basic attributes -->
+		<!-- other attributes -->
+		<completion string="externalResourcesRequired"/>
 		<completion string="x1"/>
 		<completion string="y1"/>
 		<completion string="x2"/>
@@ -436,7 +437,8 @@ This file provides attributes for font and color tags:
 	
 	<!-- RADIALGRADIENT -->
 	<set name="com.sdussaut.svg.tag.radialGradient.attributes">
-		<!-- basic attributes -->
+		<!-- other attributes -->
+		<completion string="externalResourcesRequired"/>
 		<completion string="cx"/>
 		<completion string="cy"/>
 		<completion string="fx"/>
@@ -445,27 +447,9 @@ This file provides attributes for font and color tags:
 		<completion string="gradientUnits"/>
 		<completion string="gradientTransform"/>
 		<completion string="spreadMethod"/>
-		<completion string="xlink:href"/>
-		<!--<completion string="externalResourcesRequired"/>-->
-		
-		
-		<!-- presentation attributes -->
-		<completion string="display"/>
-		<completion string="fill"/>
-		<completion string="fill-opacity"/>
-		<completion string="fill-rule"/>
-		<completion string="opacity"/>
-		<completion string="stroke"/>
-		<completion string="stroke-dasharray"/>
-		<completion string="stroke-dashoffset"/>
-		<completion string="stroke-linecap"/>
-		<completion string="stroke-linejoin"/>
-		<completion string="stroke-miterlimit"/>
-		<completion string="stroke-opacity"/>
-		<completion string="stroke-width"/>
-		
 		
 		<!-- xlink attributes -->
+		<completion string="xlink:href"/>
 		<completion string="xlink:show"/>
 		<completion string="xlink:actuate"/>
 		<completion string="xlink:type"/>
