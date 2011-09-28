@@ -31,9 +31,6 @@ This file provides general common attributes for ALL SVG tags:
 		<completion string="class"/>
 		<completion string="id"/>
 		<completion string="style"/>
-		<completion string="requiredFeatures"/>
-		<completion string="requiredExtensions"/>
-		<completion string="systemLanguage"/>
 		<completion string="xml:base"/>
 		<completion string="xml:lang"/>
 		<completion string="xml:space"/>
