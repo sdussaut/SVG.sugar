@@ -72,32 +72,35 @@ This file provides attributes for generic purpose tags:
 	
 	<!-- USE -->
 	<set name="com.sdussaut.svg.tag.use.attributes">
-		<!-- basic attributes -->
+	
+		<!-- conditional processing attributes -->
+		<completion string="requiredFeatures"/>
+		<completion string="requiredExtensions"/>
+		<completion string="systemLanguage"/>
+	
+		<!-- other attributes -->
+		<completion string="externalResourcesRequired"/>
 		<completion string="x"/>
 		<completion string="y"/>
 		<completion string="width"/>
 		<completion string="height"/>
 		<completion string="transform"/>
-		<completion string="xlink:href"/>
-		<!--<completion string="externalResourcesRequired"/>-->
 		
 		
 		<!-- presentation attributes -->
+		<completion string="clip-path"/>
+		<completion string="clip-rule"/>
+		<completion string="color-interpolation"/>
+		<completion string="color-rendering"/>
+		<completion string="cursor"/>
 		<completion string="display"/>
-		<completion string="fill"/>
-		<completion string="fill-opacity"/>
-		<completion string="fill-rule"/>
+		<completion string="filter"/>
+		<completion string="mask"/>
 		<completion string="opacity"/>
-		<completion string="stroke"/>
-		<completion string="stroke-dasharray"/>
-		<completion string="stroke-dashoffset"/>
-		<completion string="stroke-linecap"/>
-		<completion string="stroke-linejoin"/>
-		<completion string="stroke-miterlimit"/>
-		<completion string="stroke-opacity"/>
-		<completion string="stroke-width"/>
+		<completion string="pointer-events"/>
+		<completion string="visibility"/>
 		
-		
+				
 		<!-- graphical event attributes -->
 		<completion string="onfocusin"/>
 		<completion string="onfocusout"/>
@@ -109,6 +112,17 @@ This file provides attributes for generic purpose tags:
 		<completion string="onmousemove"/>
 		<completion string="onmouseout"/>
 		<completion string="onload"/>
+		
+		
+		<!-- xlink attributes -->
+		<completion string="xlink:href"/>
+		<completion string="xlink:show"/>
+		<completion string="xlink:actuate"/>
+		<completion string="xlink:type"/>
+		<completion string="xlink:role"/>
+		<completion string="xlink:arcrole"/>
+		<completion string="xlink:title"/>
+		
 		
 	</set>
 	
