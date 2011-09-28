@@ -1429,4 +1429,10 @@ This file provides attributes values for font and color-related tags:
 		<completion string="preserve"/>
 	</set>
 	
+	<!-- externalResourcesRequired -->
+	<set name="com.sdussaut.svg.tag.marker.attribute-values.externalResourcesRequired">
+		<completion string="false"/>
+		<completion string="true"/>
+	</set>
+	
 </codesense>
