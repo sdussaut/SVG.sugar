@@ -302,29 +302,23 @@ This file provides attributes for generic purpose tags:
 	
 	<!-- FOREIGNOBJECT -->
 	<set name="com.sdussaut.svg.tag.foreignObject.attributes">
-		<!-- basic attributes -->
+		<!-- conditional processing attributes -->
+		<completion string="requiredFeatures"/>
+		<completion string="requiredExtensions"/>
+		<completion string="systemLanguage"/>
+	
+		<!-- other attributes -->
+		<completion string="externalResourcesRequired"/>
 		<completion string="x"/>
 		<completion string="y"/>
 		<completion string="width"/>
 		<completion string="height"/>
 		<completion string="transform"/>
-		<!--<completion string="externalResourcesRequired"/>-->
 		
 		<!-- presentation attributes -->
+		<completion string="clip"/>
 		<completion string="display"/>
-		<completion string="fill"/>
-		<completion string="fill-opacity"/>
-		<completion string="fill-rule"/>
-		<completion string="opacity"/>
-		<completion string="stroke"/>
-		<completion string="stroke-dasharray"/>
-		<completion string="stroke-dashoffset"/>
-		<completion string="stroke-linecap"/>
-		<completion string="stroke-linejoin"/>
-		<completion string="stroke-miterlimit"/>
-		<completion string="stroke-opacity"/>
-		<completion string="stroke-width"/>
-		
+		<completion string="overflow"/>
 		
 		<!-- graphical event attributes -->
 		<completion string="onfocusin"/>
