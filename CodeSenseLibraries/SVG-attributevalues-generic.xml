@@ -617,6 +617,42 @@ This file provides attributes values for generic purpose tags:
 	
 	
 	<!-- SWITCH -->
+	<!-- clip-path | color-interpolation | color-rendering | cursor -->
+	<set name="com.sdussaut.svg.tag.switch.attribute-values.clip-path">
+		<completion string="none"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.switch.attribute-values.color-interpolation">
+		<completion string="auto"/>
+		<completion string="sRGB"/>
+		<completion string="linearRGB"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.switch.attribute-values.color-rendering">
+		<completion string="auto"/>
+		<completion string="optimizeSpeed"/>
+		<completion string="optimizeQuality"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.switch.attribute-values.cursor">
+		<completion string="auto"/>
+		<completion string="crosshair"/>
+		<completion string="default"/>
+		<completion string="pointer"/>
+		<completion string="move"/>
+		<completion string="e-resize"/>
+		<completion string="ne-resize"/>
+		<completion string="nw-resize"/>
+		<completion string="n-resize"/>
+		<completion string="se-resize"/>
+		<completion string="sw-resize"/>
+		<completion string="s-resize"/>
+		<completion string="w-resize| text"/>
+		<completion string="wait"/>
+		<completion string="help"/>
+		<completion string="inherit"/>
+	</set>
+	
 	<!-- display -->
 	<set name="com.sdussaut.svg.tag.switch.attribute-values.display">
 		<completion string="inline" />
@@ -639,64 +675,23 @@ This file provides attributes values for generic purpose tags:
 		<completion string="inherit" />
 	</set>
 	
-	
-	<!-- fill | fill-rule | fill-opacity -->
-	<set name="com.sdussaut.svg.tag.switch.attribute-values.fill">
+	<!-- enable-background | filter | mask | opacity | overflow -->
+	<set name="com.sdussaut.svg.tag.switch.attribute-values.enable-background">
+		<completion string="accumulate"/>
+		<completion string="new"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.switch.attribute-values.filter">
 		<completion string="none"/>
-		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.sdussaut.svg.tag.switch.attribute-values.fill-rule">
-		<completion string="nonzero"/>
-		<completion string="evenodd"/>
+	<set name="com.sdussaut.svg.tag.switch.attribute-values.mask">
+		<completion string="none"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.sdussaut.svg.tag.switch.attribute-values.fill-opacity">
-		<completion string="inherit"/>
-	</set>
-	
-	
-	<!-- opacity -->
 	<set name="com.sdussaut.svg.tag.switch.attribute-values.opacity">
 		<completion string="inherit"/>
 	</set>
-	
-	
-	<!-- stroke | stroke-dasharray | stroke-dashoffset | stroke-linecap | stroke-linejoin | stroke-miterlimit | stroke-opacity | stroke-width -->
-	<set name="com.sdussaut.svg.tag.switch.attribute-values.stroke">
-		<completion string="none"/>
-		<completion string="currentColor"/>
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.switch.attribute-values.stroke-dasharray">
-		<completion string="none"/>
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.switch.attribute-values.stroke-dashoffset">
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.switch.attribute-values.stroke-linecap">
-		<completion string="butt"/>
-		<completion string="round"/>
-		<completion string="square"/>
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.switch.attribute-values.stroke-linejoin">
-		<completion string="miter"/>
-		<completion string="round"/>
-		<completion string="bevel"/>
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.switch.attribute-values.stroke-miterlimit">
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.switch.attribute-values.stroke-opacity">
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.switch.attribute-values.stroke-width">
-		<completion string="inherit"/>
-	</set>
-	
 	
 	<!-- transform -->	
 	<set name="com.sdussaut.svg.tag.switch.attribute-values.transform">
@@ -708,11 +703,17 @@ This file provides attributes values for generic purpose tags:
 		<completion string="skewY(angle)"/>
 	</set>
 	
-	
 	<!-- xml:space -->
 	<set name="com.sdussaut.svg.tag.switch.attribute-values.xml:space">
 		<completion string="default"/>
 		<completion string="preserve"/>
+	</set>
+	
+	<!-- other attributes -->
+	<!-- externalResourcesRequired -->
+	<set name="com.sdussaut.svg.tag.switch.attribute-values.externalResourcesRequired">
+		<completion string="false"/>
+		<completion string="true"/>
 	</set>
 	
 	
