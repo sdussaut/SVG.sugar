@@ -189,26 +189,24 @@ This file provides attributes for generic purpose tags:
 	
 	<!-- DEFS -->
 	<set name="com.sdussaut.svg.tag.defs.attributes">
-		<!-- basic attributes -->
+		<!-- conditional processing attributes -->
+		<completion string="requiredFeatures"/>
+		<completion string="requiredExtensions"/>
+		<completion string="systemLanguage"/>
+	
+		<!-- other attributes -->
+		<completion string="externalResourcesRequired"/>
 		<completion string="transform"/>
-		<!--<completion string="externalResourcesRequired"/>-->
-		
 		
 		<!-- presentation attributes -->
-		<completion string="display"/>
-		<completion string="fill"/>
-		<completion string="fill-opacity"/>
-		<completion string="fill-rule"/>
+		<completion string="clip-path"/>
+		<completion string="color-interpolation"/>
+		<completion string="color-rendering"/>
+		<completion string="cursor"/>
+		<completion string="enable-background"/>
+		<completion string="filter"/>
+		<completion string="mask"/>
 		<completion string="opacity"/>
-		<completion string="stroke"/>
-		<completion string="stroke-dasharray"/>
-		<completion string="stroke-dashoffset"/>
-		<completion string="stroke-linecap"/>
-		<completion string="stroke-linejoin"/>
-		<completion string="stroke-miterlimit"/>
-		<completion string="stroke-opacity"/>
-		<completion string="stroke-width"/>
-		
 		
 		<!-- graphical event attributes -->
 		<completion string="onfocusin"/>
