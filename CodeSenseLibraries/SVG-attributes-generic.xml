@@ -225,27 +225,25 @@ This file provides attributes for generic purpose tags:
 	
 	<!-- SYMBOL -->
 	<set name="com.sdussaut.svg.tag.symbol.attributes">
-		<!-- basic attributes -->
+	
+		<!-- other attributes -->
+		<completion string="externalResourcesRequired"/>
 		<completion string="transform"/>
 		<completion string="preserveAspectRatio"/>
 		<completion string="viewBox"/>
-		<!--<completion string="externalResourcesRequired"/>-->
 		
 		
 		<!-- presentation attributes -->
-		<completion string="display"/>
-		<completion string="fill"/>
-		<completion string="fill-opacity"/>
-		<completion string="fill-rule"/>
+		<completion string="clip"/>
+		<completion string="clip-path"/>
+		<completion string="color-interpolation"/>
+		<completion string="color-rendering"/>
+		<completion string="cursor"/>
+		<completion string="enable-background"/>
+		<completion string="filter"/>
+		<completion string="mask"/>
 		<completion string="opacity"/>
-		<completion string="stroke"/>
-		<completion string="stroke-dasharray"/>
-		<completion string="stroke-dashoffset"/>
-		<completion string="stroke-linecap"/>
-		<completion string="stroke-linejoin"/>
-		<completion string="stroke-miterlimit"/>
-		<completion string="stroke-opacity"/>
-		<completion string="stroke-width"/>
+		<completion string="overflow"/>
 		
 		
 		<!-- graphical event attributes -->
