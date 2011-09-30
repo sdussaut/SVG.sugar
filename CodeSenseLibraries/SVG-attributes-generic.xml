@@ -338,10 +338,10 @@ This file provides attributes for generic purpose tags:
 	
 	<!-- SCRIPT -->
 	<set name="com.sdussaut.svg.tag.script.attributes">
-		<!-- basic attributes -->
+		<!-- other attributes -->
+		<completion string="externalResourcesRequired"/>
 		<completion string="type"/>
 		<completion string="xlink:href"/>
-		<!--<completion string="externalResourcesRequired"/>-->
 		
 		<!-- xlink attributes -->
 		<completion string="xlink:show"/>

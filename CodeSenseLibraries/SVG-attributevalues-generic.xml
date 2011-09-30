@@ -802,5 +802,11 @@ This file provides attributes values for generic purpose tags:
 		<completion string="preserve"/>
 	</set>
 	
+	<!-- other attributes -->
+	<!-- externalResourcesRequired -->
+	<set name="com.sdussaut.svg.tag.script.attribute-values.externalResourcesRequired">
+		<completion string="false"/>
+		<completion string="true"/>
+	</set>
 	
 </codesense>
