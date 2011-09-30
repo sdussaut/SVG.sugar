@@ -260,6 +260,46 @@ This file provides attributes values for generic purpose tags:
 	
 	
 	<!-- SVG -->
+	<!-- clip | clip-path | color-interpolation | color-rendering | cursor -->
+	<set name="com.sdussaut.svg.tag.svg.attribute-values.clip">
+		<completion string="auto"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.svg.attribute-values.clip-path">
+		<completion string="none"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.svg.attribute-values.color-interpolation">
+		<completion string="auto"/>
+		<completion string="sRGB"/>
+		<completion string="linearRGB"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.svg.attribute-values.color-rendering">
+		<completion string="auto"/>
+		<completion string="optimizeSpeed"/>
+		<completion string="optimizeQuality"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.svg.attribute-values.cursor">
+		<completion string="auto"/>
+		<completion string="crosshair"/>
+		<completion string="default"/>
+		<completion string="pointer"/>
+		<completion string="move"/>
+		<completion string="e-resize"/>
+		<completion string="ne-resize"/>
+		<completion string="nw-resize"/>
+		<completion string="n-resize"/>
+		<completion string="se-resize"/>
+		<completion string="sw-resize"/>
+		<completion string="s-resize"/>
+		<completion string="w-resize| text"/>
+		<completion string="wait"/>
+		<completion string="help"/>
+		<completion string="inherit"/>
+	</set>
+	
 	<!-- display -->
 	<set name="com.sdussaut.svg.tag.svg.attribute-values.display">
 		<completion string="inline" />
@@ -283,24 +323,28 @@ This file provides attributes values for generic purpose tags:
 	</set>
 	
 	
-	<!-- fill | fill-rule | fill-opacity -->
-	<set name="com.sdussaut.svg.tag.svg.attribute-values.fill">
+	<!-- enable-background | filter | mask | opacity | overflow -->
+	<set name="com.sdussaut.svg.tag.svg.attribute-values.enable-background">
+		<completion string="accumulate"/>
+		<completion string="new"/>
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.svg.attribute-values.filter">
 		<completion string="none"/>
-		<completion string="currentColor"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.sdussaut.svg.tag.svg.attribute-values.fill-rule">
-		<completion string="nonzero"/>
-		<completion string="evenodd"/>
+	<set name="com.sdussaut.svg.tag.svg.attribute-values.mask">
+		<completion string="none"/>
 		<completion string="inherit"/>
 	</set>
-	<set name="com.sdussaut.svg.tag.svg.attribute-values.fill-opacity">
-		<completion string="inherit"/>
-	</set>
-	
-	
-	<!-- opacity -->
 	<set name="com.sdussaut.svg.tag.svg.attribute-values.opacity">
+		<completion string="inherit"/>
+	</set>
+	<set name="com.sdussaut.svg.tag.svg.attribute-values.overflow">
+		<completion string="visible"/>
+		<completion string="hidden"/>
+		<completion string="scroll"/>
+		<completion string="auto"/>
 		<completion string="inherit"/>
 	</set>
 	
@@ -323,42 +367,6 @@ This file provides attributes values for generic purpose tags:
 	</set>
 	
 	
-	<!-- stroke | stroke-dasharray | stroke-dashoffset | stroke-linecap | stroke-linejoin | stroke-miterlimit | stroke-opacity | stroke-width -->
-	<set name="com.sdussaut.svg.tag.svg.attribute-values.stroke">
-		<completion string="none"/>
-		<completion string="currentColor"/>
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.svg.attribute-values.stroke-dasharray">
-		<completion string="none"/>
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.svg.attribute-values.stroke-dashoffset">
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.svg.attribute-values.stroke-linecap">
-		<completion string="butt"/>
-		<completion string="round"/>
-		<completion string="square"/>
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.svg.attribute-values.stroke-linejoin">
-		<completion string="miter"/>
-		<completion string="round"/>
-		<completion string="bevel"/>
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.svg.attribute-values.stroke-miterlimit">
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.svg.attribute-values.stroke-opacity">
-		<completion string="inherit"/>
-	</set>
-	<set name="com.sdussaut.svg.tag.svg.attribute-values.stroke-width">
-		<completion string="inherit"/>
-	</set>
-	
-	
 	<!-- xml:space -->
 	<set name="com.sdussaut.svg.tag.svg.attribute-values.xml:space">
 		<completion string="default"/>
@@ -371,6 +379,14 @@ This file provides attributes values for generic purpose tags:
 		<completion string="disable"/>
 		<completion string="magnify"/>
 	</set>
+	
+	<!-- other attributes -->
+	<!-- externalResourcesRequired -->
+	<set name="com.sdussaut.svg.tag.svg.attribute-values.externalResourcesRequired">
+		<completion string="false"/>
+		<completion string="true"/>
+	</set>
+	
 	
 	
 	
